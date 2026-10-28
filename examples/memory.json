@@ -1,0 +1,2435 @@
+{
+  "evidence": [
+    {
+      "source": "zetaris:edgar_company_facts_x_profiles",
+      "query": "SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' ORDER BY fiscal_year, entity_name",
+      "payload": {
+        "entity_name": "Walmart Inc.",
+        "sic_code": "5331",
+        "sic_description_reference": "Variety Stores",
+        "period_end": "2010-01-31",
+        "revenue": "408214000000",
+        "fiscal_year": "2009",
+        "fiscal_period": "FY"
+      },
+      "retrieved_at": 1793087762.1049347,
+      "id": "ev_3d249f315a59",
+      "payload_hash": "fd291071fe1ca9afc4c9e7dbfa6985879176f1f83e5a4814c74d9eddef04b8e3"
+    },
+    {
+      "source": "zetaris:edgar_company_facts_x_profiles",
+      "query": "SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' ORDER BY fiscal_year, entity_name",
+      "payload": {
+        "entity_name": "Walmart Inc.",
+        "sic_code": "5331",
+        "sic_description_reference": "Variety Stores",
+        "period_end": "2009-01-31",
+        "revenue": "404374000000",
+        "fiscal_year": "2009",
+        "fiscal_period": "FY"
+      },
+      "retrieved_at": 1793087762.1050394,
+      "id": "ev_bb244748ccd1",
+      "payload_hash": "d1da5f12f5d421ec8068a8d835e0681be0b6ba12ec52996a39c5aae156db2977"
+    },
+    {
+      "source": "zetaris:edgar_company_facts_x_profiles",
+      "query": "SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' ORDER BY fiscal_year, entity_name",
+      "payload": {
+        "entity_name": "Walmart Inc.",
+        "sic_code": "5331",
+        "sic_description_reference": "Variety Stores",
+        "period_end": "2008-01-31",
+        "revenue": "377023000000",
+        "fiscal_year": "2009",
+        "fiscal_period": "FY"
+      },
+      "retrieved_at": 1793087762.105089,
+      "id": "ev_a2f97786d14a",
+      "payload_hash": "09c7d0cb591bf370b492c1f583444d5e79dec26b9b0d7e14d607eb773b997428"
+    },
+    {
+      "source": "zetaris:edgar_company_facts_x_profiles",
+      "query": "SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' ORDER BY fiscal_year, entity_name",
+      "payload": {
+        "entity_name": "Walmart Inc.",
+        "sic_code": "5331",
+        "sic_description_reference": "Variety Stores",
+        "period_end": "2011-01-31",
+        "revenue": "421849000000",
+        "fiscal_year": "2010",
+        "fiscal_period": "FY"
+      },
+      "retrieved_at": 1793087762.1051357,
+      "id": "ev_ea197de22204",
+      "payload_hash": "158c3a339e933913edc4c2f4e33080d0ddd4cc7c988c2e5faa666d5911de0a58"
+    },
+    {
+      "source": "zetaris:edgar_company_facts_x_profiles",
+      "query": "SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' ORDER BY fiscal_year, entity_name",
+      "payload": {
+        "entity_name": "Walmart Inc.",
+        "sic_code": "5331",
+        "sic_description_reference": "Variety Stores",
+        "period_end": "2010-01-31",
+        "revenue": "408085000000",
+        "fiscal_year": "2010",
+        "fiscal_period": "FY"
+      },
+      "retrieved_at": 1793087762.105183,
+      "id": "ev_a2aef544d0e5",
+      "payload_hash": "9f4d297de7cbe2c884112137fe39b5f87280440e837584143b1b8b80fa25e6b6"
+    },
+    {
+      "source": "zetaris:edgar_company_facts_x_profiles",
+      "query": "SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' ORDER BY fiscal_year, entity_name",
+      "payload": {
+        "entity_name": "Walmart Inc.",
+        "sic_code": "5331",
+        "sic_description_reference": "Variety Stores",
+        "period_end": "2009-01-31",
+        "revenue": "404254000000",
+        "fiscal_year": "2010",
+        "fiscal_period": "FY"
+      },
+      "retrieved_at": 1793087762.1052248,
+      "id": "ev_89d005328e6a",
+      "payload_hash": "aedcfdeb8bb490ae6a94ce4403ebff330d5de8b54a9a8252519b9576ff73abba"
+    },
+    {
+      "source": "zetaris:edgar_company_facts_x_profiles",
+      "query": "SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' ORDER BY fiscal_year, entity_name",
+      "payload": {
+        "entity_name": "Walmart Inc.",
+        "sic_code": "5331",
+        "sic_description_reference": "Variety Stores",
+        "period_end": "2012-01-31",
+        "revenue": "446950000000",
+        "fiscal_year": "2011",
+        "fiscal_period": "FY"
+      },
+      "retrieved_at": 1793087762.1052952,
+      "id": "ev_a098fc8b5b9c",
+      "payload_hash": "cd19c3c903bd03b5e717df4890a5b412768a9840896e1ac88c734bc5274d280c"
+    },
+    {
+      "source": "zetaris:edgar_company_facts_x_profiles",
+      "query": "SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' ORDER BY fiscal_year, entity_name",
+      "payload": {
+        "entity_name": "Walmart Inc.",
+        "sic_code": "5331",
+        "sic_description_reference": "Variety Stores",
+        "period_end": "2011-01-31",
+        "revenue": "421849000000",
+        "fiscal_year": "2011",
+        "fiscal_period": "FY"
+      },
+      "retrieved_at": 1793087762.1053402,
+      "id": "ev_140d989de9b1",
+      "payload_hash": "cb96071277eacdbf06c9e085aa32516e41421543b1a3d82389f902e6727818c5"
+    },
+    {
+      "source": "zetaris:edgar_company_facts_x_profiles",
+      "query": "SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' ORDER BY fiscal_year, entity_name",
+      "payload": {
+        "entity_name": "Walmart Inc.",
+        "sic_code": "5331",
+        "sic_description_reference": "Variety Stores",
+        "period_end": "2010-01-31",
+        "revenue": "408085000000",
+        "fiscal_year": "2011",
+        "fiscal_period": "FY"
+      },
+      "retrieved_at": 1793087762.1053846,
+      "id": "ev_8568bf1630c4",
+      "payload_hash": "b99f349bf0d2895abb71c2f24e8873e45578c4f6d4966ff1a00edaf44ddbaf6e"
+    },
+    {
+      "source": "zetaris:edgar_company_facts_x_profiles",
+      "query": "SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' ORDER BY fiscal_year, entity_name",
+      "payload": {
+        "entity_name": "Walmart Inc.",
+        "sic_code": "5331",
+        "sic_description_reference": "Variety Stores",
+        "period_end": "2013-01-31",
+        "revenue": "127919000000",
+        "fiscal_year": "2012",
+        "fiscal_period": "FY"
+      },
+      "retrieved_at": 1793087762.105422,
+      "id": "ev_6fbdda0e3459",
+      "payload_hash": "86edf6d7956a6b8c507050938c39d81e81053ece740da5bee6bb18090d6ad7ef"
+    },
+    {
+      "source": "zetaris:edgar_company_facts_x_profiles",
+      "query": "SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' ORDER BY fiscal_year, entity_name",
+      "payload": {
+        "entity_name": "Walmart Inc.",
+        "sic_code": "5331",
+        "sic_description_reference": "Variety Stores",
+        "period_end": "2013-01-31",
+        "revenue": "469162000000",
+        "fiscal_year": "2012",
+        "fiscal_period": "FY"
+      },
+      "retrieved_at": 1793087762.1054564,
+      "id": "ev_584521c369ae",
+      "payload_hash": "3ea6931c7d6860041529bd3fc7aafca9d1851a77967a222ac0eed9d09ef7a8c4"
+    },
+    {
+      "source": "zetaris:edgar_company_facts_x_profiles",
+      "query": "SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' ORDER BY fiscal_year, entity_name",
+      "payload": {
+        "entity_name": "Walmart Inc.",
+        "sic_code": "5331",
+        "sic_description_reference": "Variety Stores",
+        "period_end": "2012-10-31",
+        "revenue": "113929000000",
+        "fiscal_year": "2012",
+        "fiscal_period": "FY"
+      },
+      "retrieved_at": 1793087762.1054919,
+      "id": "ev_235ed4762b8f",
+      "payload_hash": "06e1e6e0c67999e20b48a1d430bd83d648ed25c74153a2b00a88f85afc75e517"
+    },
+    {
+      "source": "zetaris:edgar_company_facts_x_profiles",
+      "query": "SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' ORDER BY fiscal_year, entity_name",
+      "payload": {
+        "entity_name": "Walmart Inc.",
+        "sic_code": "5331",
+        "sic_description_reference": "Variety Stores",
+        "period_end": "2012-07-31",
+        "revenue": "114296000000",
+        "fiscal_year": "2012",
+        "fiscal_period": "FY"
+      },
+      "retrieved_at": 1793087762.1055288,
+      "id": "ev_7adf12241886",
+      "payload_hash": "8e8fa954d3b1c2bd371440033a0b1768b9351baf8c16e876d3ce38437542a38f"
+    },
+    {
+      "source": "zetaris:edgar_company_facts_x_profiles",
+      "query": "SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' ORDER BY fiscal_year, entity_name",
+      "payload": {
+        "entity_name": "Walmart Inc.",
+        "sic_code": "5331",
+        "sic_description_reference": "Variety Stores",
+        "period_end": "2012-04-30",
+        "revenue": "113018000000",
+        "fiscal_year": "2012",
+        "fiscal_period": "FY"
+      },
+      "retrieved_at": 1793087762.105565,
+      "id": "ev_984deeb24564",
+      "payload_hash": "b1dd632ca77578d46609530e318b8dec794f482442c8639bd3f84ccd30a38421"
+    },
+    {
+      "source": "zetaris:edgar_company_facts_x_profiles",
+      "query": "SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' ORDER BY fiscal_year, entity_name",
+      "payload": {
+        "entity_name": "Walmart Inc.",
+        "sic_code": "5331",
+        "sic_description_reference": "Variety Stores",
+        "period_end": "2012-01-31",
+        "revenue": "123169000000",
+        "fiscal_year": "2012",
+        "fiscal_period": "FY"
+      },
+      "retrieved_at": 1793087762.1056018,
+      "id": "ev_69924df99b99",
+      "payload_hash": "1022ab0e1abed90a209e8972f7e225654c2d72f29aa4c5db8b58833fb6900d15"
+    },
+    {
+      "source": "zetaris:edgar_company_facts_x_profiles",
+      "query": "SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' ORDER BY fiscal_year, entity_name",
+      "payload": {
+        "entity_name": "Walmart Inc.",
+        "sic_code": "5331",
+        "sic_description_reference": "Variety Stores",
+        "period_end": "2012-01-31",
+        "revenue": "446950000000",
+        "fiscal_year": "2012",
+        "fiscal_period": "FY"
+      },
+      "retrieved_at": 1793087762.1056376,
+      "id": "ev_d393feb3cbd3",
+      "payload_hash": "b25e8466ca358549ba8061b04567be9e0e3bff35faa78f38a88dac4d7686efe4"
+    },
+    {
+      "source": "zetaris:edgar_company_facts_x_profiles",
+      "query": "SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' ORDER BY fiscal_year, entity_name",
+      "payload": {
+        "entity_name": "Walmart Inc.",
+        "sic_code": "5331",
+        "sic_description_reference": "Variety Stores",
+        "period_end": "2011-10-31",
+        "revenue": "110226000000",
+        "fiscal_year": "2012",
+        "fiscal_period": "FY"
+      },
+      "retrieved_at": 1793087762.1056733,
+      "id": "ev_9953142a5789",
+      "payload_hash": "6cdd12954feabfc6f5f29b19c69b9fb120d7f7157247f7ca556df03b3d3f50de"
+    },
+    {
+      "source": "zetaris:edgar_company_facts_x_profiles",
+      "query": "SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' ORDER BY fiscal_year, entity_name",
+      "payload": {
+        "entity_name": "Walmart Inc.",
+        "sic_code": "5331",
+        "sic_description_reference": "Variety Stores",
+        "period_end": "2011-07-31",
+        "revenue": "109366000000",
+        "fiscal_year": "2012",
+        "fiscal_period": "FY"
+      },
+      "retrieved_at": 1793087762.1057084,
+      "id": "ev_ae2a18d67b7c",
+      "payload_hash": "cc4e82d40388375b098d7b03ef177caaba91106cd1456368f78895d38c6ffa81"
+    },
+    {
+      "source": "zetaris:edgar_company_facts_x_profiles",
+      "query": "SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' ORDER BY fiscal_year, entity_name",
+      "payload": {
+        "entity_name": "Walmart Inc.",
+        "sic_code": "5331",
+        "sic_description_reference": "Variety Stores",
+        "period_end": "2011-04-30",
+        "revenue": "104189000000",
+        "fiscal_year": "2012",
+        "fiscal_period": "FY"
+      },
+      "retrieved_at": 1793087762.1057498,
+      "id": "ev_6f6ff9c3e269",
+      "payload_hash": "95ea2bbb38060f6f542767b9342fb5d0408434e56c59e8d5b05a0e696c36e766"
+    },
+    {
+      "source": "zetaris:edgar_company_facts_x_profiles",
+      "query": "SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' ORDER BY fiscal_year, entity_name",
+      "payload": {
+        "entity_name": "Walmart Inc.",
+        "sic_code": "5331",
+        "sic_description_reference": "Variety Stores",
+        "period_end": "2011-01-31",
+        "revenue": "421849000000",
+        "fiscal_year": "2012",
+        "fiscal_period": "FY"
+      },
+      "retrieved_at": 1793087762.1057863,
+      "id": "ev_2b14297e28a4",
+      "payload_hash": "de6ca9c2376364118dbc60220f17162e75a13d9d580d87615032a2f71e800f24"
+    },
+    {
+      "source": "zetaris:edgar_company_facts_x_profiles",
+      "query": "SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' ORDER BY fiscal_year, entity_name",
+      "payload": {
+        "entity_name": "Walmart Inc.",
+        "sic_code": "5331",
+        "sic_description_reference": "Variety Stores",
+        "period_end": "2014-01-31",
+        "revenue": "129706000000",
+        "fiscal_year": "2013",
+        "fiscal_period": "FY"
+      },
+      "retrieved_at": 1793087762.1058218,
+      "id": "ev_bd4941fd1403",
+      "payload_hash": "885cc6e7e02bc5941b7bd1119f03c3e4eb1fd4e77a24f35a7bc4311cbc2f3191"
+    },
+    {
+      "source": "zetaris:edgar_company_facts_x_profiles",
+      "query": "SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' ORDER BY fiscal_year, entity_name",
+      "payload": {
+        "entity_name": "Walmart Inc.",
+        "sic_code": "5331",
+        "sic_description_reference": "Variety Stores",
+        "period_end": "2014-01-31",
+        "revenue": "476294000000",
+        "fiscal_year": "2013",
+        "fiscal_period": "FY"
+      },
+      "retrieved_at": 1793087762.1058576,
+      "id": "ev_33a90b045452",
+      "payload_hash": "ba77e3386237130b7ec0a3d1a458ebd65b7f27157daf82bfd54387fe39f5523d"
+    },
+    {
+      "source": "zetaris:edgar_company_facts_x_profiles",
+      "query": "SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' ORDER BY fiscal_year, entity_name",
+      "payload": {
+        "entity_name": "Walmart Inc.",
+        "sic_code": "5331",
+        "sic_description_reference": "Variety Stores",
+        "period_end": "2013-10-31",
+        "revenue": "115688000000",
+        "fiscal_year": "2013",
+        "fiscal_period": "FY"
+      },
+      "retrieved_at": 1793087762.1058953,
+      "id": "ev_93d36c518867",
+      "payload_hash": "0718a29db179017b83f79b64d4d9f9e4640cb41adbd0e053a9bf7e5956123477"
+    },
+    {
+      "source": "zetaris:edgar_company_facts_x_profiles",
+      "query": "SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' ORDER BY fiscal_year, entity_name",
+      "payload": {
+        "entity_name": "Walmart Inc.",
+        "sic_code": "5331",
+        "sic_description_reference": "Variety Stores",
+        "period_end": "2013-07-31",
+        "revenue": "116829000000",
+        "fiscal_year": "2013",
+        "fiscal_period": "FY"
+      },
+      "retrieved_at": 1793087762.1059303,
+      "id": "ev_37ef276e5ab7",
+      "payload_hash": "c4798545776b375c89197059ce0a9622fc83f76c7577d2f94ce5d5071cf46217"
+    },
+    {
+      "source": "zetaris:edgar_company_facts_x_profiles",
+      "query": "SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' ORDER BY fiscal_year, entity_name",
+      "payload": {
+        "entity_name": "Walmart Inc.",
+        "sic_code": "5331",
+        "sic_description_reference": "Variety Stores",
+        "period_end": "2013-04-30",
+        "revenue": "114071000000",
+        "fiscal_year": "2013",
+        "fiscal_period": "FY"
+      },
+      "retrieved_at": 1793087762.105966,
+      "id": "ev_d3d7d47eed4b",
+      "payload_hash": "f18794434aef4e88d1682b55ec85ab8d9d2a7f2f2d66c5a0c3aa14448c96f205"
+    },
+    {
+      "source": "zetaris:edgar_company_facts_x_profiles",
+      "query": "SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' ORDER BY fiscal_year, entity_name",
+      "payload": {
+        "entity_name": "Walmart Inc.",
+        "sic_code": "5331",
+        "sic_description_reference": "Variety Stores",
+        "period_end": "2013-01-31",
+        "revenue": "127776000000",
+        "fiscal_year": "2013",
+        "fiscal_period": "FY"
+      },
+      "retrieved_at": 1793087762.106002,
+      "id": "ev_a5e193967304",
+      "payload_hash": "f8d878410b006225938f4b93ef83ca70ac099a1dbf51ae8badbc77385bcb103f"
+    },
+    {
+      "source": "zetaris:edgar_company_facts_x_profiles",
+      "query": "SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' ORDER BY fiscal_year, entity_name",
+      "payload": {
+        "entity_name": "Walmart Inc.",
+        "sic_code": "5331",
+        "sic_description_reference": "Variety Stores",
+        "period_end": "2013-01-31",
+        "revenue": "468651000000",
+        "fiscal_year": "2013",
+        "fiscal_period": "FY"
+      },
+      "retrieved_at": 1793087762.1060412,
+      "id": "ev_2cfb5d970072",
+      "payload_hash": "341734c5a3eaa72eb58029de628bbb2093bd578612652105196cf66825cd3be9"
+    },
+    {
+      "source": "zetaris:edgar_company_facts_x_profiles",
+      "query": "SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' ORDER BY fiscal_year, entity_name",
+      "payload": {
+        "entity_name": "Walmart Inc.",
+        "sic_code": "5331",
+        "sic_description_reference": "Variety Stores",
+        "period_end": "2012-10-31",
+        "revenue": "113800000000",
+        "fiscal_year": "2013",
+        "fiscal_period": "FY"
+      },
+      "retrieved_at": 1793087762.1060765,
+      "id": "ev_18cbdcd7acfa",
+      "payload_hash": "1cc4bee26a8a3037f51490f82f803f8d0fb21dec595917e88c21c1bba52f74ee"
+    },
+    {
+      "source": "zetaris:edgar_company_facts_x_profiles",
+      "query": "SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' ORDER BY fiscal_year, entity_name",
+      "payload": {
+        "entity_name": "Walmart Inc.",
+        "sic_code": "5331",
+        "sic_description_reference": "Variety Stores",
+        "period_end": "2012-07-31",
+        "revenue": "114174000000",
+        "fiscal_year": "2013",
+        "fiscal_period": "FY"
+      },
+      "retrieved_at": 1793087762.106113,
+      "id": "ev_864f1a564348",
+      "payload_hash": "6b0f4305fe50555eacac371e5f096ab8eca43922d3898ac9ae050ebca3cb112c"
+    },
+    {
+      "source": "zetaris:edgar_company_facts_x_profiles",
+      "query": "SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' ORDER BY fiscal_year, entity_name",
+      "payload": {
+        "entity_name": "Walmart Inc.",
+        "sic_code": "5331",
+        "sic_description_reference": "Variety Stores",
+        "period_end": "2012-04-30",
+        "revenue": "112901000000",
+        "fiscal_year": "2013",
+        "fiscal_period": "FY"
+      },
+      "retrieved_at": 1793087762.1061518,
+      "id": "ev_c99a2bc00f23",
+      "payload_hash": "41c76d9da3e8a7dcd5fbed32d7f455ecb6e4cd9eb5d05736633b61e6561e7bac"
+    },
+    {
+      "source": "zetaris:edgar_company_facts_x_profiles",
+      "query": "SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' ORDER BY fiscal_year, entity_name",
+      "payload": {
+        "entity_name": "Walmart Inc.",
+        "sic_code": "5331",
+        "sic_description_reference": "Variety Stores",
+        "period_end": "2012-01-31",
+        "revenue": "446509000000",
+        "fiscal_year": "2013",
+        "fiscal_period": "FY"
+      },
+      "retrieved_at": 1793087762.106194,
+      "id": "ev_5d64e485ea90",
+      "payload_hash": "f0ddf6521261f856d9db97fe779a8f470e3fe8977aa964ac88df694c352c5d59"
+    },
+    {
+      "source": "zetaris:edgar_company_facts_x_profiles",
+      "query": "SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' ORDER BY fiscal_year, entity_name",
+      "payload": {
+        "entity_name": "Walmart Inc.",
+        "sic_code": "5331",
+        "sic_description_reference": "Variety Stores",
+        "period_end": "2015-01-31",
+        "revenue": "131565000000",
+        "fiscal_year": "2015",
+        "fiscal_period": "FY"
+      },
+      "retrieved_at": 1793087762.1062148,
+      "id": "ev_b92a0ca88905",
+      "payload_hash": "15a870e5bfde33cdd2a91fbb51ab9f28fd51aca8ef02419f7bf3ce827de8222a"
+    },
+    {
+      "source": "zetaris:edgar_company_facts_x_profiles",
+      "query": "SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' ORDER BY fiscal_year, entity_name",
+      "payload": {
+        "entity_name": "Walmart Inc.",
+        "sic_code": "5331",
+        "sic_description_reference": "Variety Stores",
+        "period_end": "2015-01-31",
+        "revenue": "485651000000",
+        "fiscal_year": "2015",
+        "fiscal_period": "FY"
+      },
+      "retrieved_at": 1793087762.1062312,
+      "id": "ev_5b18847f0784",
+      "payload_hash": "d6c79d5903c6c7203a519e6094e27ec9ea90cdecf303847a95d5a7a6fac93a82"
+    },
+    {
+      "source": "zetaris:edgar_company_facts_x_profiles",
+      "query": "SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' ORDER BY fiscal_year, entity_name",
+      "payload": {
+        "entity_name": "Walmart Inc.",
+        "sic_code": "5331",
+        "sic_description_reference": "Variety Stores",
+        "period_end": "2014-10-31",
+        "revenue": "119001000000",
+        "fiscal_year": "2015",
+        "fiscal_period": "FY"
+      },
+      "retrieved_at": 1793087762.106294,
+      "id": "ev_9b10345ac024",
+      "payload_hash": "f08b80a859f73a30081e4e960ed1c9e8825edb00d294404811553dbff1f22920"
+    },
+    {
+      "source": "zetaris:edgar_company_facts_x_profiles",
+      "query": "SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' ORDER BY fiscal_year, entity_name",
+      "payload": {
+        "entity_name": "Walmart Inc.",
+        "sic_code": "5331",
+        "sic_description_reference": "Variety Stores",
+        "period_end": "2014-07-31",
+        "revenue": "120125000000",
+        "fiscal_year": "2015",
+        "fiscal_period": "FY"
+      },
+      "retrieved_at": 1793087762.1063259,
+      "id": "ev_efd18af7061a",
+      "payload_hash": "be4ea361dc1678cf45c0800c4b25acf1d51e7be951b5ae018ebed5d7600ba3b8"
+    },
+    {
+      "source": "zetaris:edgar_company_facts_x_profiles",
+      "query": "SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' ORDER BY fiscal_year, entity_name",
+      "payload": {
+        "entity_name": "Walmart Inc.",
+        "sic_code": "5331",
+        "sic_description_reference": "Variety Stores",
+        "period_end": "2014-04-30",
+        "revenue": "114960000000",
+        "fiscal_year": "2015",
+        "fiscal_period": "FY"
+      },
+      "retrieved_at": 1793087762.1063445,
+      "id": "ev_5fc0ca3222e6",
+      "payload_hash": "0243d3b1ee3afd8040c9fbfcac1529711c67f10a725eaa0875b81ac619b68731"
+    },
+    {
+      "source": "zetaris:edgar_company_facts_x_profiles",
+      "query": "SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' ORDER BY fiscal_year, entity_name",
+      "payload": {
+        "entity_name": "Walmart Inc.",
+        "sic_code": "5331",
+        "sic_description_reference": "Variety Stores",
+        "period_end": "2014-01-31",
+        "revenue": "129706000000",
+        "fiscal_year": "2015",
+        "fiscal_period": "FY"
+      },
+      "retrieved_at": 1793087762.106361,
+      "id": "ev_0d4ede6491e1",
+      "payload_hash": "e2d6a202d74871590a336b03e4fdc53e0e94ee574afec9dafd332e23654f1ab7"
+    },
+    {
+      "source": "zetaris:edgar_company_facts_x_profiles",
+      "query": "SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' ORDER BY fiscal_year, entity_name",
+      "payload": {
+        "entity_name": "Walmart Inc.",
+        "sic_code": "5331",
+        "sic_description_reference": "Variety Stores",
+        "period_end": "2014-01-31",
+        "revenue": "476294000000",
+        "fiscal_year": "2015",
+        "fiscal_period": "FY"
+      },
+      "retrieved_at": 1793087762.1063786,
+      "id": "ev_a73d650b8bac",
+      "payload_hash": "932a7781fd241d5d7177df3529eda8e358494b7d7443a23a055f5f1e4f2ceb9f"
+    },
+    {
+      "source": "zetaris:edgar_company_facts_x_profiles",
+      "query": "SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' ORDER BY fiscal_year, entity_name",
+      "payload": {
+        "entity_name": "Walmart Inc.",
+        "sic_code": "5331",
+        "sic_description_reference": "Variety Stores",
+        "period_end": "2013-10-31",
+        "revenue": "115688000000",
+        "fiscal_year": "2015",
+        "fiscal_period": "FY"
+      },
+      "retrieved_at": 1793087762.1063943,
+      "id": "ev_87740db4eb12",
+      "payload_hash": "d67e3b302cabdaa2624681b727d4d081cdea5e894625a78817548685d84faa8b"
+    },
+    {
+      "source": "zetaris:edgar_company_facts_x_profiles",
+      "query": "SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' ORDER BY fiscal_year, entity_name",
+      "payload": {
+        "entity_name": "Walmart Inc.",
+        "sic_code": "5331",
+        "sic_description_reference": "Variety Stores",
+        "period_end": "2013-07-31",
+        "revenue": "116829000000",
+        "fiscal_year": "2015",
+        "fiscal_period": "FY"
+      },
+      "retrieved_at": 1793087762.1064103,
+      "id": "ev_d395197b2e0c",
+      "payload_hash": "1682851e560911192491903bb311f0baddc7406b1dea5da52b4e61186316c713"
+    },
+    {
+      "source": "zetaris:edgar_company_facts_x_profiles",
+      "query": "SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' ORDER BY fiscal_year, entity_name",
+      "payload": {
+        "entity_name": "Walmart Inc.",
+        "sic_code": "5331",
+        "sic_description_reference": "Variety Stores",
+        "period_end": "2013-04-30",
+        "revenue": "114071000000",
+        "fiscal_year": "2015",
+        "fiscal_period": "FY"
+      },
+      "retrieved_at": 1793087762.1064258,
+      "id": "ev_bd62f6746339",
+      "payload_hash": "08d656e27601a3824db779cca3337768f9bec08f744f5aabf3d96283a1fbe27e"
+    },
+    {
+      "source": "zetaris:edgar_company_facts_x_profiles",
+      "query": "SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' ORDER BY fiscal_year, entity_name",
+      "payload": {
+        "entity_name": "Walmart Inc.",
+        "sic_code": "5331",
+        "sic_description_reference": "Variety Stores",
+        "period_end": "2013-01-31",
+        "revenue": "468651000000",
+        "fiscal_year": "2015",
+        "fiscal_period": "FY"
+      },
+      "retrieved_at": 1793087762.1064465,
+      "id": "ev_feb38b260c26",
+      "payload_hash": "d281733682aa17735d5d325fd2543d82b61fa667b05490af0e4a8194b2363e73"
+    },
+    {
+      "source": "zetaris:edgar_company_facts_x_profiles",
+      "query": "SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' ORDER BY fiscal_year, entity_name",
+      "payload": {
+        "entity_name": "Walmart Inc.",
+        "sic_code": "5331",
+        "sic_description_reference": "Variety Stores",
+        "period_end": "2016-01-31",
+        "revenue": "129667000000",
+        "fiscal_year": "2016",
+        "fiscal_period": "FY"
+      },
+      "retrieved_at": 1793087762.106463,
+      "id": "ev_f5debe9508d8",
+      "payload_hash": "1df916180b1e46d2756afb36587ded6805245433111f91937dbe173ef171b72a"
+    },
+    {
+      "source": "zetaris:edgar_company_facts_x_profiles",
+      "query": "SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' ORDER BY fiscal_year, entity_name",
+      "payload": {
+        "entity_name": "Walmart Inc.",
+        "sic_code": "5331",
+        "sic_description_reference": "Variety Stores",
+        "period_end": "2016-01-31",
+        "revenue": "482130000000",
+        "fiscal_year": "2016",
+        "fiscal_period": "FY"
+      },
+      "retrieved_at": 1793087762.1064796,
+      "id": "ev_ec1b11827cb6",
+      "payload_hash": "761e861bf1aaadf8d749edddf6a474f222678046576f542c5af9c30150be3ff5"
+    },
+    {
+      "source": "zetaris:edgar_company_facts_x_profiles",
+      "query": "SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' ORDER BY fiscal_year, entity_name",
+      "payload": {
+        "entity_name": "Walmart Inc.",
+        "sic_code": "5331",
+        "sic_description_reference": "Variety Stores",
+        "period_end": "2015-10-31",
+        "revenue": "117408000000",
+        "fiscal_year": "2016",
+        "fiscal_period": "FY"
+      },
+      "retrieved_at": 1793087762.1064959,
+      "id": "ev_bcf7980dfb0e",
+      "payload_hash": "453f1900f25867292bb4a52a5b698ce3df616ec4ceddd8256be92ae7c38cc1aa"
+    },
+    {
+      "source": "zetaris:edgar_company_facts_x_profiles",
+      "query": "SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' ORDER BY fiscal_year, entity_name",
+      "payload": {
+        "entity_name": "Walmart Inc.",
+        "sic_code": "5331",
+        "sic_description_reference": "Variety Stores",
+        "period_end": "2015-07-31",
+        "revenue": "120229000000",
+        "fiscal_year": "2016",
+        "fiscal_period": "FY"
+      },
+      "retrieved_at": 1793087762.1065116,
+      "id": "ev_42257ca5ae9c",
+      "payload_hash": "febe9c94185b3a1e85ca40148f1c0ff150e1a0243ecfe0741d31d7aafc54bf35"
+    },
+    {
+      "source": "zetaris:edgar_company_facts_x_profiles",
+      "query": "SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' ORDER BY fiscal_year, entity_name",
+      "payload": {
+        "entity_name": "Walmart Inc.",
+        "sic_code": "5331",
+        "sic_description_reference": "Variety Stores",
+        "period_end": "2015-04-30",
+        "revenue": "114826000000",
+        "fiscal_year": "2016",
+        "fiscal_period": "FY"
+      },
+      "retrieved_at": 1793087762.1065307,
+      "id": "ev_02386b81cac7",
+      "payload_hash": "6141352b5986c097ebbd282a274aaee49aa9a10071d814299914a19261dc1cae"
+    },
+    {
+      "source": "zetaris:edgar_company_facts_x_profiles",
+      "query": "SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' ORDER BY fiscal_year, entity_name",
+      "payload": {
+        "entity_name": "Walmart Inc.",
+        "sic_code": "5331",
+        "sic_description_reference": "Variety Stores",
+        "period_end": "2015-01-31",
+        "revenue": "131565000000",
+        "fiscal_year": "2016",
+        "fiscal_period": "FY"
+      },
+      "retrieved_at": 1793087762.1065469,
+      "id": "ev_3a8c9ff509f9",
+      "payload_hash": "35b04e66c7d64a013e2a34b91871d4800432b1aad3b10beb7acfd8fbbf0f693c"
+    },
+    {
+      "source": "zetaris:edgar_company_facts_x_profiles",
+      "query": "SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' ORDER BY fiscal_year, entity_name",
+      "payload": {
+        "entity_name": "Walmart Inc.",
+        "sic_code": "5331",
+        "sic_description_reference": "Variety Stores",
+        "period_end": "2015-01-31",
+        "revenue": "485651000000",
+        "fiscal_year": "2016",
+        "fiscal_period": "FY"
+      },
+      "retrieved_at": 1793087762.1065626,
+      "id": "ev_3d98ba6a144d",
+      "payload_hash": "6c1677db06c425979b7460a6b7c1cfb6057e39c9374ffae74197ae398e99196b"
+    },
+    {
+      "source": "zetaris:edgar_company_facts_x_profiles",
+      "query": "SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' ORDER BY fiscal_year, entity_name",
+      "payload": {
+        "entity_name": "Walmart Inc.",
+        "sic_code": "5331",
+        "sic_description_reference": "Variety Stores",
+        "period_end": "2014-10-31",
+        "revenue": "119001000000",
+        "fiscal_year": "2016",
+        "fiscal_period": "FY"
+      },
+      "retrieved_at": 1793087762.1065784,
+      "id": "ev_1bc65276edb4",
+      "payload_hash": "3a0cd0d281233fc508e1f9187bc86f379d5948ba116ef4a7cd9a3e792e5dc6c2"
+    },
+    {
+      "source": "zetaris:edgar_company_facts_x_profiles",
+      "query": "SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' ORDER BY fiscal_year, entity_name",
+      "payload": {
+        "entity_name": "Walmart Inc.",
+        "sic_code": "5331",
+        "sic_description_reference": "Variety Stores",
+        "period_end": "2014-07-31",
+        "revenue": "120125000000",
+        "fiscal_year": "2016",
+        "fiscal_period": "FY"
+      },
+      "retrieved_at": 1793087762.106594,
+      "id": "ev_042fe869ee68",
+      "payload_hash": "7dede592b142b3a52b847e98c1f33c569599e0558ada1e60acc9d4cf5d4e49e8"
+    },
+    {
+      "source": "zetaris:edgar_company_facts_x_profiles",
+      "query": "SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' ORDER BY fiscal_year, entity_name",
+      "payload": {
+        "entity_name": "Walmart Inc.",
+        "sic_code": "5331",
+        "sic_description_reference": "Variety Stores",
+        "period_end": "2014-04-30",
+        "revenue": "114960000000",
+        "fiscal_year": "2016",
+        "fiscal_period": "FY"
+      },
+      "retrieved_at": 1793087762.1066096,
+      "id": "ev_8bb161e53e78",
+      "payload_hash": "6d7db2ed65941db7842d101bdf7fd8d98c5be464a63e3074e2a70b9dd5140957"
+    },
+    {
+      "source": "zetaris:edgar_company_facts_x_profiles",
+      "query": "SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' ORDER BY fiscal_year, entity_name",
+      "payload": {
+        "entity_name": "Walmart Inc.",
+        "sic_code": "5331",
+        "sic_description_reference": "Variety Stores",
+        "period_end": "2014-01-31",
+        "revenue": "476294000000",
+        "fiscal_year": "2016",
+        "fiscal_period": "FY"
+      },
+      "retrieved_at": 1793087762.1066256,
+      "id": "ev_fba50d1cae4a",
+      "payload_hash": "351e8aeb947ed904d05c017f9c5a2352ef4a9b0e46aba8d09d1ca95d60195a18"
+    },
+    {
+      "source": "zetaris:edgar_company_facts_x_profiles",
+      "query": "SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' ORDER BY fiscal_year, entity_name",
+      "payload": {
+        "entity_name": "Walmart Inc.",
+        "sic_code": "5331",
+        "sic_description_reference": "Variety Stores",
+        "period_end": "2017-01-31",
+        "revenue": "130936000000",
+        "fiscal_year": "2017",
+        "fiscal_period": "FY"
+      },
+      "retrieved_at": 1793087762.1066422,
+      "id": "ev_e8834f91f908",
+      "payload_hash": "ddf84abe29584cc45da79e9db6e5986256d8a88c629fb513b3760497d52765f7"
+    },
+    {
+      "source": "zetaris:edgar_company_facts_x_profiles",
+      "query": "SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' ORDER BY fiscal_year, entity_name",
+      "payload": {
+        "entity_name": "Walmart Inc.",
+        "sic_code": "5331",
+        "sic_description_reference": "Variety Stores",
+        "period_end": "2017-01-31",
+        "revenue": "485873000000",
+        "fiscal_year": "2017",
+        "fiscal_period": "FY"
+      },
+      "retrieved_at": 1793087762.1066613,
+      "id": "ev_9297899365d5",
+      "payload_hash": "a6cdd1f4e75cfb1da3ffb88aa7473ba9922c566a5b13bd0fb9504debed6d7903"
+    },
+    {
+      "source": "zetaris:edgar_company_facts_x_profiles",
+      "query": "SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' ORDER BY fiscal_year, entity_name",
+      "payload": {
+        "entity_name": "Walmart Inc.",
+        "sic_code": "5331",
+        "sic_description_reference": "Variety Stores",
+        "period_end": "2016-10-31",
+        "revenue": "118179000000",
+        "fiscal_year": "2017",
+        "fiscal_period": "FY"
+      },
+      "retrieved_at": 1793087762.106678,
+      "id": "ev_c64dfa47cc6d",
+      "payload_hash": "002c6fd6b656df7d59e76a92e66e198ee42083ae4dffe5b977b97cc052ad558f"
+    },
+    {
+      "source": "zetaris:edgar_company_facts_x_profiles",
+      "query": "SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' ORDER BY fiscal_year, entity_name",
+      "payload": {
+        "entity_name": "Walmart Inc.",
+        "sic_code": "5331",
+        "sic_description_reference": "Variety Stores",
+        "period_end": "2016-07-31",
+        "revenue": "120854000000",
+        "fiscal_year": "2017",
+        "fiscal_period": "FY"
+      },
+      "retrieved_at": 1793087762.106694,
+      "id": "ev_ab536362ee8b",
+      "payload_hash": "7775de816f57e91432493f4a1bd8d78ac01312a353694413a438b8085af097a6"
+    },
+    {
+      "source": "zetaris:edgar_company_facts_x_profiles",
+      "query": "SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' ORDER BY fiscal_year, entity_name",
+      "payload": {
+        "entity_name": "Walmart Inc.",
+        "sic_code": "5331",
+        "sic_description_reference": "Variety Stores",
+        "period_end": "2016-04-30",
+        "revenue": "115904000000",
+        "fiscal_year": "2017",
+        "fiscal_period": "FY"
+      },
+      "retrieved_at": 1793087762.1067107,
+      "id": "ev_c1995a87d109",
+      "payload_hash": "9e067d20ce87ef1fe458c9603881d2f52f6e5219f5185428418915f7061e6b46"
+    },
+    {
+      "source": "zetaris:edgar_company_facts_x_profiles",
+      "query": "SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' ORDER BY fiscal_year, entity_name",
+      "payload": {
+        "entity_name": "Walmart Inc.",
+        "sic_code": "5331",
+        "sic_description_reference": "Variety Stores",
+        "period_end": "2016-01-31",
+        "revenue": "129667000000",
+        "fiscal_year": "2017",
+        "fiscal_period": "FY"
+      },
+      "retrieved_at": 1793087762.1067276,
+      "id": "ev_a7f013c7239e",
+      "payload_hash": "72000cf6be81373456dab72ba96c4657c3f3e0eea5c74d8bb5add1ac5b058ae4"
+    },
+    {
+      "source": "zetaris:edgar_company_facts_x_profiles",
+      "query": "SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' ORDER BY fiscal_year, entity_name",
+      "payload": {
+        "entity_name": "Walmart Inc.",
+        "sic_code": "5331",
+        "sic_description_reference": "Variety Stores",
+        "period_end": "2016-01-31",
+        "revenue": "482130000000",
+        "fiscal_year": "2017",
+        "fiscal_period": "FY"
+      },
+      "retrieved_at": 1793087762.1067443,
+      "id": "ev_6de4ab7166d8",
+      "payload_hash": "6ba65857b16845d735c0533925a52148062268d76f48fd8673c27d1942599338"
+    },
+    {
+      "source": "zetaris:edgar_company_facts_x_profiles",
+      "query": "SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' ORDER BY fiscal_year, entity_name",
+      "payload": {
+        "entity_name": "Walmart Inc.",
+        "sic_code": "5331",
+        "sic_description_reference": "Variety Stores",
+        "period_end": "2015-10-31",
+        "revenue": "117408000000",
+        "fiscal_year": "2017",
+        "fiscal_period": "FY"
+      },
+      "retrieved_at": 1793087762.1067607,
+      "id": "ev_1e263f8908a2",
+      "payload_hash": "122e48fd966adb031492a6abfc371ae15ef699d0d99cdd20650ccc364ae43bd7"
+    },
+    {
+      "source": "zetaris:edgar_company_facts_x_profiles",
+      "query": "SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' ORDER BY fiscal_year, entity_name",
+      "payload": {
+        "entity_name": "Walmart Inc.",
+        "sic_code": "5331",
+        "sic_description_reference": "Variety Stores",
+        "period_end": "2015-07-31",
+        "revenue": "120229000000",
+        "fiscal_year": "2017",
+        "fiscal_period": "FY"
+      },
+      "retrieved_at": 1793087762.1067762,
+      "id": "ev_5dbcfc9881fc",
+      "payload_hash": "3b8ca60e15268504ba118df7e61a7a9194525996183bc1fb5e4425c308418d80"
+    },
+    {
+      "source": "zetaris:edgar_company_facts_x_profiles",
+      "query": "SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' ORDER BY fiscal_year, entity_name",
+      "payload": {
+        "entity_name": "Walmart Inc.",
+        "sic_code": "5331",
+        "sic_description_reference": "Variety Stores",
+        "period_end": "2015-04-30",
+        "revenue": "114826000000",
+        "fiscal_year": "2017",
+        "fiscal_period": "FY"
+      },
+      "retrieved_at": 1793087762.106796,
+      "id": "ev_3f85af71d43e",
+      "payload_hash": "1d945ae7d1e17b2c845c3a2e274d6c951ca81cf8e2141b3f37fe14d461af5702"
+    },
+    {
+      "source": "zetaris:edgar_company_facts_x_profiles",
+      "query": "SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' ORDER BY fiscal_year, entity_name",
+      "payload": {
+        "entity_name": "Walmart Inc.",
+        "sic_code": "5331",
+        "sic_description_reference": "Variety Stores",
+        "period_end": "2015-01-31",
+        "revenue": "485651000000",
+        "fiscal_year": "2017",
+        "fiscal_period": "FY"
+      },
+      "retrieved_at": 1793087762.1068127,
+      "id": "ev_a9487662423e",
+      "payload_hash": "b8f014ee028aacc38be020a61f96675f14de7ccca88c68ae2f45b4a31b086fb7"
+    },
+    {
+      "source": "zetaris:edgar_company_facts_x_profiles",
+      "query": "SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' ORDER BY fiscal_year, entity_name",
+      "payload": {
+        "entity_name": "Apple Inc.",
+        "sic_code": "3571",
+        "sic_description_reference": "Electronic Computers",
+        "period_end": "2018-09-29",
+        "revenue": "62900000000",
+        "fiscal_year": "2018",
+        "fiscal_period": "FY"
+      },
+      "retrieved_at": 1793087762.1068285,
+      "id": "ev_1959bb8e9cae",
+      "payload_hash": "53e5ea94c89b76ca133bb0b26b8f26b816c423dc4c01427f766b725bf9fd69c9"
+    },
+    {
+      "source": "zetaris:edgar_company_facts_x_profiles",
+      "query": "SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' ORDER BY fiscal_year, entity_name",
+      "payload": {
+        "entity_name": "Apple Inc.",
+        "sic_code": "3571",
+        "sic_description_reference": "Electronic Computers",
+        "period_end": "2018-09-29",
+        "revenue": "265595000000",
+        "fiscal_year": "2018",
+        "fiscal_period": "FY"
+      },
+      "retrieved_at": 1793087762.1068454,
+      "id": "ev_bbefd70cbac2",
+      "payload_hash": "a399aa450c1e5a9b3cd34bb6476907357dc84bd01c90f339f25fde3426efdc9c"
+    },
+    {
+      "source": "zetaris:edgar_company_facts_x_profiles",
+      "query": "SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' ORDER BY fiscal_year, entity_name",
+      "payload": {
+        "entity_name": "Apple Inc.",
+        "sic_code": "3571",
+        "sic_description_reference": "Electronic Computers",
+        "period_end": "2018-06-30",
+        "revenue": "53265000000",
+        "fiscal_year": "2018",
+        "fiscal_period": "FY"
+      },
+      "retrieved_at": 1793087762.1068614,
+      "id": "ev_01c416c41343",
+      "payload_hash": "9440ccecff4ca7107257eec8bd4c30d904da178a5dbde2dc3ccb486ee3b9f45f"
+    },
+    {
+      "source": "zetaris:edgar_company_facts_x_profiles",
+      "query": "SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' ORDER BY fiscal_year, entity_name",
+      "payload": {
+        "entity_name": "Apple Inc.",
+        "sic_code": "3571",
+        "sic_description_reference": "Electronic Computers",
+        "period_end": "2018-03-31",
+        "revenue": "61137000000",
+        "fiscal_year": "2018",
+        "fiscal_period": "FY"
+      },
+      "retrieved_at": 1793087762.1068769,
+      "id": "ev_fa7ff61b2c9c",
+      "payload_hash": "37db7da78c848010c6992dde3a61108e32404555a4e0b55c4331885e42f54ae1"
+    },
+    {
+      "source": "zetaris:edgar_company_facts_x_profiles",
+      "query": "SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' ORDER BY fiscal_year, entity_name",
+      "payload": {
+        "entity_name": "Apple Inc.",
+        "sic_code": "3571",
+        "sic_description_reference": "Electronic Computers",
+        "period_end": "2017-12-30",
+        "revenue": "88293000000",
+        "fiscal_year": "2018",
+        "fiscal_period": "FY"
+      },
+      "retrieved_at": 1793087762.1068926,
+      "id": "ev_c39186e9c4d6",
+      "payload_hash": "a3b42414c13620a00078f7117b316d8451cbd5b68ff9f09197fdc4a3d78fbe21"
+    },
+    {
+      "source": "zetaris:edgar_company_facts_x_profiles",
+      "query": "SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' ORDER BY fiscal_year, entity_name",
+      "payload": {
+        "entity_name": "Apple Inc.",
+        "sic_code": "3571",
+        "sic_description_reference": "Electronic Computers",
+        "period_end": "2017-09-30",
+        "revenue": "52579000000",
+        "fiscal_year": "2018",
+        "fiscal_period": "FY"
+      },
+      "retrieved_at": 1793087762.106908,
+      "id": "ev_68cd2a44192f",
+      "payload_hash": "a4d8136c83ac3fbf62f57fd2c720fe2b05c965fde85da84df496be67ea1a788b"
+    },
+    {
+      "source": "zetaris:edgar_company_facts_x_profiles",
+      "query": "SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' ORDER BY fiscal_year, entity_name",
+      "payload": {
+        "entity_name": "Apple Inc.",
+        "sic_code": "3571",
+        "sic_description_reference": "Electronic Computers",
+        "period_end": "2017-09-30",
+        "revenue": "229234000000",
+        "fiscal_year": "2018",
+        "fiscal_period": "FY"
+      },
+      "retrieved_at": 1793087762.1069238,
+      "id": "ev_5026bc310726",
+      "payload_hash": "c58acd087409998bf8789eb50a5b08830508b59ee691bb15f0bc7f2ae2970802"
+    },
+    {
+      "source": "zetaris:edgar_company_facts_x_profiles",
+      "query": "SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' ORDER BY fiscal_year, entity_name",
+      "payload": {
+        "entity_name": "Apple Inc.",
+        "sic_code": "3571",
+        "sic_description_reference": "Electronic Computers",
+        "period_end": "2017-07-01",
+        "revenue": "45408000000",
+        "fiscal_year": "2018",
+        "fiscal_period": "FY"
+      },
+      "retrieved_at": 1793087762.1069393,
+      "id": "ev_62224b1f82ce",
+      "payload_hash": "cb846800690c091b4f1df23cb3c7fc4fddc11009e96ed34ac35f67d0033c8ff5"
+    },
+    {
+      "source": "zetaris:edgar_company_facts_x_profiles",
+      "query": "SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' ORDER BY fiscal_year, entity_name",
+      "payload": {
+        "entity_name": "Apple Inc.",
+        "sic_code": "3571",
+        "sic_description_reference": "Electronic Computers",
+        "period_end": "2017-04-01",
+        "revenue": "52896000000",
+        "fiscal_year": "2018",
+        "fiscal_period": "FY"
+      },
+      "retrieved_at": 1793087762.106955,
+      "id": "ev_979a05c5f3a2",
+      "payload_hash": "2a3b4cfd3e13b1c63a314124f6fdfe3c965b3d51dc070b8133dee11bd08e5c29"
+    },
+    {
+      "source": "zetaris:edgar_company_facts_x_profiles",
+      "query": "SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' ORDER BY fiscal_year, entity_name",
+      "payload": {
+        "entity_name": "Apple Inc.",
+        "sic_code": "3571",
+        "sic_description_reference": "Electronic Computers",
+        "period_end": "2016-12-31",
+        "revenue": "78351000000",
+        "fiscal_year": "2018",
+        "fiscal_period": "FY"
+      },
+      "retrieved_at": 1793087762.1069705,
+      "id": "ev_c7e844ea42eb",
+      "payload_hash": "7ca97c6abf3bf241d6cb5433624aefbd2faaed84476338df858c609721d3f415"
+    },
+    {
+      "source": "zetaris:edgar_company_facts_x_profiles",
+      "query": "SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' ORDER BY fiscal_year, entity_name",
+      "payload": {
+        "entity_name": "Apple Inc.",
+        "sic_code": "3571",
+        "sic_description_reference": "Electronic Computers",
+        "period_end": "2016-09-24",
+        "revenue": "215639000000",
+        "fiscal_year": "2018",
+        "fiscal_period": "FY"
+      },
+      "retrieved_at": 1793087762.1069863,
+      "id": "ev_b3ac7aa823cd",
+      "payload_hash": "048e00e03931ae2cfc0eda1a084af97bc39c6e8f11cfb41e4f783ba41238ba31"
+    },
+    {
+      "source": "zetaris:edgar_company_facts_x_profiles",
+      "query": "SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' ORDER BY fiscal_year, entity_name",
+      "payload": {
+        "entity_name": "Walmart Inc.",
+        "sic_code": "5331",
+        "sic_description_reference": "Variety Stores",
+        "period_end": "2018-01-31",
+        "revenue": "136267000000",
+        "fiscal_year": "2018",
+        "fiscal_period": "FY"
+      },
+      "retrieved_at": 1793087762.107002,
+      "id": "ev_f286d37d21a2",
+      "payload_hash": "b4be902cbd91e7afa23ac734270d97f67fadb232c57d6e5a9bc6538f2310af69"
+    },
+    {
+      "source": "zetaris:edgar_company_facts_x_profiles",
+      "query": "SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' ORDER BY fiscal_year, entity_name",
+      "payload": {
+        "entity_name": "Walmart Inc.",
+        "sic_code": "5331",
+        "sic_description_reference": "Variety Stores",
+        "period_end": "2018-01-31",
+        "revenue": "500343000000",
+        "fiscal_year": "2018",
+        "fiscal_period": "FY"
+      },
+      "retrieved_at": 1793087762.1070192,
+      "id": "ev_91579146ace7",
+      "payload_hash": "3b76c7fa4aa483366e482aee37a67cce7de806eacee10050bd4faaca9fffcb42"
+    },
+    {
+      "source": "zetaris:edgar_company_facts_x_profiles",
+      "query": "SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' ORDER BY fiscal_year, entity_name",
+      "payload": {
+        "entity_name": "Walmart Inc.",
+        "sic_code": "5331",
+        "sic_description_reference": "Variety Stores",
+        "period_end": "2017-10-31",
+        "revenue": "123179000000",
+        "fiscal_year": "2018",
+        "fiscal_period": "FY"
+      },
+      "retrieved_at": 1793087762.107036,
+      "id": "ev_4c77f9b0138d",
+      "payload_hash": "7da65bad1e361944d960b8a041a7add707977d4d08ab23a838a38e404d8489cc"
+    },
+    {
+      "source": "zetaris:edgar_company_facts_x_profiles",
+      "query": "SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' ORDER BY fiscal_year, entity_name",
+      "payload": {
+        "entity_name": "Walmart Inc.",
+        "sic_code": "5331",
+        "sic_description_reference": "Variety Stores",
+        "period_end": "2017-07-31",
+        "revenue": "123355000000",
+        "fiscal_year": "2018",
+        "fiscal_period": "FY"
+      },
+      "retrieved_at": 1793087762.1070564,
+      "id": "ev_255cb08e7649",
+      "payload_hash": "03acb2451cdd998077844b6bb2459bbf60e6317c67f3426001734a00c87ade70"
+    },
+    {
+      "source": "zetaris:edgar_company_facts_x_profiles",
+      "query": "SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' ORDER BY fiscal_year, entity_name",
+      "payload": {
+        "entity_name": "Walmart Inc.",
+        "sic_code": "5331",
+        "sic_description_reference": "Variety Stores",
+        "period_end": "2017-04-30",
+        "revenue": "117542000000",
+        "fiscal_year": "2018",
+        "fiscal_period": "FY"
+      },
+      "retrieved_at": 1793087762.1070728,
+      "id": "ev_42cf90b20264",
+      "payload_hash": "bbe26c7bdb5409e4caa8327db7abcbc619145f1c8bc9730078a4059a73df61f8"
+    },
+    {
+      "source": "zetaris:edgar_company_facts_x_profiles",
+      "query": "SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' ORDER BY fiscal_year, entity_name",
+      "payload": {
+        "entity_name": "Walmart Inc.",
+        "sic_code": "5331",
+        "sic_description_reference": "Variety Stores",
+        "period_end": "2017-01-31",
+        "revenue": "130936000000",
+        "fiscal_year": "2018",
+        "fiscal_period": "FY"
+      },
+      "retrieved_at": 1793087762.107089,
+      "id": "ev_47d27c489e0a",
+      "payload_hash": "6e6a63cf1d9e5bc1300d2d52002562350c00d2bd20fb735c659a0163b5a849e9"
+    },
+    {
+      "source": "zetaris:edgar_company_facts_x_profiles",
+      "query": "SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' ORDER BY fiscal_year, entity_name",
+      "payload": {
+        "entity_name": "Walmart Inc.",
+        "sic_code": "5331",
+        "sic_description_reference": "Variety Stores",
+        "period_end": "2017-01-31",
+        "revenue": "485873000000",
+        "fiscal_year": "2018",
+        "fiscal_period": "FY"
+      },
+      "retrieved_at": 1793087762.1071057,
+      "id": "ev_4f06b383603f",
+      "payload_hash": "6536e2ec6108004d607249ba7dd220adea4c4dfb877b1d2439cb7f6d17cd88c3"
+    },
+    {
+      "source": "zetaris:edgar_company_facts_x_profiles",
+      "query": "SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' ORDER BY fiscal_year, entity_name",
+      "payload": {
+        "entity_name": "Walmart Inc.",
+        "sic_code": "5331",
+        "sic_description_reference": "Variety Stores",
+        "period_end": "2016-10-31",
+        "revenue": "118179000000",
+        "fiscal_year": "2018",
+        "fiscal_period": "FY"
+      },
+      "retrieved_at": 1793087762.107122,
+      "id": "ev_2b54518dd4b1",
+      "payload_hash": "97b9d2723919344407a4eb6b0bad57a7ff469ce6b8c67ee4f927088c12683fe2"
+    },
+    {
+      "source": "zetaris:edgar_company_facts_x_profiles",
+      "query": "SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' ORDER BY fiscal_year, entity_name",
+      "payload": {
+        "entity_name": "Walmart Inc.",
+        "sic_code": "5331",
+        "sic_description_reference": "Variety Stores",
+        "period_end": "2016-07-31",
+        "revenue": "120854000000",
+        "fiscal_year": "2018",
+        "fiscal_period": "FY"
+      },
+      "retrieved_at": 1793087762.1071374,
+      "id": "ev_400bd9c845ac",
+      "payload_hash": "9961e2a2e7a5e0d7ee07394bb19596b816da4eed4a5c463163e55bf16ae0f2eb"
+    },
+    {
+      "source": "zetaris:edgar_company_facts_x_profiles",
+      "query": "SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' ORDER BY fiscal_year, entity_name",
+      "payload": {
+        "entity_name": "Walmart Inc.",
+        "sic_code": "5331",
+        "sic_description_reference": "Variety Stores",
+        "period_end": "2016-04-30",
+        "revenue": "115904000000",
+        "fiscal_year": "2018",
+        "fiscal_period": "FY"
+      },
+      "retrieved_at": 1793087762.1071532,
+      "id": "ev_18bf504172dc",
+      "payload_hash": "ebe48ec51e330bd7b3b4ed5b520d8bc239c22922bdc8960c46e71618ce8cf1bf"
+    },
+    {
+      "source": "zetaris:edgar_company_facts_x_profiles",
+      "query": "SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' ORDER BY fiscal_year, entity_name",
+      "payload": {
+        "entity_name": "Walmart Inc.",
+        "sic_code": "5331",
+        "sic_description_reference": "Variety Stores",
+        "period_end": "2016-01-31",
+        "revenue": "482130000000",
+        "fiscal_year": "2018",
+        "fiscal_period": "FY"
+      },
+      "retrieved_at": 1793087762.1071687,
+      "id": "ev_890f4afdba54",
+      "payload_hash": "9914f43aed0f0574f9f1a70314a15516bc77dcd8ac4be09263f50d4aeabea26e"
+    },
+    {
+      "source": "zetaris:edgar_company_facts_x_profiles",
+      "query": "SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' ORDER BY fiscal_year, entity_name",
+      "payload": {
+        "entity_name": "Walmart Inc.",
+        "sic_code": "5331",
+        "sic_description_reference": "Variety Stores",
+        "period_end": "2019-01-31",
+        "revenue": "138793000000",
+        "fiscal_year": "2019",
+        "fiscal_period": "FY"
+      },
+      "retrieved_at": 1793087762.1071858,
+      "id": "ev_f905fb220e13",
+      "payload_hash": "a828b6cce1c748d6c92d0b6d80f602c0168d56517d2e97f96d63ec6da40f1570"
+    },
+    {
+      "source": "zetaris:edgar_company_facts_x_profiles",
+      "query": "SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' ORDER BY fiscal_year, entity_name",
+      "payload": {
+        "entity_name": "Walmart Inc.",
+        "sic_code": "5331",
+        "sic_description_reference": "Variety Stores",
+        "period_end": "2019-01-31",
+        "revenue": "514405000000",
+        "fiscal_year": "2019",
+        "fiscal_period": "FY"
+      },
+      "retrieved_at": 1793087762.107202,
+      "id": "ev_ccfd091cd0d3",
+      "payload_hash": "24a1a52d1d77fd82d5fcd86840381ccf897bb0a332bdaae93106772429173e00"
+    },
+    {
+      "source": "zetaris:edgar_company_facts_x_profiles",
+      "query": "SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' ORDER BY fiscal_year, entity_name",
+      "payload": {
+        "entity_name": "Walmart Inc.",
+        "sic_code": "5331",
+        "sic_description_reference": "Variety Stores",
+        "period_end": "2018-10-31",
+        "revenue": "124894000000",
+        "fiscal_year": "2019",
+        "fiscal_period": "FY"
+      },
+      "retrieved_at": 1793087762.1072216,
+      "id": "ev_28f8a2365800",
+      "payload_hash": "5e82a0239028295d32c3c7919603b3a31ae5d1120b36e7ca696610e69be74b86"
+    },
+    {
+      "source": "zetaris:edgar_company_facts_x_profiles",
+      "query": "SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' ORDER BY fiscal_year, entity_name",
+      "payload": {
+        "entity_name": "Walmart Inc.",
+        "sic_code": "5331",
+        "sic_description_reference": "Variety Stores",
+        "period_end": "2018-07-31",
+        "revenue": "128028000000",
+        "fiscal_year": "2019",
+        "fiscal_period": "FY"
+      },
+      "retrieved_at": 1793087762.1072388,
+      "id": "ev_63892dae6607",
+      "payload_hash": "5f650dcc39fdd94d375ae8f1d0c0f5e76194df6c63465c57fc841d8c50c28f1e"
+    },
+    {
+      "source": "zetaris:edgar_company_facts_x_profiles",
+      "query": "SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' ORDER BY fiscal_year, entity_name",
+      "payload": {
+        "entity_name": "Walmart Inc.",
+        "sic_code": "5331",
+        "sic_description_reference": "Variety Stores",
+        "period_end": "2018-04-30",
+        "revenue": "122690000000",
+        "fiscal_year": "2019",
+        "fiscal_period": "FY"
+      },
+      "retrieved_at": 1793087762.1072848,
+      "id": "ev_814b7bb9f458",
+      "payload_hash": "2e81c1fe36302e1d87b617555b8b3a323319ede905116a70f5932bf7abb1632d"
+    },
+    {
+      "source": "zetaris:edgar_company_facts_x_profiles",
+      "query": "SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' ORDER BY fiscal_year, entity_name",
+      "payload": {
+        "entity_name": "Walmart Inc.",
+        "sic_code": "5331",
+        "sic_description_reference": "Variety Stores",
+        "period_end": "2018-01-31",
+        "revenue": "136267000000",
+        "fiscal_year": "2019",
+        "fiscal_period": "FY"
+      },
+      "retrieved_at": 1793087762.1073112,
+      "id": "ev_2c65f3f980ed",
+      "payload_hash": "a4799233c94c514f586a3f38594546854089fe7743063f63fe605e5448adeafe"
+    },
+    {
+      "source": "zetaris:edgar_company_facts_x_profiles",
+      "query": "SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' ORDER BY fiscal_year, entity_name",
+      "payload": {
+        "entity_name": "Walmart Inc.",
+        "sic_code": "5331",
+        "sic_description_reference": "Variety Stores",
+        "period_end": "2018-01-31",
+        "revenue": "500343000000",
+        "fiscal_year": "2019",
+        "fiscal_period": "FY"
+      },
+      "retrieved_at": 1793087762.1073291,
+      "id": "ev_6a013e5660f2",
+      "payload_hash": "24bcc33e6a49b0bda81d0c6219f8ae473726f390d5671f1d5e8633eaeac091d3"
+    },
+    {
+      "source": "zetaris:edgar_company_facts_x_profiles",
+      "query": "SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' ORDER BY fiscal_year, entity_name",
+      "payload": {
+        "entity_name": "Walmart Inc.",
+        "sic_code": "5331",
+        "sic_description_reference": "Variety Stores",
+        "period_end": "2017-10-31",
+        "revenue": "123179000000",
+        "fiscal_year": "2019",
+        "fiscal_period": "FY"
+      },
+      "retrieved_at": 1793087762.1073458,
+      "id": "ev_dedb8346e02e",
+      "payload_hash": "7fde6fbc84f33f03bfcdaebdf8369125a64ffa072e13950c7190d9d167a0bfab"
+    },
+    {
+      "source": "zetaris:edgar_company_facts_x_profiles",
+      "query": "SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' ORDER BY fiscal_year, entity_name",
+      "payload": {
+        "entity_name": "Walmart Inc.",
+        "sic_code": "5331",
+        "sic_description_reference": "Variety Stores",
+        "period_end": "2017-07-31",
+        "revenue": "123355000000",
+        "fiscal_year": "2019",
+        "fiscal_period": "FY"
+      },
+      "retrieved_at": 1793087762.1073663,
+      "id": "ev_e9a9eb556785",
+      "payload_hash": "d9bd36ec4dacd20fda3ba01646d343d132748b8c4e68f56aafbce2fda88c130f"
+    },
+    {
+      "source": "zetaris:edgar_company_facts_x_profiles",
+      "query": "SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' ORDER BY fiscal_year, entity_name",
+      "payload": {
+        "entity_name": "Walmart Inc.",
+        "sic_code": "5331",
+        "sic_description_reference": "Variety Stores",
+        "period_end": "2017-04-30",
+        "revenue": "117542000000",
+        "fiscal_year": "2019",
+        "fiscal_period": "FY"
+      },
+      "retrieved_at": 1793087762.1073828,
+      "id": "ev_db10d171a751",
+      "payload_hash": "3aca609d2afa80bcfae5505469510b1c91dfa4210b8fb01ab5bcbb24bb7153d5"
+    },
+    {
+      "source": "zetaris:edgar_company_facts_x_profiles",
+      "query": "SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' ORDER BY fiscal_year, entity_name",
+      "payload": {
+        "entity_name": "Walmart Inc.",
+        "sic_code": "5331",
+        "sic_description_reference": "Variety Stores",
+        "period_end": "2017-01-31",
+        "revenue": "485873000000",
+        "fiscal_year": "2019",
+        "fiscal_period": "FY"
+      },
+      "retrieved_at": 1793087762.1073987,
+      "id": "ev_8cfb6988dcfd",
+      "payload_hash": "6fd4ab575016d0cbd963e5aa673d3f1ea5be1b675cf4157ab1d784f2ffa7cae3"
+    },
+    {
+      "source": "zetaris:edgar_company_facts_x_profiles",
+      "query": "SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' ORDER BY fiscal_year, entity_name",
+      "payload": {
+        "entity_name": "Walmart Inc.",
+        "sic_code": "5331",
+        "sic_description_reference": "Variety Stores",
+        "period_end": "2020-01-31",
+        "revenue": "141671000000",
+        "fiscal_year": "2020",
+        "fiscal_period": "FY"
+      },
+      "retrieved_at": 1793087762.107414,
+      "id": "ev_83ee521540b1",
+      "payload_hash": "0289dd5e53503d30e0ad9c0a152ce907216322a74684a69175c817eb33e5cc93"
+    },
+    {
+      "source": "zetaris:edgar_company_facts_x_profiles",
+      "query": "SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' ORDER BY fiscal_year, entity_name",
+      "payload": {
+        "entity_name": "Walmart Inc.",
+        "sic_code": "5331",
+        "sic_description_reference": "Variety Stores",
+        "period_end": "2020-01-31",
+        "revenue": "523964000000",
+        "fiscal_year": "2020",
+        "fiscal_period": "FY"
+      },
+      "retrieved_at": 1793087762.1074297,
+      "id": "ev_9592c5bcb701",
+      "payload_hash": "515245161675bc02f102aa8d7555d89d9b675f05f42bb46ac9a2d289c0cf84fe"
+    },
+    {
+      "source": "zetaris:edgar_company_facts_x_profiles",
+      "query": "SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' ORDER BY fiscal_year, entity_name",
+      "payload": {
+        "entity_name": "Walmart Inc.",
+        "sic_code": "5331",
+        "sic_description_reference": "Variety Stores",
+        "period_end": "2019-10-31",
+        "revenue": "127991000000",
+        "fiscal_year": "2020",
+        "fiscal_period": "FY"
+      },
+      "retrieved_at": 1793087762.1074452,
+      "id": "ev_78642fbb200b",
+      "payload_hash": "24bfae490323108a13f8f4c9533f9cbfdd3ed7a60ef70a2a715d4e94d0ec0b88"
+    },
+    {
+      "source": "zetaris:edgar_company_facts_x_profiles",
+      "query": "SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' ORDER BY fiscal_year, entity_name",
+      "payload": {
+        "entity_name": "Walmart Inc.",
+        "sic_code": "5331",
+        "sic_description_reference": "Variety Stores",
+        "period_end": "2019-07-31",
+        "revenue": "130377000000",
+        "fiscal_year": "2020",
+        "fiscal_period": "FY"
+      },
+      "retrieved_at": 1793087762.1074612,
+      "id": "ev_b9d3fc32991c",
+      "payload_hash": "b6abfec1846aa4fae283c66f2ff6d0d416fef7d9faad3a00ae8de829a253e083"
+    },
+    {
+      "source": "zetaris:edgar_company_facts_x_profiles",
+      "query": "SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' ORDER BY fiscal_year, entity_name",
+      "payload": {
+        "entity_name": "Walmart Inc.",
+        "sic_code": "5331",
+        "sic_description_reference": "Variety Stores",
+        "period_end": "2019-04-30",
+        "revenue": "123925000000",
+        "fiscal_year": "2020",
+        "fiscal_period": "FY"
+      },
+      "retrieved_at": 1793087762.1074767,
+      "id": "ev_52c8449079a2",
+      "payload_hash": "ba981c08d161acd87c032eed85c1ac9cb255bda6fee27f697cfc6b01ab47eef9"
+    },
+    {
+      "source": "zetaris:edgar_company_facts_x_profiles",
+      "query": "SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' ORDER BY fiscal_year, entity_name",
+      "payload": {
+        "entity_name": "Walmart Inc.",
+        "sic_code": "5331",
+        "sic_description_reference": "Variety Stores",
+        "period_end": "2019-01-31",
+        "revenue": "138793000000",
+        "fiscal_year": "2020",
+        "fiscal_period": "FY"
+      },
+      "retrieved_at": 1793087762.1074924,
+      "id": "ev_249fff6f1126",
+      "payload_hash": "632e8ecfa16b94a7f20b24cc334c777616e6b336e557bc9839e7b5182920922b"
+    },
+    {
+      "source": "zetaris:edgar_company_facts_x_profiles",
+      "query": "SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' ORDER BY fiscal_year, entity_name",
+      "payload": {
+        "entity_name": "Walmart Inc.",
+        "sic_code": "5331",
+        "sic_description_reference": "Variety Stores",
+        "period_end": "2019-01-31",
+        "revenue": "514405000000",
+        "fiscal_year": "2020",
+        "fiscal_period": "FY"
+      },
+      "retrieved_at": 1793087762.1075084,
+      "id": "ev_78cc5e433d6f",
+      "payload_hash": "bef4986315820192158e850d6d3f56c8500877b68579706e23ad17077e74f281"
+    },
+    {
+      "source": "zetaris:edgar_company_facts_x_profiles",
+      "query": "SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' ORDER BY fiscal_year, entity_name",
+      "payload": {
+        "entity_name": "Walmart Inc.",
+        "sic_code": "5331",
+        "sic_description_reference": "Variety Stores",
+        "period_end": "2018-10-31",
+        "revenue": "124894000000",
+        "fiscal_year": "2020",
+        "fiscal_period": "FY"
+      },
+      "retrieved_at": 1793087762.1075246,
+      "id": "ev_b6ff331ac0d0",
+      "payload_hash": "9fca953b80ea1ec7f2ab4f5cb10ab413bf2f4e433a4c290986d0389f4a2c6c0d"
+    },
+    {
+      "source": "zetaris:edgar_company_facts_x_profiles",
+      "query": "SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' ORDER BY fiscal_year, entity_name",
+      "payload": {
+        "entity_name": "Walmart Inc.",
+        "sic_code": "5331",
+        "sic_description_reference": "Variety Stores",
+        "period_end": "2018-07-31",
+        "revenue": "128028000000",
+        "fiscal_year": "2020",
+        "fiscal_period": "FY"
+      },
+      "retrieved_at": 1793087762.1075401,
+      "id": "ev_97bea6a4c281",
+      "payload_hash": "c89be122d3b98934bc8f0bb21b2e9b6e7e21703c3d640d4a49d8c7e5a55a633f"
+    },
+    {
+      "source": "zetaris:edgar_company_facts_x_profiles",
+      "query": "SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' ORDER BY fiscal_year, entity_name",
+      "payload": {
+        "entity_name": "Walmart Inc.",
+        "sic_code": "5331",
+        "sic_description_reference": "Variety Stores",
+        "period_end": "2018-04-30",
+        "revenue": "122690000000",
+        "fiscal_year": "2020",
+        "fiscal_period": "FY"
+      },
+      "retrieved_at": 1793087762.1075559,
+      "id": "ev_00c1fb31b79e",
+      "payload_hash": "36f388c88d53a5cd356d5faa7a1f10acff47a4d72080153e20157c3867c03502"
+    },
+    {
+      "source": "zetaris:edgar_company_facts_x_profiles",
+      "query": "SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' ORDER BY fiscal_year, entity_name",
+      "payload": {
+        "entity_name": "Walmart Inc.",
+        "sic_code": "5331",
+        "sic_description_reference": "Variety Stores",
+        "period_end": "2018-01-31",
+        "revenue": "500343000000",
+        "fiscal_year": "2020",
+        "fiscal_period": "FY"
+      },
+      "retrieved_at": 1793087762.1075716,
+      "id": "ev_8df9a4c6346b",
+      "payload_hash": "98bc710a760f83b2290e83eb25384b5cd0c2b083bd1e782a630890f007c8d26b"
+    },
+    {
+      "source": "zetaris:edgar_company_facts_x_profiles",
+      "query": "SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' ORDER BY fiscal_year, entity_name",
+      "payload": {
+        "entity_name": "Walmart Inc.",
+        "sic_code": "5331",
+        "sic_description_reference": "Variety Stores",
+        "period_end": "2021-01-31",
+        "revenue": "559151000000",
+        "fiscal_year": "2021",
+        "fiscal_period": "FY"
+      },
+      "retrieved_at": 1793087762.1075873,
+      "id": "ev_5e0ce1a37c22",
+      "payload_hash": "5f806a2b2ec9bdffcfc373db5a994bce5d049cf4d5912121f4ab974b6ab646e9"
+    },
+    {
+      "source": "zetaris:edgar_company_facts_x_profiles",
+      "query": "SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' ORDER BY fiscal_year, entity_name",
+      "payload": {
+        "entity_name": "Walmart Inc.",
+        "sic_code": "5331",
+        "sic_description_reference": "Variety Stores",
+        "period_end": "2020-01-31",
+        "revenue": "523964000000",
+        "fiscal_year": "2021",
+        "fiscal_period": "FY"
+      },
+      "retrieved_at": 1793087762.1076038,
+      "id": "ev_15c7adbc068a",
+      "payload_hash": "be57f6bab9299fdf45146e6bbd25857e4503bfb66974967c4887aa67032b795a"
+    },
+    {
+      "source": "zetaris:edgar_company_facts_x_profiles",
+      "query": "SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' ORDER BY fiscal_year, entity_name",
+      "payload": {
+        "entity_name": "Walmart Inc.",
+        "sic_code": "5331",
+        "sic_description_reference": "Variety Stores",
+        "period_end": "2019-01-31",
+        "revenue": "514405000000",
+        "fiscal_year": "2021",
+        "fiscal_period": "FY"
+      },
+      "retrieved_at": 1793087762.1076198,
+      "id": "ev_49fb8b54a9ab",
+      "payload_hash": "bd76beba1c508ef92825dc8e6e5c06061e04d16273816d42e838744bfd187aa9"
+    },
+    {
+      "source": "zetaris:edgar_company_facts_x_profiles",
+      "query": "SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' ORDER BY fiscal_year, entity_name",
+      "payload": {
+        "entity_name": "Walmart Inc.",
+        "sic_code": "5331",
+        "sic_description_reference": "Variety Stores",
+        "period_end": "2022-01-31",
+        "revenue": "572754000000",
+        "fiscal_year": "2022",
+        "fiscal_period": "FY"
+      },
+      "retrieved_at": 1793087762.107636,
+      "id": "ev_8293e97340d4",
+      "payload_hash": "ca0a27abf119f07376ca7175fc2fbdd08ee7d9e30e5a7aaa90e4dfc828d20263"
+    },
+    {
+      "source": "zetaris:edgar_company_facts_x_profiles",
+      "query": "SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' ORDER BY fiscal_year, entity_name",
+      "payload": {
+        "entity_name": "Walmart Inc.",
+        "sic_code": "5331",
+        "sic_description_reference": "Variety Stores",
+        "period_end": "2021-01-31",
+        "revenue": "559151000000",
+        "fiscal_year": "2022",
+        "fiscal_period": "FY"
+      },
+      "retrieved_at": 1793087762.1076515,
+      "id": "ev_6afbc8b0cfde",
+      "payload_hash": "da02a8c87ba1e802cd04069f5f0fdf38caca66d5dfe9d81b990716c639908843"
+    },
+    {
+      "source": "zetaris:edgar_company_facts_x_profiles",
+      "query": "SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' ORDER BY fiscal_year, entity_name",
+      "payload": {
+        "entity_name": "Walmart Inc.",
+        "sic_code": "5331",
+        "sic_description_reference": "Variety Stores",
+        "period_end": "2020-01-31",
+        "revenue": "523964000000",
+        "fiscal_year": "2022",
+        "fiscal_period": "FY"
+      },
+      "retrieved_at": 1793087762.1076672,
+      "id": "ev_175e3c022d2f",
+      "payload_hash": "6ae5d1edb15648e92d85c5b47c066bb9cb75717f2817429d510d6281696983e3"
+    },
+    {
+      "source": "zetaris:edgar_company_facts_x_profiles",
+      "query": "SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' ORDER BY fiscal_year, entity_name",
+      "payload": {
+        "entity_name": "Walmart Inc.",
+        "sic_code": "5331",
+        "sic_description_reference": "Variety Stores",
+        "period_end": "2023-01-31",
+        "revenue": "611289000000",
+        "fiscal_year": "2023",
+        "fiscal_period": "FY"
+      },
+      "retrieved_at": 1793087762.1076827,
+      "id": "ev_5929971ed0d6",
+      "payload_hash": "4ed194ab9b8e6cdc69a35a0dd921ac63d2883423fde256bef18584cc7ed9da6d"
+    },
+    {
+      "source": "zetaris:edgar_company_facts_x_profiles",
+      "query": "SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' ORDER BY fiscal_year, entity_name",
+      "payload": {
+        "entity_name": "Walmart Inc.",
+        "sic_code": "5331",
+        "sic_description_reference": "Variety Stores",
+        "period_end": "2022-01-31",
+        "revenue": "572754000000",
+        "fiscal_year": "2023",
+        "fiscal_period": "FY"
+      },
+      "retrieved_at": 1793087762.1076987,
+      "id": "ev_84a2c44b43a4",
+      "payload_hash": "42c9547b97fde7e6de5b54a83b3a928bae331f549ee4a820562372d0e6b76df4"
+    },
+    {
+      "source": "zetaris:edgar_company_facts_x_profiles",
+      "query": "SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' ORDER BY fiscal_year, entity_name",
+      "payload": {
+        "entity_name": "Walmart Inc.",
+        "sic_code": "5331",
+        "sic_description_reference": "Variety Stores",
+        "period_end": "2021-01-31",
+        "revenue": "559151000000",
+        "fiscal_year": "2023",
+        "fiscal_period": "FY"
+      },
+      "retrieved_at": 1793087762.1077144,
+      "id": "ev_c6dee2255208",
+      "payload_hash": "00c24d2f24119ebbe66a7f36bcd9a0717f611c18f0a5fd804f2894b666cb48bc"
+    },
+    {
+      "source": "zetaris:edgar_company_facts_x_profiles",
+      "query": "SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' ORDER BY fiscal_year, entity_name",
+      "payload": {
+        "entity_name": "Walmart Inc.",
+        "sic_code": "5331",
+        "sic_description_reference": "Variety Stores",
+        "period_end": "2024-01-31",
+        "revenue": "648125000000",
+        "fiscal_year": "2024",
+        "fiscal_period": "FY"
+      },
+      "retrieved_at": 1793087762.1077344,
+      "id": "ev_faf9a98524fc",
+      "payload_hash": "9f1dec310c782db902be447727b44e99b3ae76a49e6c9a1cb29b1f677f3e1106"
+    },
+    {
+      "source": "zetaris:edgar_company_facts_x_profiles",
+      "query": "SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' ORDER BY fiscal_year, entity_name",
+      "payload": {
+        "entity_name": "Walmart Inc.",
+        "sic_code": "5331",
+        "sic_description_reference": "Variety Stores",
+        "period_end": "2023-01-31",
+        "revenue": "611289000000",
+        "fiscal_year": "2024",
+        "fiscal_period": "FY"
+      },
+      "retrieved_at": 1793087762.1077516,
+      "id": "ev_fb86607fa58d",
+      "payload_hash": "0a866cdcd1bc1abb958f412c36478358c1ab880c42187ddc5ccec45665604209"
+    },
+    {
+      "source": "zetaris:edgar_company_facts_x_profiles",
+      "query": "SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' ORDER BY fiscal_year, entity_name",
+      "payload": {
+        "entity_name": "Walmart Inc.",
+        "sic_code": "5331",
+        "sic_description_reference": "Variety Stores",
+        "period_end": "2022-01-31",
+        "revenue": "572754000000",
+        "fiscal_year": "2024",
+        "fiscal_period": "FY"
+      },
+      "retrieved_at": 1793087762.1077683,
+      "id": "ev_6c34e0d8eda3",
+      "payload_hash": "af571fff66ccbfa19ffe131d3c2de117cfff6183cd0ba3612fbc399f090bb9b4"
+    },
+    {
+      "source": "zetaris:edgar_company_facts_x_profiles",
+      "query": "SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' ORDER BY fiscal_year, entity_name",
+      "payload": {
+        "entity_name": "Walmart Inc.",
+        "sic_code": "5331",
+        "sic_description_reference": "Variety Stores",
+        "period_end": "2025-01-31",
+        "revenue": "680985000000",
+        "fiscal_year": "2025",
+        "fiscal_period": "FY"
+      },
+      "retrieved_at": 1793087762.1077852,
+      "id": "ev_3d74024f3766",
+      "payload_hash": "5c89ff50b5c4836c19950cb64bd050be18f69636f90c1d57af4aa70ce1faee47"
+    },
+    {
+      "source": "zetaris:edgar_company_facts_x_profiles",
+      "query": "SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' ORDER BY fiscal_year, entity_name",
+      "payload": {
+        "entity_name": "Walmart Inc.",
+        "sic_code": "5331",
+        "sic_description_reference": "Variety Stores",
+        "period_end": "2024-01-31",
+        "revenue": "648125000000",
+        "fiscal_year": "2025",
+        "fiscal_period": "FY"
+      },
+      "retrieved_at": 1793087762.1078017,
+      "id": "ev_042790156086",
+      "payload_hash": "f161344d917a816b5419430f4cbbeda5650356441cc2f61d3c9b153f8b58ef6a"
+    },
+    {
+      "source": "zetaris:edgar_company_facts_x_profiles",
+      "query": "SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' ORDER BY fiscal_year, entity_name",
+      "payload": {
+        "entity_name": "Walmart Inc.",
+        "sic_code": "5331",
+        "sic_description_reference": "Variety Stores",
+        "period_end": "2023-01-31",
+        "revenue": "611289000000",
+        "fiscal_year": "2025",
+        "fiscal_period": "FY"
+      },
+      "retrieved_at": 1793087762.1078174,
+      "id": "ev_bf4e06135111",
+      "payload_hash": "af314170f37a34dfa290f98dfd573ec02d572a3a57508e6c9869dbfd02029810"
+    },
+    {
+      "source": "zetaris:edgar_company_facts_x_profiles",
+      "query": "SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' ORDER BY fiscal_year, entity_name",
+      "payload": {
+        "entity_name": "Walmart Inc.",
+        "sic_code": "5331",
+        "sic_description_reference": "Variety Stores",
+        "period_end": "2026-01-31",
+        "revenue": "713163000000",
+        "fiscal_year": "2026",
+        "fiscal_period": "FY"
+      },
+      "retrieved_at": 1793087762.1078331,
+      "id": "ev_ba1ee84c188e",
+      "payload_hash": "36ca2ca3a6ff0504c6b694a20cb5fb639e0380c1cd53554b979fcaa1c019e6e2"
+    },
+    {
+      "source": "zetaris:edgar_company_facts_x_profiles",
+      "query": "SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' ORDER BY fiscal_year, entity_name",
+      "payload": {
+        "entity_name": "Walmart Inc.",
+        "sic_code": "5331",
+        "sic_description_reference": "Variety Stores",
+        "period_end": "2025-01-31",
+        "revenue": "680985000000",
+        "fiscal_year": "2026",
+        "fiscal_period": "FY"
+      },
+      "retrieved_at": 1793087762.1078491,
+      "id": "ev_9dbdb97ae217",
+      "payload_hash": "a5c9e67385bcbda077f6bc4c4878308dfcd8b6eb4d98f814f492f256e5a8a87e"
+    },
+    {
+      "source": "zetaris:edgar_company_facts_x_profiles",
+      "query": "SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = 'FY' ORDER BY fiscal_year, entity_name",
+      "payload": {
+        "entity_name": "Walmart Inc.",
+        "sic_code": "5331",
+        "sic_description_reference": "Variety Stores",
+        "period_end": "2024-01-31",
+        "revenue": "648125000000",
+        "fiscal_year": "2026",
+        "fiscal_period": "FY"
+      },
+      "retrieved_at": 1793087762.1078706,
+      "id": "ev_efd2c9c1ed8a",
+      "payload_hash": "fc39cc199a0ddb1ede31e38485817d7607a139c6e804ed93331a123eff6edde5"
+    },
+    {
+      "source": "zetaris:edgar_company_facts (Revenue + NetIncomeLoss, SEC EDGAR XBRL)",
+      "query": "SELECT DISTINCT r.period_start, r.period_end, r.value_usd AS revenue, n.value_usd AS net_income FROM edgar.apple_revenue_table r JOIN edgar.apple_netincome_table n ON n.period_start = r.period_start AND n.period_end = r.period_end ORDER BY r.period_end",
+      "payload": {
+        "period_start": "2015-09-27",
+        "period_end": "2016-09-24",
+        "revenue": "215639000000",
+        "net_income": "45687000000"
+      },
+      "retrieved_at": 1793087763.0514488,
+      "id": "ev_3d425ed58b1d",
+      "payload_hash": "b4060456d713c50dd1f8c7034e7dc83f4880a7979adfdb1cbf3ece8d1bc52c79"
+    },
+    {
+      "source": "zetaris:edgar_company_facts (Revenue + NetIncomeLoss, SEC EDGAR XBRL)",
+      "query": "SELECT DISTINCT r.period_start, r.period_end, r.value_usd AS revenue, n.value_usd AS net_income FROM edgar.apple_revenue_table r JOIN edgar.apple_netincome_table n ON n.period_start = r.period_start AND n.period_end = r.period_end ORDER BY r.period_end",
+      "payload": {
+        "period_start": "2016-09-25",
+        "period_end": "2016-12-31",
+        "revenue": "78351000000",
+        "net_income": "17891000000"
+      },
+      "retrieved_at": 1793087763.0515203,
+      "id": "ev_1ea3f0c88ee8",
+      "payload_hash": "c754313bfb4dd5104f025ddc8a6e873c3b8627ef3f3f6cec7f8f31d15724e067"
+    },
+    {
+      "source": "zetaris:edgar_company_facts (Revenue + NetIncomeLoss, SEC EDGAR XBRL)",
+      "query": "SELECT DISTINCT r.period_start, r.period_end, r.value_usd AS revenue, n.value_usd AS net_income FROM edgar.apple_revenue_table r JOIN edgar.apple_netincome_table n ON n.period_start = r.period_start AND n.period_end = r.period_end ORDER BY r.period_end",
+      "payload": {
+        "period_start": "2017-01-01",
+        "period_end": "2017-04-01",
+        "revenue": "52896000000",
+        "net_income": "11029000000"
+      },
+      "retrieved_at": 1793087763.0515497,
+      "id": "ev_a6bd1aa6e7d1",
+      "payload_hash": "2fdb9a575c7bf04cfff6aac257cd09f84ccd66d748b12992ac9422d9e894737b"
+    },
+    {
+      "source": "zetaris:edgar_company_facts (Revenue + NetIncomeLoss, SEC EDGAR XBRL)",
+      "query": "SELECT DISTINCT r.period_start, r.period_end, r.value_usd AS revenue, n.value_usd AS net_income FROM edgar.apple_revenue_table r JOIN edgar.apple_netincome_table n ON n.period_start = r.period_start AND n.period_end = r.period_end ORDER BY r.period_end",
+      "payload": {
+        "period_start": "2017-04-02",
+        "period_end": "2017-07-01",
+        "revenue": "45408000000",
+        "net_income": "8717000000"
+      },
+      "retrieved_at": 1793087763.0515761,
+      "id": "ev_671b4c51d58f",
+      "payload_hash": "b89f30639cc5cc6f96f43cd64bb7935b1003ff4fbc4a3d414b6fa67aabb9a5ee"
+    },
+    {
+      "source": "zetaris:edgar_company_facts (Revenue + NetIncomeLoss, SEC EDGAR XBRL)",
+      "query": "SELECT DISTINCT r.period_start, r.period_end, r.value_usd AS revenue, n.value_usd AS net_income FROM edgar.apple_revenue_table r JOIN edgar.apple_netincome_table n ON n.period_start = r.period_start AND n.period_end = r.period_end ORDER BY r.period_end",
+      "payload": {
+        "period_start": "2016-09-25",
+        "period_end": "2017-09-30",
+        "revenue": "229234000000",
+        "net_income": "48351000000"
+      },
+      "retrieved_at": 1793087763.0516014,
+      "id": "ev_260ba013ac82",
+      "payload_hash": "5e6001cc4758f2de4c58156197458cee573beab8962b94611baba400cb5eb3ce"
+    },
+    {
+      "source": "zetaris:edgar_company_facts (Revenue + NetIncomeLoss, SEC EDGAR XBRL)",
+      "query": "SELECT DISTINCT r.period_start, r.period_end, r.value_usd AS revenue, n.value_usd AS net_income FROM edgar.apple_revenue_table r JOIN edgar.apple_netincome_table n ON n.period_start = r.period_start AND n.period_end = r.period_end ORDER BY r.period_end",
+      "payload": {
+        "period_start": "2017-07-02",
+        "period_end": "2017-09-30",
+        "revenue": "52579000000",
+        "net_income": "10714000000"
+      },
+      "retrieved_at": 1793087763.051626,
+      "id": "ev_9548be7c80c5",
+      "payload_hash": "34fd03cea20e8940e2cdabbfa868b14b11db8c77575a9c5bc23f8e2ca218cb4d"
+    },
+    {
+      "source": "zetaris:edgar_company_facts (Revenue + NetIncomeLoss, SEC EDGAR XBRL)",
+      "query": "SELECT DISTINCT r.period_start, r.period_end, r.value_usd AS revenue, n.value_usd AS net_income FROM edgar.apple_revenue_table r JOIN edgar.apple_netincome_table n ON n.period_start = r.period_start AND n.period_end = r.period_end ORDER BY r.period_end",
+      "payload": {
+        "period_start": "2017-10-01",
+        "period_end": "2017-12-30",
+        "revenue": "88293000000",
+        "net_income": "20065000000"
+      },
+      "retrieved_at": 1793087763.0516503,
+      "id": "ev_8c8372755a84",
+      "payload_hash": "92da2c5001fe0a4915f4dbee43c8e7e388adfbf70b0c0e0befe08309a817c9c3"
+    },
+    {
+      "source": "zetaris:edgar_company_facts (Revenue + NetIncomeLoss, SEC EDGAR XBRL)",
+      "query": "SELECT DISTINCT r.period_start, r.period_end, r.value_usd AS revenue, n.value_usd AS net_income FROM edgar.apple_revenue_table r JOIN edgar.apple_netincome_table n ON n.period_start = r.period_start AND n.period_end = r.period_end ORDER BY r.period_end",
+      "payload": {
+        "period_start": "2017-12-31",
+        "period_end": "2018-03-31",
+        "revenue": "61137000000",
+        "net_income": "13822000000"
+      },
+      "retrieved_at": 1793087763.0516737,
+      "id": "ev_0948d79deb00",
+      "payload_hash": "f50f5067d3ebc263803da3b9570df9cbe5d53e9b507a50b1b2ba3c89cd4f5f14"
+    },
+    {
+      "source": "zetaris:edgar_company_facts (Revenue + NetIncomeLoss, SEC EDGAR XBRL)",
+      "query": "SELECT DISTINCT r.period_start, r.period_end, r.value_usd AS revenue, n.value_usd AS net_income FROM edgar.apple_revenue_table r JOIN edgar.apple_netincome_table n ON n.period_start = r.period_start AND n.period_end = r.period_end ORDER BY r.period_end",
+      "payload": {
+        "period_start": "2018-04-01",
+        "period_end": "2018-06-30",
+        "revenue": "53265000000",
+        "net_income": "11519000000"
+      },
+      "retrieved_at": 1793087763.0516973,
+      "id": "ev_3f62ffcba673",
+      "payload_hash": "aba1c383a049ff2a8d06d9aa740be0d4c048925c4bdb9ab018ff8948d82aeb9e"
+    },
+    {
+      "source": "zetaris:edgar_company_facts (Revenue + NetIncomeLoss, SEC EDGAR XBRL)",
+      "query": "SELECT DISTINCT r.period_start, r.period_end, r.value_usd AS revenue, n.value_usd AS net_income FROM edgar.apple_revenue_table r JOIN edgar.apple_netincome_table n ON n.period_start = r.period_start AND n.period_end = r.period_end ORDER BY r.period_end",
+      "payload": {
+        "period_start": "2017-10-01",
+        "period_end": "2018-09-29",
+        "revenue": "265595000000",
+        "net_income": "59531000000"
+      },
+      "retrieved_at": 1793087763.0517254,
+      "id": "ev_1fe24ea960e7",
+      "payload_hash": "f3b043abf4c5204eaf6826b4bd7758ccd57ea09bda6ab5e0e9e503f2d051d38a"
+    },
+    {
+      "source": "zetaris:edgar_company_facts (Revenue + NetIncomeLoss, SEC EDGAR XBRL)",
+      "query": "SELECT DISTINCT r.period_start, r.period_end, r.value_usd AS revenue, n.value_usd AS net_income FROM edgar.apple_revenue_table r JOIN edgar.apple_netincome_table n ON n.period_start = r.period_start AND n.period_end = r.period_end ORDER BY r.period_end",
+      "payload": {
+        "period_start": "2018-07-01",
+        "period_end": "2018-09-29",
+        "revenue": "62900000000",
+        "net_income": "14125000000"
+      },
+      "retrieved_at": 1793087763.051754,
+      "id": "ev_faad64f50146",
+      "payload_hash": "db567fbf3e951facd68a0962674d37f7b220d0c770daaf14115adda34d35c053"
+    },
+    {
+      "source": "zetaris:edgar_profiles_x_company_dns_sic_v4",
+      "query": "SELECT cik, entity_name, sic_code, sic_description_edgar, sic_description_reference, division, division_desc, major_group, major_group_desc, industry_group, industry_group_desc FROM edgar.apple_profile_table",
+      "payload": {
+        "cik": "0000320193",
+        "entity_name": "Apple Inc.",
+        "sic_code": "3571",
+        "sic_description_edgar": "Electronic Computers",
+        "sic_description_reference": "Electronic Computers",
+        "division": "D",
+        "division_desc": "Manufacturing",
+        "major_group": "35",
+        "major_group_desc": "Industrial And Commercial Machinery And Computer Equipment",
+        "industry_group": "357",
+        "industry_group_desc": "Computer And Office Equipment"
+      },
+      "retrieved_at": 1793087764.7060862,
+      "id": "ev_55856c56a476",
+      "payload_hash": "43c77c35c8f0febc9c2b5a780d622b01a431a8f0fcf3359edcb6d1161e58e55b"
+    }
+  ],
+  "findings": [
+    {
+      "statement": "Apple Inc. 2015-09-27..2016-09-24 (full-year period, 363 days): net margin = 0.2119 (net income 45,687,000,000 / revenue 215,639,000,000), computed by the agent from Zetaris evidence.",
+      "evidence_ids": [
+        "ev_3d425ed58b1d"
+      ],
+      "entity": "Apple Inc.",
+      "id": "find_d3e66a020701"
+    },
+    {
+      "statement": "Apple Inc. 2016-09-25..2016-12-31 (quarterly period, 97 days): net margin = 0.2283 (net income 17,891,000,000 / revenue 78,351,000,000), computed by the agent from Zetaris evidence.",
+      "evidence_ids": [
+        "ev_1ea3f0c88ee8"
+      ],
+      "entity": "Apple Inc.",
+      "id": "find_badcffcf9e20"
+    },
+    {
+      "statement": "Apple Inc. 2017-01-01..2017-04-01 (quarterly period, 90 days): net margin = 0.2085 (net income 11,029,000,000 / revenue 52,896,000,000), computed by the agent from Zetaris evidence.",
+      "evidence_ids": [
+        "ev_a6bd1aa6e7d1"
+      ],
+      "entity": "Apple Inc.",
+      "id": "find_5766f0f92137"
+    },
+    {
+      "statement": "Apple Inc. 2017-04-02..2017-07-01 (quarterly period, 90 days): net margin = 0.1920 (net income 8,717,000,000 / revenue 45,408,000,000), computed by the agent from Zetaris evidence.",
+      "evidence_ids": [
+        "ev_671b4c51d58f"
+      ],
+      "entity": "Apple Inc.",
+      "id": "find_9b35cf607ca3"
+    },
+    {
+      "statement": "Apple Inc. 2016-09-25..2017-09-30 (full-year period, 370 days): net margin = 0.2109 (net income 48,351,000,000 / revenue 229,234,000,000), computed by the agent from Zetaris evidence.",
+      "evidence_ids": [
+        "ev_260ba013ac82"
+      ],
+      "entity": "Apple Inc.",
+      "id": "find_61cfddb01217"
+    },
+    {
+      "statement": "Apple Inc. 2017-07-02..2017-09-30 (quarterly period, 90 days): net margin = 0.2038 (net income 10,714,000,000 / revenue 52,579,000,000), computed by the agent from Zetaris evidence.",
+      "evidence_ids": [
+        "ev_9548be7c80c5"
+      ],
+      "entity": "Apple Inc.",
+      "id": "find_6e6f5b54949d"
+    },
+    {
+      "statement": "Apple Inc. 2017-10-01..2017-12-30 (quarterly period, 90 days): net margin = 0.2273 (net income 20,065,000,000 / revenue 88,293,000,000), computed by the agent from Zetaris evidence.",
+      "evidence_ids": [
+        "ev_8c8372755a84"
+      ],
+      "entity": "Apple Inc.",
+      "id": "find_18bfb163579f"
+    },
+    {
+      "statement": "Apple Inc. 2017-12-31..2018-03-31 (quarterly period, 90 days): net margin = 0.2261 (net income 13,822,000,000 / revenue 61,137,000,000), computed by the agent from Zetaris evidence.",
+      "evidence_ids": [
+        "ev_0948d79deb00"
+      ],
+      "entity": "Apple Inc.",
+      "id": "find_fef526cce442"
+    },
+    {
+      "statement": "Apple Inc. 2018-04-01..2018-06-30 (quarterly period, 90 days): net margin = 0.2163 (net income 11,519,000,000 / revenue 53,265,000,000), computed by the agent from Zetaris evidence.",
+      "evidence_ids": [
+        "ev_3f62ffcba673"
+      ],
+      "entity": "Apple Inc.",
+      "id": "find_a62c42f6d61a"
+    },
+    {
+      "statement": "Apple Inc. 2017-10-01..2018-09-29 (full-year period, 363 days): net margin = 0.2241 (net income 59,531,000,000 / revenue 265,595,000,000), computed by the agent from Zetaris evidence.",
+      "evidence_ids": [
+        "ev_1fe24ea960e7"
+      ],
+      "entity": "Apple Inc.",
+      "id": "find_0a7d31fdef24"
+    },
+    {
+      "statement": "Apple Inc. 2018-07-01..2018-09-29 (quarterly period, 90 days): net margin = 0.2246 (net income 14,125,000,000 / revenue 62,900,000,000), computed by the agent from Zetaris evidence.",
+      "evidence_ids": [
+        "ev_faad64f50146"
+      ],
+      "entity": "Apple Inc.",
+      "id": "find_73c57459e4e1"
+    },
+    {
+      "statement": "Context from zetaris:edgar_company_facts_x_profiles: [{\"entity_name\": \"Walmart Inc.\", \"sic_code\": \"5331\", \"sic_description_reference\": \"Variety Stores\", \"period_end\": \"2010-01-31\", \"revenue\": \"408214000000\", \"fiscal_year\": \"2009\", \"fiscal_period\": \"FY\"}, {\"entity_name\": \"Walmart Inc.\", \"sic_code\": \"5331\", \"sic_description_reference\": \"Variety Stores\", \"period_end\": \"2009-01-31\", \"revenue\": \"404374000000\", \"fiscal_year\": \"2009\", \"fiscal_period\": \"FY\"}, {\"entity_name\": \"Walmart Inc.\", \"sic_code\": \"5331\", \"sic_description_reference\": \"Variety Stores\", \"period_end\": \"2008-01-31\", \"revenue\": \"377023000000\", \"fiscal_year\": \"2009\", \"fiscal_period\": \"FY",
+      "evidence_ids": [
+        "ev_3d249f315a59",
+        "ev_bb244748ccd1",
+        "ev_a2f97786d14a",
+        "ev_ea197de22204",
+        "ev_a2aef544d0e5",
+        "ev_89d005328e6a",
+        "ev_a098fc8b5b9c",
+        "ev_140d989de9b1",
+        "ev_8568bf1630c4",
+        "ev_6fbdda0e3459",
+        "ev_584521c369ae",
+        "ev_235ed4762b8f",
+        "ev_7adf12241886",
+        "ev_984deeb24564",
+        "ev_69924df99b99",
+        "ev_d393feb3cbd3",
+        "ev_9953142a5789",
+        "ev_ae2a18d67b7c",
+        "ev_6f6ff9c3e269",
+        "ev_2b14297e28a4",
+        "ev_bd4941fd1403",
+        "ev_33a90b045452",
+        "ev_93d36c518867",
+        "ev_37ef276e5ab7",
+        "ev_d3d7d47eed4b",
+        "ev_a5e193967304",
+        "ev_2cfb5d970072",
+        "ev_18cbdcd7acfa",
+        "ev_864f1a564348",
+        "ev_c99a2bc00f23",
+        "ev_5d64e485ea90",
+        "ev_b92a0ca88905",
+        "ev_5b18847f0784",
+        "ev_9b10345ac024",
+        "ev_efd18af7061a",
+        "ev_5fc0ca3222e6",
+        "ev_0d4ede6491e1",
+        "ev_a73d650b8bac",
+        "ev_87740db4eb12",
+        "ev_d395197b2e0c",
+        "ev_bd62f6746339",
+        "ev_feb38b260c26",
+        "ev_f5debe9508d8",
+        "ev_ec1b11827cb6",
+        "ev_bcf7980dfb0e",
+        "ev_42257ca5ae9c",
+        "ev_02386b81cac7",
+        "ev_3a8c9ff509f9",
+        "ev_3d98ba6a144d",
+        "ev_1bc65276edb4",
+        "ev_042fe869ee68",
+        "ev_8bb161e53e78",
+        "ev_fba50d1cae4a",
+        "ev_e8834f91f908",
+        "ev_9297899365d5",
+        "ev_c64dfa47cc6d",
+        "ev_ab536362ee8b",
+        "ev_c1995a87d109",
+        "ev_a7f013c7239e",
+        "ev_6de4ab7166d8",
+        "ev_1e263f8908a2",
+        "ev_5dbcfc9881fc",
+        "ev_3f85af71d43e",
+        "ev_a9487662423e",
+        "ev_1959bb8e9cae",
+        "ev_bbefd70cbac2",
+        "ev_01c416c41343",
+        "ev_fa7ff61b2c9c",
+        "ev_c39186e9c4d6",
+        "ev_68cd2a44192f",
+        "ev_5026bc310726",
+        "ev_62224b1f82ce",
+        "ev_979a05c5f3a2",
+        "ev_c7e844ea42eb",
+        "ev_b3ac7aa823cd",
+        "ev_f286d37d21a2",
+        "ev_91579146ace7",
+        "ev_4c77f9b0138d",
+        "ev_255cb08e7649",
+        "ev_42cf90b20264",
+        "ev_47d27c489e0a",
+        "ev_4f06b383603f",
+        "ev_2b54518dd4b1",
+        "ev_400bd9c845ac",
+        "ev_18bf504172dc",
+        "ev_890f4afdba54",
+        "ev_f905fb220e13",
+        "ev_ccfd091cd0d3",
+        "ev_28f8a2365800",
+        "ev_63892dae6607",
+        "ev_814b7bb9f458",
+        "ev_2c65f3f980ed",
+        "ev_6a013e5660f2",
+        "ev_dedb8346e02e",
+        "ev_e9a9eb556785",
+        "ev_db10d171a751",
+        "ev_8cfb6988dcfd",
+        "ev_83ee521540b1",
+        "ev_9592c5bcb701",
+        "ev_78642fbb200b",
+        "ev_b9d3fc32991c",
+        "ev_52c8449079a2",
+        "ev_249fff6f1126",
+        "ev_78cc5e433d6f",
+        "ev_b6ff331ac0d0",
+        "ev_97bea6a4c281",
+        "ev_00c1fb31b79e",
+        "ev_8df9a4c6346b",
+        "ev_5e0ce1a37c22",
+        "ev_15c7adbc068a",
+        "ev_49fb8b54a9ab",
+        "ev_8293e97340d4",
+        "ev_6afbc8b0cfde",
+        "ev_175e3c022d2f",
+        "ev_5929971ed0d6",
+        "ev_84a2c44b43a4",
+        "ev_c6dee2255208",
+        "ev_faf9a98524fc",
+        "ev_fb86607fa58d",
+        "ev_6c34e0d8eda3",
+        "ev_3d74024f3766",
+        "ev_042790156086",
+        "ev_bf4e06135111",
+        "ev_ba1ee84c188e",
+        "ev_9dbdb97ae217",
+        "ev_efd2c9c1ed8a"
+      ],
+      "entity": "Apple Inc.",
+      "id": "find_f06c3049aac0"
+    },
+    {
+      "statement": "Context from zetaris:edgar_profiles_x_company_dns_sic_v4: [{\"cik\": \"0000320193\", \"entity_name\": \"Apple Inc.\", \"sic_code\": \"3571\", \"sic_description_edgar\": \"Electronic Computers\", \"sic_description_reference\": \"Electronic Computers\", \"division\": \"D\", \"division_desc\": \"Manufacturing\", \"major_group\": \"35\", \"major_group_desc\": \"Industrial And Commercial Machinery And Computer Equipment\", \"industry_group\": \"357\", \"industry_group_desc\": \"Computer And Office Equipment\"}]",
+      "evidence_ids": [
+        "ev_55856c56a476"
+      ],
+      "entity": "Apple Inc.",
+      "id": "find_e9a7eadebfa2"
+    }
+  ],
+  "conclusions": [
+    {
+      "statement": "WhyLine answer for Apple Inc.: Why is Apple's net margin what it is, and why must that margin be read inside Apple's SIC industry frame (3571, Electronic Computers) before any comparison with other companies?",
+      "finding_ids": [
+        "find_d3e66a020701",
+        "find_badcffcf9e20",
+        "find_5766f0f92137",
+        "find_9b35cf607ca3",
+        "find_61cfddb01217",
+        "find_6e6f5b54949d",
+        "find_18bfb163579f",
+        "find_fef526cce442",
+        "find_a62c42f6d61a",
+        "find_0a7d31fdef24",
+        "find_73c57459e4e1",
+        "find_f06c3049aac0",
+        "find_e9a7eadebfa2"
+      ],
+      "id": "concl_036811d88433"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "company": "Apple Inc.",
+  "question": "Why is Apple's profitability what it is, and how does its industry classification frame the comparison?",
+  "queries": {
+    "margins": "SELECT fy, revenue, net_income FROM <FROZEN_AT_GATE>",
+    "profile": "SELECT name, sic, sic_description, division, major_group, industry_group FROM <FROZEN_AT_GATE>"
+  },
+  "sources": {
+    "margins": "zetaris:edgar_company_facts",
+    "profile": "zetaris:edgar_profiles_x_company_dns_sic"
+  },
+  "margin_pair": ["margins", "revenue", "net_income", "fy"]
+}

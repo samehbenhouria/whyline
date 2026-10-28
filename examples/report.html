@@ -1,0 +1,1964 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<title>WhyLine - Apple Inc.</title>
+<style>body{font-family:system-ui,sans-serif;max-width:900px;margin:2rem auto;padding:0 1rem;line-height:1.5}code{background:#f2f2f2;padding:.1rem.3rem;border-radius:4px}pre{background:#f7f7f7;padding:1rem;overflow-x:auto;border-radius:6px}.ev{border:1px solid #ddd;border-radius:8px;padding:1rem;margin:.8rem 0}.find{border-left:4px solid #3a7;padding-left:1rem;margin:1.2rem 0}.hash{color:#666;font-size:.8rem;word-break:break-all}</style></head><body>
+<h1>WhyLine - the agent that can explain why</h1>
+<p><strong>Question:</strong> Why is Apple&#x27;s net margin what it is, and why must that margin be read inside Apple&#x27;s SIC industry frame (3571, Electronic Computers) before any comparison with other companies?</p>
+<h2>Conclusion</h2><p>WhyLine answer for Apple Inc.: Why is Apple&#x27;s net margin what it is, and why must that margin be read inside Apple&#x27;s SIC industry frame (3571, Electronic Computers) before any comparison with other companies?</p>
+<p>Chain verified: <strong>True</strong> (conclusion id <code>concl_036811d88433</code>)</p>
+<div class="find">
+<h3>Finding <code>find_d3e66a020701</code></h3>
+<p>Apple Inc. 2015-09-27..2016-09-24 (full-year period, 363 days): net margin = 0.2119 (net income 45,687,000,000 / revenue 215,639,000,000), computed by the agent from Zetaris evidence.</p>
+<div class="ev">
+<p><strong>Evidence</strong> <code>ev_3d425ed58b1d</code> - source: <code>zetaris:edgar_company_facts (Revenue + NetIncomeLoss, SEC EDGAR XBRL)</code><br>retrieved: 2026-10-27 07:56:03 UTC</p>
+<p>SQL:</p><pre>SELECT DISTINCT r.period_start, r.period_end, r.value_usd AS revenue, n.value_usd AS net_income FROM edgar.apple_revenue_table r JOIN edgar.apple_netincome_table n ON n.period_start = r.period_start AND n.period_end = r.period_end ORDER BY r.period_end</pre>
+<p>Row:</p><pre>{
+  &quot;period_start&quot;: &quot;2015-09-27&quot;,
+  &quot;period_end&quot;: &quot;2016-09-24&quot;,
+  &quot;revenue&quot;: &quot;215639000000&quot;,
+  &quot;net_income&quot;: &quot;45687000000&quot;
+}</pre>
+<p class='hash'>SHA-256: b4060456d713c50dd1f8c7034e7dc83f4880a7979adfdb1cbf3ece8d1bc52c79</p>
+</div>
+</div>
+<div class="find">
+<h3>Finding <code>find_badcffcf9e20</code></h3>
+<p>Apple Inc. 2016-09-25..2016-12-31 (quarterly period, 97 days): net margin = 0.2283 (net income 17,891,000,000 / revenue 78,351,000,000), computed by the agent from Zetaris evidence.</p>
+<div class="ev">
+<p><strong>Evidence</strong> <code>ev_1ea3f0c88ee8</code> - source: <code>zetaris:edgar_company_facts (Revenue + NetIncomeLoss, SEC EDGAR XBRL)</code><br>retrieved: 2026-10-27 07:56:03 UTC</p>
+<p>SQL:</p><pre>SELECT DISTINCT r.period_start, r.period_end, r.value_usd AS revenue, n.value_usd AS net_income FROM edgar.apple_revenue_table r JOIN edgar.apple_netincome_table n ON n.period_start = r.period_start AND n.period_end = r.period_end ORDER BY r.period_end</pre>
+<p>Row:</p><pre>{
+  &quot;period_start&quot;: &quot;2016-09-25&quot;,
+  &quot;period_end&quot;: &quot;2016-12-31&quot;,
+  &quot;revenue&quot;: &quot;78351000000&quot;,
+  &quot;net_income&quot;: &quot;17891000000&quot;
+}</pre>
+<p class='hash'>SHA-256: c754313bfb4dd5104f025ddc8a6e873c3b8627ef3f3f6cec7f8f31d15724e067</p>
+</div>
+</div>
+<div class="find">
+<h3>Finding <code>find_5766f0f92137</code></h3>
+<p>Apple Inc. 2017-01-01..2017-04-01 (quarterly period, 90 days): net margin = 0.2085 (net income 11,029,000,000 / revenue 52,896,000,000), computed by the agent from Zetaris evidence.</p>
+<div class="ev">
+<p><strong>Evidence</strong> <code>ev_a6bd1aa6e7d1</code> - source: <code>zetaris:edgar_company_facts (Revenue + NetIncomeLoss, SEC EDGAR XBRL)</code><br>retrieved: 2026-10-27 07:56:03 UTC</p>
+<p>SQL:</p><pre>SELECT DISTINCT r.period_start, r.period_end, r.value_usd AS revenue, n.value_usd AS net_income FROM edgar.apple_revenue_table r JOIN edgar.apple_netincome_table n ON n.period_start = r.period_start AND n.period_end = r.period_end ORDER BY r.period_end</pre>
+<p>Row:</p><pre>{
+  &quot;period_start&quot;: &quot;2017-01-01&quot;,
+  &quot;period_end&quot;: &quot;2017-04-01&quot;,
+  &quot;revenue&quot;: &quot;52896000000&quot;,
+  &quot;net_income&quot;: &quot;11029000000&quot;
+}</pre>
+<p class='hash'>SHA-256: 2fdb9a575c7bf04cfff6aac257cd09f84ccd66d748b12992ac9422d9e894737b</p>
+</div>
+</div>
+<div class="find">
+<h3>Finding <code>find_9b35cf607ca3</code></h3>
+<p>Apple Inc. 2017-04-02..2017-07-01 (quarterly period, 90 days): net margin = 0.1920 (net income 8,717,000,000 / revenue 45,408,000,000), computed by the agent from Zetaris evidence.</p>
+<div class="ev">
+<p><strong>Evidence</strong> <code>ev_671b4c51d58f</code> - source: <code>zetaris:edgar_company_facts (Revenue + NetIncomeLoss, SEC EDGAR XBRL)</code><br>retrieved: 2026-10-27 07:56:03 UTC</p>
+<p>SQL:</p><pre>SELECT DISTINCT r.period_start, r.period_end, r.value_usd AS revenue, n.value_usd AS net_income FROM edgar.apple_revenue_table r JOIN edgar.apple_netincome_table n ON n.period_start = r.period_start AND n.period_end = r.period_end ORDER BY r.period_end</pre>
+<p>Row:</p><pre>{
+  &quot;period_start&quot;: &quot;2017-04-02&quot;,
+  &quot;period_end&quot;: &quot;2017-07-01&quot;,
+  &quot;revenue&quot;: &quot;45408000000&quot;,
+  &quot;net_income&quot;: &quot;8717000000&quot;
+}</pre>
+<p class='hash'>SHA-256: b89f30639cc5cc6f96f43cd64bb7935b1003ff4fbc4a3d414b6fa67aabb9a5ee</p>
+</div>
+</div>
+<div class="find">
+<h3>Finding <code>find_61cfddb01217</code></h3>
+<p>Apple Inc. 2016-09-25..2017-09-30 (full-year period, 370 days): net margin = 0.2109 (net income 48,351,000,000 / revenue 229,234,000,000), computed by the agent from Zetaris evidence.</p>
+<div class="ev">
+<p><strong>Evidence</strong> <code>ev_260ba013ac82</code> - source: <code>zetaris:edgar_company_facts (Revenue + NetIncomeLoss, SEC EDGAR XBRL)</code><br>retrieved: 2026-10-27 07:56:03 UTC</p>
+<p>SQL:</p><pre>SELECT DISTINCT r.period_start, r.period_end, r.value_usd AS revenue, n.value_usd AS net_income FROM edgar.apple_revenue_table r JOIN edgar.apple_netincome_table n ON n.period_start = r.period_start AND n.period_end = r.period_end ORDER BY r.period_end</pre>
+<p>Row:</p><pre>{
+  &quot;period_start&quot;: &quot;2016-09-25&quot;,
+  &quot;period_end&quot;: &quot;2017-09-30&quot;,
+  &quot;revenue&quot;: &quot;229234000000&quot;,
+  &quot;net_income&quot;: &quot;48351000000&quot;
+}</pre>
+<p class='hash'>SHA-256: 5e6001cc4758f2de4c58156197458cee573beab8962b94611baba400cb5eb3ce</p>
+</div>
+</div>
+<div class="find">
+<h3>Finding <code>find_6e6f5b54949d</code></h3>
+<p>Apple Inc. 2017-07-02..2017-09-30 (quarterly period, 90 days): net margin = 0.2038 (net income 10,714,000,000 / revenue 52,579,000,000), computed by the agent from Zetaris evidence.</p>
+<div class="ev">
+<p><strong>Evidence</strong> <code>ev_9548be7c80c5</code> - source: <code>zetaris:edgar_company_facts (Revenue + NetIncomeLoss, SEC EDGAR XBRL)</code><br>retrieved: 2026-10-27 07:56:03 UTC</p>
+<p>SQL:</p><pre>SELECT DISTINCT r.period_start, r.period_end, r.value_usd AS revenue, n.value_usd AS net_income FROM edgar.apple_revenue_table r JOIN edgar.apple_netincome_table n ON n.period_start = r.period_start AND n.period_end = r.period_end ORDER BY r.period_end</pre>
+<p>Row:</p><pre>{
+  &quot;period_start&quot;: &quot;2017-07-02&quot;,
+  &quot;period_end&quot;: &quot;2017-09-30&quot;,
+  &quot;revenue&quot;: &quot;52579000000&quot;,
+  &quot;net_income&quot;: &quot;10714000000&quot;
+}</pre>
+<p class='hash'>SHA-256: 34fd03cea20e8940e2cdabbfa868b14b11db8c77575a9c5bc23f8e2ca218cb4d</p>
+</div>
+</div>
+<div class="find">
+<h3>Finding <code>find_18bfb163579f</code></h3>
+<p>Apple Inc. 2017-10-01..2017-12-30 (quarterly period, 90 days): net margin = 0.2273 (net income 20,065,000,000 / revenue 88,293,000,000), computed by the agent from Zetaris evidence.</p>
+<div class="ev">
+<p><strong>Evidence</strong> <code>ev_8c8372755a84</code> - source: <code>zetaris:edgar_company_facts (Revenue + NetIncomeLoss, SEC EDGAR XBRL)</code><br>retrieved: 2026-10-27 07:56:03 UTC</p>
+<p>SQL:</p><pre>SELECT DISTINCT r.period_start, r.period_end, r.value_usd AS revenue, n.value_usd AS net_income FROM edgar.apple_revenue_table r JOIN edgar.apple_netincome_table n ON n.period_start = r.period_start AND n.period_end = r.period_end ORDER BY r.period_end</pre>
+<p>Row:</p><pre>{
+  &quot;period_start&quot;: &quot;2017-10-01&quot;,
+  &quot;period_end&quot;: &quot;2017-12-30&quot;,
+  &quot;revenue&quot;: &quot;88293000000&quot;,
+  &quot;net_income&quot;: &quot;20065000000&quot;
+}</pre>
+<p class='hash'>SHA-256: 92da2c5001fe0a4915f4dbee43c8e7e388adfbf70b0c0e0befe08309a817c9c3</p>
+</div>
+</div>
+<div class="find">
+<h3>Finding <code>find_fef526cce442</code></h3>
+<p>Apple Inc. 2017-12-31..2018-03-31 (quarterly period, 90 days): net margin = 0.2261 (net income 13,822,000,000 / revenue 61,137,000,000), computed by the agent from Zetaris evidence.</p>
+<div class="ev">
+<p><strong>Evidence</strong> <code>ev_0948d79deb00</code> - source: <code>zetaris:edgar_company_facts (Revenue + NetIncomeLoss, SEC EDGAR XBRL)</code><br>retrieved: 2026-10-27 07:56:03 UTC</p>
+<p>SQL:</p><pre>SELECT DISTINCT r.period_start, r.period_end, r.value_usd AS revenue, n.value_usd AS net_income FROM edgar.apple_revenue_table r JOIN edgar.apple_netincome_table n ON n.period_start = r.period_start AND n.period_end = r.period_end ORDER BY r.period_end</pre>
+<p>Row:</p><pre>{
+  &quot;period_start&quot;: &quot;2017-12-31&quot;,
+  &quot;period_end&quot;: &quot;2018-03-31&quot;,
+  &quot;revenue&quot;: &quot;61137000000&quot;,
+  &quot;net_income&quot;: &quot;13822000000&quot;
+}</pre>
+<p class='hash'>SHA-256: f50f5067d3ebc263803da3b9570df9cbe5d53e9b507a50b1b2ba3c89cd4f5f14</p>
+</div>
+</div>
+<div class="find">
+<h3>Finding <code>find_a62c42f6d61a</code></h3>
+<p>Apple Inc. 2018-04-01..2018-06-30 (quarterly period, 90 days): net margin = 0.2163 (net income 11,519,000,000 / revenue 53,265,000,000), computed by the agent from Zetaris evidence.</p>
+<div class="ev">
+<p><strong>Evidence</strong> <code>ev_3f62ffcba673</code> - source: <code>zetaris:edgar_company_facts (Revenue + NetIncomeLoss, SEC EDGAR XBRL)</code><br>retrieved: 2026-10-27 07:56:03 UTC</p>
+<p>SQL:</p><pre>SELECT DISTINCT r.period_start, r.period_end, r.value_usd AS revenue, n.value_usd AS net_income FROM edgar.apple_revenue_table r JOIN edgar.apple_netincome_table n ON n.period_start = r.period_start AND n.period_end = r.period_end ORDER BY r.period_end</pre>
+<p>Row:</p><pre>{
+  &quot;period_start&quot;: &quot;2018-04-01&quot;,
+  &quot;period_end&quot;: &quot;2018-06-30&quot;,
+  &quot;revenue&quot;: &quot;53265000000&quot;,
+  &quot;net_income&quot;: &quot;11519000000&quot;
+}</pre>
+<p class='hash'>SHA-256: aba1c383a049ff2a8d06d9aa740be0d4c048925c4bdb9ab018ff8948d82aeb9e</p>
+</div>
+</div>
+<div class="find">
+<h3>Finding <code>find_0a7d31fdef24</code></h3>
+<p>Apple Inc. 2017-10-01..2018-09-29 (full-year period, 363 days): net margin = 0.2241 (net income 59,531,000,000 / revenue 265,595,000,000), computed by the agent from Zetaris evidence.</p>
+<div class="ev">
+<p><strong>Evidence</strong> <code>ev_1fe24ea960e7</code> - source: <code>zetaris:edgar_company_facts (Revenue + NetIncomeLoss, SEC EDGAR XBRL)</code><br>retrieved: 2026-10-27 07:56:03 UTC</p>
+<p>SQL:</p><pre>SELECT DISTINCT r.period_start, r.period_end, r.value_usd AS revenue, n.value_usd AS net_income FROM edgar.apple_revenue_table r JOIN edgar.apple_netincome_table n ON n.period_start = r.period_start AND n.period_end = r.period_end ORDER BY r.period_end</pre>
+<p>Row:</p><pre>{
+  &quot;period_start&quot;: &quot;2017-10-01&quot;,
+  &quot;period_end&quot;: &quot;2018-09-29&quot;,
+  &quot;revenue&quot;: &quot;265595000000&quot;,
+  &quot;net_income&quot;: &quot;59531000000&quot;
+}</pre>
+<p class='hash'>SHA-256: f3b043abf4c5204eaf6826b4bd7758ccd57ea09bda6ab5e0e9e503f2d051d38a</p>
+</div>
+</div>
+<div class="find">
+<h3>Finding <code>find_73c57459e4e1</code></h3>
+<p>Apple Inc. 2018-07-01..2018-09-29 (quarterly period, 90 days): net margin = 0.2246 (net income 14,125,000,000 / revenue 62,900,000,000), computed by the agent from Zetaris evidence.</p>
+<div class="ev">
+<p><strong>Evidence</strong> <code>ev_faad64f50146</code> - source: <code>zetaris:edgar_company_facts (Revenue + NetIncomeLoss, SEC EDGAR XBRL)</code><br>retrieved: 2026-10-27 07:56:03 UTC</p>
+<p>SQL:</p><pre>SELECT DISTINCT r.period_start, r.period_end, r.value_usd AS revenue, n.value_usd AS net_income FROM edgar.apple_revenue_table r JOIN edgar.apple_netincome_table n ON n.period_start = r.period_start AND n.period_end = r.period_end ORDER BY r.period_end</pre>
+<p>Row:</p><pre>{
+  &quot;period_start&quot;: &quot;2018-07-01&quot;,
+  &quot;period_end&quot;: &quot;2018-09-29&quot;,
+  &quot;revenue&quot;: &quot;62900000000&quot;,
+  &quot;net_income&quot;: &quot;14125000000&quot;
+}</pre>
+<p class='hash'>SHA-256: db567fbf3e951facd68a0962674d37f7b220d0c770daaf14115adda34d35c053</p>
+</div>
+</div>
+<div class="find">
+<h3>Finding <code>find_f06c3049aac0</code></h3>
+<p>Context from zetaris:edgar_company_facts_x_profiles: [{&quot;entity_name&quot;: &quot;Walmart Inc.&quot;, &quot;sic_code&quot;: &quot;5331&quot;, &quot;sic_description_reference&quot;: &quot;Variety Stores&quot;, &quot;period_end&quot;: &quot;2010-01-31&quot;, &quot;revenue&quot;: &quot;408214000000&quot;, &quot;fiscal_year&quot;: &quot;2009&quot;, &quot;fiscal_period&quot;: &quot;FY&quot;}, {&quot;entity_name&quot;: &quot;Walmart Inc.&quot;, &quot;sic_code&quot;: &quot;5331&quot;, &quot;sic_description_reference&quot;: &quot;Variety Stores&quot;, &quot;period_end&quot;: &quot;2009-01-31&quot;, &quot;revenue&quot;: &quot;404374000000&quot;, &quot;fiscal_year&quot;: &quot;2009&quot;, &quot;fiscal_period&quot;: &quot;FY&quot;}, {&quot;entity_name&quot;: &quot;Walmart Inc.&quot;, &quot;sic_code&quot;: &quot;5331&quot;, &quot;sic_description_reference&quot;: &quot;Variety Stores&quot;, &quot;period_end&quot;: &quot;2008-01-31&quot;, &quot;revenue&quot;: &quot;377023000000&quot;, &quot;fiscal_year&quot;: &quot;2009&quot;, &quot;fiscal_period&quot;: &quot;FY</p>
+<div class="ev">
+<p><strong>Evidence</strong> <code>ev_3d249f315a59</code> - source: <code>zetaris:edgar_company_facts_x_profiles</code><br>retrieved: 2026-10-27 07:56:02 UTC</p>
+<p>SQL:</p><pre>SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; ORDER BY fiscal_year, entity_name</pre>
+<p>Row:</p><pre>{
+  &quot;entity_name&quot;: &quot;Walmart Inc.&quot;,
+  &quot;sic_code&quot;: &quot;5331&quot;,
+  &quot;sic_description_reference&quot;: &quot;Variety Stores&quot;,
+  &quot;period_end&quot;: &quot;2010-01-31&quot;,
+  &quot;revenue&quot;: &quot;408214000000&quot;,
+  &quot;fiscal_year&quot;: &quot;2009&quot;,
+  &quot;fiscal_period&quot;: &quot;FY&quot;
+}</pre>
+<p class='hash'>SHA-256: fd291071fe1ca9afc4c9e7dbfa6985879176f1f83e5a4814c74d9eddef04b8e3</p>
+</div>
+<div class="ev">
+<p><strong>Evidence</strong> <code>ev_bb244748ccd1</code> - source: <code>zetaris:edgar_company_facts_x_profiles</code><br>retrieved: 2026-10-27 07:56:02 UTC</p>
+<p>SQL:</p><pre>SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; ORDER BY fiscal_year, entity_name</pre>
+<p>Row:</p><pre>{
+  &quot;entity_name&quot;: &quot;Walmart Inc.&quot;,
+  &quot;sic_code&quot;: &quot;5331&quot;,
+  &quot;sic_description_reference&quot;: &quot;Variety Stores&quot;,
+  &quot;period_end&quot;: &quot;2009-01-31&quot;,
+  &quot;revenue&quot;: &quot;404374000000&quot;,
+  &quot;fiscal_year&quot;: &quot;2009&quot;,
+  &quot;fiscal_period&quot;: &quot;FY&quot;
+}</pre>
+<p class='hash'>SHA-256: d1da5f12f5d421ec8068a8d835e0681be0b6ba12ec52996a39c5aae156db2977</p>
+</div>
+<div class="ev">
+<p><strong>Evidence</strong> <code>ev_a2f97786d14a</code> - source: <code>zetaris:edgar_company_facts_x_profiles</code><br>retrieved: 2026-10-27 07:56:02 UTC</p>
+<p>SQL:</p><pre>SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; ORDER BY fiscal_year, entity_name</pre>
+<p>Row:</p><pre>{
+  &quot;entity_name&quot;: &quot;Walmart Inc.&quot;,
+  &quot;sic_code&quot;: &quot;5331&quot;,
+  &quot;sic_description_reference&quot;: &quot;Variety Stores&quot;,
+  &quot;period_end&quot;: &quot;2008-01-31&quot;,
+  &quot;revenue&quot;: &quot;377023000000&quot;,
+  &quot;fiscal_year&quot;: &quot;2009&quot;,
+  &quot;fiscal_period&quot;: &quot;FY&quot;
+}</pre>
+<p class='hash'>SHA-256: 09c7d0cb591bf370b492c1f583444d5e79dec26b9b0d7e14d607eb773b997428</p>
+</div>
+<div class="ev">
+<p><strong>Evidence</strong> <code>ev_ea197de22204</code> - source: <code>zetaris:edgar_company_facts_x_profiles</code><br>retrieved: 2026-10-27 07:56:02 UTC</p>
+<p>SQL:</p><pre>SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; ORDER BY fiscal_year, entity_name</pre>
+<p>Row:</p><pre>{
+  &quot;entity_name&quot;: &quot;Walmart Inc.&quot;,
+  &quot;sic_code&quot;: &quot;5331&quot;,
+  &quot;sic_description_reference&quot;: &quot;Variety Stores&quot;,
+  &quot;period_end&quot;: &quot;2011-01-31&quot;,
+  &quot;revenue&quot;: &quot;421849000000&quot;,
+  &quot;fiscal_year&quot;: &quot;2010&quot;,
+  &quot;fiscal_period&quot;: &quot;FY&quot;
+}</pre>
+<p class='hash'>SHA-256: 158c3a339e933913edc4c2f4e33080d0ddd4cc7c988c2e5faa666d5911de0a58</p>
+</div>
+<div class="ev">
+<p><strong>Evidence</strong> <code>ev_a2aef544d0e5</code> - source: <code>zetaris:edgar_company_facts_x_profiles</code><br>retrieved: 2026-10-27 07:56:02 UTC</p>
+<p>SQL:</p><pre>SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; ORDER BY fiscal_year, entity_name</pre>
+<p>Row:</p><pre>{
+  &quot;entity_name&quot;: &quot;Walmart Inc.&quot;,
+  &quot;sic_code&quot;: &quot;5331&quot;,
+  &quot;sic_description_reference&quot;: &quot;Variety Stores&quot;,
+  &quot;period_end&quot;: &quot;2010-01-31&quot;,
+  &quot;revenue&quot;: &quot;408085000000&quot;,
+  &quot;fiscal_year&quot;: &quot;2010&quot;,
+  &quot;fiscal_period&quot;: &quot;FY&quot;
+}</pre>
+<p class='hash'>SHA-256: 9f4d297de7cbe2c884112137fe39b5f87280440e837584143b1b8b80fa25e6b6</p>
+</div>
+<div class="ev">
+<p><strong>Evidence</strong> <code>ev_89d005328e6a</code> - source: <code>zetaris:edgar_company_facts_x_profiles</code><br>retrieved: 2026-10-27 07:56:02 UTC</p>
+<p>SQL:</p><pre>SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; ORDER BY fiscal_year, entity_name</pre>
+<p>Row:</p><pre>{
+  &quot;entity_name&quot;: &quot;Walmart Inc.&quot;,
+  &quot;sic_code&quot;: &quot;5331&quot;,
+  &quot;sic_description_reference&quot;: &quot;Variety Stores&quot;,
+  &quot;period_end&quot;: &quot;2009-01-31&quot;,
+  &quot;revenue&quot;: &quot;404254000000&quot;,
+  &quot;fiscal_year&quot;: &quot;2010&quot;,
+  &quot;fiscal_period&quot;: &quot;FY&quot;
+}</pre>
+<p class='hash'>SHA-256: aedcfdeb8bb490ae6a94ce4403ebff330d5de8b54a9a8252519b9576ff73abba</p>
+</div>
+<div class="ev">
+<p><strong>Evidence</strong> <code>ev_a098fc8b5b9c</code> - source: <code>zetaris:edgar_company_facts_x_profiles</code><br>retrieved: 2026-10-27 07:56:02 UTC</p>
+<p>SQL:</p><pre>SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; ORDER BY fiscal_year, entity_name</pre>
+<p>Row:</p><pre>{
+  &quot;entity_name&quot;: &quot;Walmart Inc.&quot;,
+  &quot;sic_code&quot;: &quot;5331&quot;,
+  &quot;sic_description_reference&quot;: &quot;Variety Stores&quot;,
+  &quot;period_end&quot;: &quot;2012-01-31&quot;,
+  &quot;revenue&quot;: &quot;446950000000&quot;,
+  &quot;fiscal_year&quot;: &quot;2011&quot;,
+  &quot;fiscal_period&quot;: &quot;FY&quot;
+}</pre>
+<p class='hash'>SHA-256: cd19c3c903bd03b5e717df4890a5b412768a9840896e1ac88c734bc5274d280c</p>
+</div>
+<div class="ev">
+<p><strong>Evidence</strong> <code>ev_140d989de9b1</code> - source: <code>zetaris:edgar_company_facts_x_profiles</code><br>retrieved: 2026-10-27 07:56:02 UTC</p>
+<p>SQL:</p><pre>SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; ORDER BY fiscal_year, entity_name</pre>
+<p>Row:</p><pre>{
+  &quot;entity_name&quot;: &quot;Walmart Inc.&quot;,
+  &quot;sic_code&quot;: &quot;5331&quot;,
+  &quot;sic_description_reference&quot;: &quot;Variety Stores&quot;,
+  &quot;period_end&quot;: &quot;2011-01-31&quot;,
+  &quot;revenue&quot;: &quot;421849000000&quot;,
+  &quot;fiscal_year&quot;: &quot;2011&quot;,
+  &quot;fiscal_period&quot;: &quot;FY&quot;
+}</pre>
+<p class='hash'>SHA-256: cb96071277eacdbf06c9e085aa32516e41421543b1a3d82389f902e6727818c5</p>
+</div>
+<div class="ev">
+<p><strong>Evidence</strong> <code>ev_8568bf1630c4</code> - source: <code>zetaris:edgar_company_facts_x_profiles</code><br>retrieved: 2026-10-27 07:56:02 UTC</p>
+<p>SQL:</p><pre>SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; ORDER BY fiscal_year, entity_name</pre>
+<p>Row:</p><pre>{
+  &quot;entity_name&quot;: &quot;Walmart Inc.&quot;,
+  &quot;sic_code&quot;: &quot;5331&quot;,
+  &quot;sic_description_reference&quot;: &quot;Variety Stores&quot;,
+  &quot;period_end&quot;: &quot;2010-01-31&quot;,
+  &quot;revenue&quot;: &quot;408085000000&quot;,
+  &quot;fiscal_year&quot;: &quot;2011&quot;,
+  &quot;fiscal_period&quot;: &quot;FY&quot;
+}</pre>
+<p class='hash'>SHA-256: b99f349bf0d2895abb71c2f24e8873e45578c4f6d4966ff1a00edaf44ddbaf6e</p>
+</div>
+<div class="ev">
+<p><strong>Evidence</strong> <code>ev_6fbdda0e3459</code> - source: <code>zetaris:edgar_company_facts_x_profiles</code><br>retrieved: 2026-10-27 07:56:02 UTC</p>
+<p>SQL:</p><pre>SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; ORDER BY fiscal_year, entity_name</pre>
+<p>Row:</p><pre>{
+  &quot;entity_name&quot;: &quot;Walmart Inc.&quot;,
+  &quot;sic_code&quot;: &quot;5331&quot;,
+  &quot;sic_description_reference&quot;: &quot;Variety Stores&quot;,
+  &quot;period_end&quot;: &quot;2013-01-31&quot;,
+  &quot;revenue&quot;: &quot;127919000000&quot;,
+  &quot;fiscal_year&quot;: &quot;2012&quot;,
+  &quot;fiscal_period&quot;: &quot;FY&quot;
+}</pre>
+<p class='hash'>SHA-256: 86edf6d7956a6b8c507050938c39d81e81053ece740da5bee6bb18090d6ad7ef</p>
+</div>
+<div class="ev">
+<p><strong>Evidence</strong> <code>ev_584521c369ae</code> - source: <code>zetaris:edgar_company_facts_x_profiles</code><br>retrieved: 2026-10-27 07:56:02 UTC</p>
+<p>SQL:</p><pre>SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; ORDER BY fiscal_year, entity_name</pre>
+<p>Row:</p><pre>{
+  &quot;entity_name&quot;: &quot;Walmart Inc.&quot;,
+  &quot;sic_code&quot;: &quot;5331&quot;,
+  &quot;sic_description_reference&quot;: &quot;Variety Stores&quot;,
+  &quot;period_end&quot;: &quot;2013-01-31&quot;,
+  &quot;revenue&quot;: &quot;469162000000&quot;,
+  &quot;fiscal_year&quot;: &quot;2012&quot;,
+  &quot;fiscal_period&quot;: &quot;FY&quot;
+}</pre>
+<p class='hash'>SHA-256: 3ea6931c7d6860041529bd3fc7aafca9d1851a77967a222ac0eed9d09ef7a8c4</p>
+</div>
+<div class="ev">
+<p><strong>Evidence</strong> <code>ev_235ed4762b8f</code> - source: <code>zetaris:edgar_company_facts_x_profiles</code><br>retrieved: 2026-10-27 07:56:02 UTC</p>
+<p>SQL:</p><pre>SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; ORDER BY fiscal_year, entity_name</pre>
+<p>Row:</p><pre>{
+  &quot;entity_name&quot;: &quot;Walmart Inc.&quot;,
+  &quot;sic_code&quot;: &quot;5331&quot;,
+  &quot;sic_description_reference&quot;: &quot;Variety Stores&quot;,
+  &quot;period_end&quot;: &quot;2012-10-31&quot;,
+  &quot;revenue&quot;: &quot;113929000000&quot;,
+  &quot;fiscal_year&quot;: &quot;2012&quot;,
+  &quot;fiscal_period&quot;: &quot;FY&quot;
+}</pre>
+<p class='hash'>SHA-256: 06e1e6e0c67999e20b48a1d430bd83d648ed25c74153a2b00a88f85afc75e517</p>
+</div>
+<div class="ev">
+<p><strong>Evidence</strong> <code>ev_7adf12241886</code> - source: <code>zetaris:edgar_company_facts_x_profiles</code><br>retrieved: 2026-10-27 07:56:02 UTC</p>
+<p>SQL:</p><pre>SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; ORDER BY fiscal_year, entity_name</pre>
+<p>Row:</p><pre>{
+  &quot;entity_name&quot;: &quot;Walmart Inc.&quot;,
+  &quot;sic_code&quot;: &quot;5331&quot;,
+  &quot;sic_description_reference&quot;: &quot;Variety Stores&quot;,
+  &quot;period_end&quot;: &quot;2012-07-31&quot;,
+  &quot;revenue&quot;: &quot;114296000000&quot;,
+  &quot;fiscal_year&quot;: &quot;2012&quot;,
+  &quot;fiscal_period&quot;: &quot;FY&quot;
+}</pre>
+<p class='hash'>SHA-256: 8e8fa954d3b1c2bd371440033a0b1768b9351baf8c16e876d3ce38437542a38f</p>
+</div>
+<div class="ev">
+<p><strong>Evidence</strong> <code>ev_984deeb24564</code> - source: <code>zetaris:edgar_company_facts_x_profiles</code><br>retrieved: 2026-10-27 07:56:02 UTC</p>
+<p>SQL:</p><pre>SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; ORDER BY fiscal_year, entity_name</pre>
+<p>Row:</p><pre>{
+  &quot;entity_name&quot;: &quot;Walmart Inc.&quot;,
+  &quot;sic_code&quot;: &quot;5331&quot;,
+  &quot;sic_description_reference&quot;: &quot;Variety Stores&quot;,
+  &quot;period_end&quot;: &quot;2012-04-30&quot;,
+  &quot;revenue&quot;: &quot;113018000000&quot;,
+  &quot;fiscal_year&quot;: &quot;2012&quot;,
+  &quot;fiscal_period&quot;: &quot;FY&quot;
+}</pre>
+<p class='hash'>SHA-256: b1dd632ca77578d46609530e318b8dec794f482442c8639bd3f84ccd30a38421</p>
+</div>
+<div class="ev">
+<p><strong>Evidence</strong> <code>ev_69924df99b99</code> - source: <code>zetaris:edgar_company_facts_x_profiles</code><br>retrieved: 2026-10-27 07:56:02 UTC</p>
+<p>SQL:</p><pre>SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; ORDER BY fiscal_year, entity_name</pre>
+<p>Row:</p><pre>{
+  &quot;entity_name&quot;: &quot;Walmart Inc.&quot;,
+  &quot;sic_code&quot;: &quot;5331&quot;,
+  &quot;sic_description_reference&quot;: &quot;Variety Stores&quot;,
+  &quot;period_end&quot;: &quot;2012-01-31&quot;,
+  &quot;revenue&quot;: &quot;123169000000&quot;,
+  &quot;fiscal_year&quot;: &quot;2012&quot;,
+  &quot;fiscal_period&quot;: &quot;FY&quot;
+}</pre>
+<p class='hash'>SHA-256: 1022ab0e1abed90a209e8972f7e225654c2d72f29aa4c5db8b58833fb6900d15</p>
+</div>
+<div class="ev">
+<p><strong>Evidence</strong> <code>ev_d393feb3cbd3</code> - source: <code>zetaris:edgar_company_facts_x_profiles</code><br>retrieved: 2026-10-27 07:56:02 UTC</p>
+<p>SQL:</p><pre>SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; ORDER BY fiscal_year, entity_name</pre>
+<p>Row:</p><pre>{
+  &quot;entity_name&quot;: &quot;Walmart Inc.&quot;,
+  &quot;sic_code&quot;: &quot;5331&quot;,
+  &quot;sic_description_reference&quot;: &quot;Variety Stores&quot;,
+  &quot;period_end&quot;: &quot;2012-01-31&quot;,
+  &quot;revenue&quot;: &quot;446950000000&quot;,
+  &quot;fiscal_year&quot;: &quot;2012&quot;,
+  &quot;fiscal_period&quot;: &quot;FY&quot;
+}</pre>
+<p class='hash'>SHA-256: b25e8466ca358549ba8061b04567be9e0e3bff35faa78f38a88dac4d7686efe4</p>
+</div>
+<div class="ev">
+<p><strong>Evidence</strong> <code>ev_9953142a5789</code> - source: <code>zetaris:edgar_company_facts_x_profiles</code><br>retrieved: 2026-10-27 07:56:02 UTC</p>
+<p>SQL:</p><pre>SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; ORDER BY fiscal_year, entity_name</pre>
+<p>Row:</p><pre>{
+  &quot;entity_name&quot;: &quot;Walmart Inc.&quot;,
+  &quot;sic_code&quot;: &quot;5331&quot;,
+  &quot;sic_description_reference&quot;: &quot;Variety Stores&quot;,
+  &quot;period_end&quot;: &quot;2011-10-31&quot;,
+  &quot;revenue&quot;: &quot;110226000000&quot;,
+  &quot;fiscal_year&quot;: &quot;2012&quot;,
+  &quot;fiscal_period&quot;: &quot;FY&quot;
+}</pre>
+<p class='hash'>SHA-256: 6cdd12954feabfc6f5f29b19c69b9fb120d7f7157247f7ca556df03b3d3f50de</p>
+</div>
+<div class="ev">
+<p><strong>Evidence</strong> <code>ev_ae2a18d67b7c</code> - source: <code>zetaris:edgar_company_facts_x_profiles</code><br>retrieved: 2026-10-27 07:56:02 UTC</p>
+<p>SQL:</p><pre>SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; ORDER BY fiscal_year, entity_name</pre>
+<p>Row:</p><pre>{
+  &quot;entity_name&quot;: &quot;Walmart Inc.&quot;,
+  &quot;sic_code&quot;: &quot;5331&quot;,
+  &quot;sic_description_reference&quot;: &quot;Variety Stores&quot;,
+  &quot;period_end&quot;: &quot;2011-07-31&quot;,
+  &quot;revenue&quot;: &quot;109366000000&quot;,
+  &quot;fiscal_year&quot;: &quot;2012&quot;,
+  &quot;fiscal_period&quot;: &quot;FY&quot;
+}</pre>
+<p class='hash'>SHA-256: cc4e82d40388375b098d7b03ef177caaba91106cd1456368f78895d38c6ffa81</p>
+</div>
+<div class="ev">
+<p><strong>Evidence</strong> <code>ev_6f6ff9c3e269</code> - source: <code>zetaris:edgar_company_facts_x_profiles</code><br>retrieved: 2026-10-27 07:56:02 UTC</p>
+<p>SQL:</p><pre>SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; ORDER BY fiscal_year, entity_name</pre>
+<p>Row:</p><pre>{
+  &quot;entity_name&quot;: &quot;Walmart Inc.&quot;,
+  &quot;sic_code&quot;: &quot;5331&quot;,
+  &quot;sic_description_reference&quot;: &quot;Variety Stores&quot;,
+  &quot;period_end&quot;: &quot;2011-04-30&quot;,
+  &quot;revenue&quot;: &quot;104189000000&quot;,
+  &quot;fiscal_year&quot;: &quot;2012&quot;,
+  &quot;fiscal_period&quot;: &quot;FY&quot;
+}</pre>
+<p class='hash'>SHA-256: 95ea2bbb38060f6f542767b9342fb5d0408434e56c59e8d5b05a0e696c36e766</p>
+</div>
+<div class="ev">
+<p><strong>Evidence</strong> <code>ev_2b14297e28a4</code> - source: <code>zetaris:edgar_company_facts_x_profiles</code><br>retrieved: 2026-10-27 07:56:02 UTC</p>
+<p>SQL:</p><pre>SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; ORDER BY fiscal_year, entity_name</pre>
+<p>Row:</p><pre>{
+  &quot;entity_name&quot;: &quot;Walmart Inc.&quot;,
+  &quot;sic_code&quot;: &quot;5331&quot;,
+  &quot;sic_description_reference&quot;: &quot;Variety Stores&quot;,
+  &quot;period_end&quot;: &quot;2011-01-31&quot;,
+  &quot;revenue&quot;: &quot;421849000000&quot;,
+  &quot;fiscal_year&quot;: &quot;2012&quot;,
+  &quot;fiscal_period&quot;: &quot;FY&quot;
+}</pre>
+<p class='hash'>SHA-256: de6ca9c2376364118dbc60220f17162e75a13d9d580d87615032a2f71e800f24</p>
+</div>
+<div class="ev">
+<p><strong>Evidence</strong> <code>ev_bd4941fd1403</code> - source: <code>zetaris:edgar_company_facts_x_profiles</code><br>retrieved: 2026-10-27 07:56:02 UTC</p>
+<p>SQL:</p><pre>SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; ORDER BY fiscal_year, entity_name</pre>
+<p>Row:</p><pre>{
+  &quot;entity_name&quot;: &quot;Walmart Inc.&quot;,
+  &quot;sic_code&quot;: &quot;5331&quot;,
+  &quot;sic_description_reference&quot;: &quot;Variety Stores&quot;,
+  &quot;period_end&quot;: &quot;2014-01-31&quot;,
+  &quot;revenue&quot;: &quot;129706000000&quot;,
+  &quot;fiscal_year&quot;: &quot;2013&quot;,
+  &quot;fiscal_period&quot;: &quot;FY&quot;
+}</pre>
+<p class='hash'>SHA-256: 885cc6e7e02bc5941b7bd1119f03c3e4eb1fd4e77a24f35a7bc4311cbc2f3191</p>
+</div>
+<div class="ev">
+<p><strong>Evidence</strong> <code>ev_33a90b045452</code> - source: <code>zetaris:edgar_company_facts_x_profiles</code><br>retrieved: 2026-10-27 07:56:02 UTC</p>
+<p>SQL:</p><pre>SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; ORDER BY fiscal_year, entity_name</pre>
+<p>Row:</p><pre>{
+  &quot;entity_name&quot;: &quot;Walmart Inc.&quot;,
+  &quot;sic_code&quot;: &quot;5331&quot;,
+  &quot;sic_description_reference&quot;: &quot;Variety Stores&quot;,
+  &quot;period_end&quot;: &quot;2014-01-31&quot;,
+  &quot;revenue&quot;: &quot;476294000000&quot;,
+  &quot;fiscal_year&quot;: &quot;2013&quot;,
+  &quot;fiscal_period&quot;: &quot;FY&quot;
+}</pre>
+<p class='hash'>SHA-256: ba77e3386237130b7ec0a3d1a458ebd65b7f27157daf82bfd54387fe39f5523d</p>
+</div>
+<div class="ev">
+<p><strong>Evidence</strong> <code>ev_93d36c518867</code> - source: <code>zetaris:edgar_company_facts_x_profiles</code><br>retrieved: 2026-10-27 07:56:02 UTC</p>
+<p>SQL:</p><pre>SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; ORDER BY fiscal_year, entity_name</pre>
+<p>Row:</p><pre>{
+  &quot;entity_name&quot;: &quot;Walmart Inc.&quot;,
+  &quot;sic_code&quot;: &quot;5331&quot;,
+  &quot;sic_description_reference&quot;: &quot;Variety Stores&quot;,
+  &quot;period_end&quot;: &quot;2013-10-31&quot;,
+  &quot;revenue&quot;: &quot;115688000000&quot;,
+  &quot;fiscal_year&quot;: &quot;2013&quot;,
+  &quot;fiscal_period&quot;: &quot;FY&quot;
+}</pre>
+<p class='hash'>SHA-256: 0718a29db179017b83f79b64d4d9f9e4640cb41adbd0e053a9bf7e5956123477</p>
+</div>
+<div class="ev">
+<p><strong>Evidence</strong> <code>ev_37ef276e5ab7</code> - source: <code>zetaris:edgar_company_facts_x_profiles</code><br>retrieved: 2026-10-27 07:56:02 UTC</p>
+<p>SQL:</p><pre>SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; ORDER BY fiscal_year, entity_name</pre>
+<p>Row:</p><pre>{
+  &quot;entity_name&quot;: &quot;Walmart Inc.&quot;,
+  &quot;sic_code&quot;: &quot;5331&quot;,
+  &quot;sic_description_reference&quot;: &quot;Variety Stores&quot;,
+  &quot;period_end&quot;: &quot;2013-07-31&quot;,
+  &quot;revenue&quot;: &quot;116829000000&quot;,
+  &quot;fiscal_year&quot;: &quot;2013&quot;,
+  &quot;fiscal_period&quot;: &quot;FY&quot;
+}</pre>
+<p class='hash'>SHA-256: c4798545776b375c89197059ce0a9622fc83f76c7577d2f94ce5d5071cf46217</p>
+</div>
+<div class="ev">
+<p><strong>Evidence</strong> <code>ev_d3d7d47eed4b</code> - source: <code>zetaris:edgar_company_facts_x_profiles</code><br>retrieved: 2026-10-27 07:56:02 UTC</p>
+<p>SQL:</p><pre>SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; ORDER BY fiscal_year, entity_name</pre>
+<p>Row:</p><pre>{
+  &quot;entity_name&quot;: &quot;Walmart Inc.&quot;,
+  &quot;sic_code&quot;: &quot;5331&quot;,
+  &quot;sic_description_reference&quot;: &quot;Variety Stores&quot;,
+  &quot;period_end&quot;: &quot;2013-04-30&quot;,
+  &quot;revenue&quot;: &quot;114071000000&quot;,
+  &quot;fiscal_year&quot;: &quot;2013&quot;,
+  &quot;fiscal_period&quot;: &quot;FY&quot;
+}</pre>
+<p class='hash'>SHA-256: f18794434aef4e88d1682b55ec85ab8d9d2a7f2f2d66c5a0c3aa14448c96f205</p>
+</div>
+<div class="ev">
+<p><strong>Evidence</strong> <code>ev_a5e193967304</code> - source: <code>zetaris:edgar_company_facts_x_profiles</code><br>retrieved: 2026-10-27 07:56:02 UTC</p>
+<p>SQL:</p><pre>SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; ORDER BY fiscal_year, entity_name</pre>
+<p>Row:</p><pre>{
+  &quot;entity_name&quot;: &quot;Walmart Inc.&quot;,
+  &quot;sic_code&quot;: &quot;5331&quot;,
+  &quot;sic_description_reference&quot;: &quot;Variety Stores&quot;,
+  &quot;period_end&quot;: &quot;2013-01-31&quot;,
+  &quot;revenue&quot;: &quot;127776000000&quot;,
+  &quot;fiscal_year&quot;: &quot;2013&quot;,
+  &quot;fiscal_period&quot;: &quot;FY&quot;
+}</pre>
+<p class='hash'>SHA-256: f8d878410b006225938f4b93ef83ca70ac099a1dbf51ae8badbc77385bcb103f</p>
+</div>
+<div class="ev">
+<p><strong>Evidence</strong> <code>ev_2cfb5d970072</code> - source: <code>zetaris:edgar_company_facts_x_profiles</code><br>retrieved: 2026-10-27 07:56:02 UTC</p>
+<p>SQL:</p><pre>SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; ORDER BY fiscal_year, entity_name</pre>
+<p>Row:</p><pre>{
+  &quot;entity_name&quot;: &quot;Walmart Inc.&quot;,
+  &quot;sic_code&quot;: &quot;5331&quot;,
+  &quot;sic_description_reference&quot;: &quot;Variety Stores&quot;,
+  &quot;period_end&quot;: &quot;2013-01-31&quot;,
+  &quot;revenue&quot;: &quot;468651000000&quot;,
+  &quot;fiscal_year&quot;: &quot;2013&quot;,
+  &quot;fiscal_period&quot;: &quot;FY&quot;
+}</pre>
+<p class='hash'>SHA-256: 341734c5a3eaa72eb58029de628bbb2093bd578612652105196cf66825cd3be9</p>
+</div>
+<div class="ev">
+<p><strong>Evidence</strong> <code>ev_18cbdcd7acfa</code> - source: <code>zetaris:edgar_company_facts_x_profiles</code><br>retrieved: 2026-10-27 07:56:02 UTC</p>
+<p>SQL:</p><pre>SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; ORDER BY fiscal_year, entity_name</pre>
+<p>Row:</p><pre>{
+  &quot;entity_name&quot;: &quot;Walmart Inc.&quot;,
+  &quot;sic_code&quot;: &quot;5331&quot;,
+  &quot;sic_description_reference&quot;: &quot;Variety Stores&quot;,
+  &quot;period_end&quot;: &quot;2012-10-31&quot;,
+  &quot;revenue&quot;: &quot;113800000000&quot;,
+  &quot;fiscal_year&quot;: &quot;2013&quot;,
+  &quot;fiscal_period&quot;: &quot;FY&quot;
+}</pre>
+<p class='hash'>SHA-256: 1cc4bee26a8a3037f51490f82f803f8d0fb21dec595917e88c21c1bba52f74ee</p>
+</div>
+<div class="ev">
+<p><strong>Evidence</strong> <code>ev_864f1a564348</code> - source: <code>zetaris:edgar_company_facts_x_profiles</code><br>retrieved: 2026-10-27 07:56:02 UTC</p>
+<p>SQL:</p><pre>SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; ORDER BY fiscal_year, entity_name</pre>
+<p>Row:</p><pre>{
+  &quot;entity_name&quot;: &quot;Walmart Inc.&quot;,
+  &quot;sic_code&quot;: &quot;5331&quot;,
+  &quot;sic_description_reference&quot;: &quot;Variety Stores&quot;,
+  &quot;period_end&quot;: &quot;2012-07-31&quot;,
+  &quot;revenue&quot;: &quot;114174000000&quot;,
+  &quot;fiscal_year&quot;: &quot;2013&quot;,
+  &quot;fiscal_period&quot;: &quot;FY&quot;
+}</pre>
+<p class='hash'>SHA-256: 6b0f4305fe50555eacac371e5f096ab8eca43922d3898ac9ae050ebca3cb112c</p>
+</div>
+<div class="ev">
+<p><strong>Evidence</strong> <code>ev_c99a2bc00f23</code> - source: <code>zetaris:edgar_company_facts_x_profiles</code><br>retrieved: 2026-10-27 07:56:02 UTC</p>
+<p>SQL:</p><pre>SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; ORDER BY fiscal_year, entity_name</pre>
+<p>Row:</p><pre>{
+  &quot;entity_name&quot;: &quot;Walmart Inc.&quot;,
+  &quot;sic_code&quot;: &quot;5331&quot;,
+  &quot;sic_description_reference&quot;: &quot;Variety Stores&quot;,
+  &quot;period_end&quot;: &quot;2012-04-30&quot;,
+  &quot;revenue&quot;: &quot;112901000000&quot;,
+  &quot;fiscal_year&quot;: &quot;2013&quot;,
+  &quot;fiscal_period&quot;: &quot;FY&quot;
+}</pre>
+<p class='hash'>SHA-256: 41c76d9da3e8a7dcd5fbed32d7f455ecb6e4cd9eb5d05736633b61e6561e7bac</p>
+</div>
+<div class="ev">
+<p><strong>Evidence</strong> <code>ev_5d64e485ea90</code> - source: <code>zetaris:edgar_company_facts_x_profiles</code><br>retrieved: 2026-10-27 07:56:02 UTC</p>
+<p>SQL:</p><pre>SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; ORDER BY fiscal_year, entity_name</pre>
+<p>Row:</p><pre>{
+  &quot;entity_name&quot;: &quot;Walmart Inc.&quot;,
+  &quot;sic_code&quot;: &quot;5331&quot;,
+  &quot;sic_description_reference&quot;: &quot;Variety Stores&quot;,
+  &quot;period_end&quot;: &quot;2012-01-31&quot;,
+  &quot;revenue&quot;: &quot;446509000000&quot;,
+  &quot;fiscal_year&quot;: &quot;2013&quot;,
+  &quot;fiscal_period&quot;: &quot;FY&quot;
+}</pre>
+<p class='hash'>SHA-256: f0ddf6521261f856d9db97fe779a8f470e3fe8977aa964ac88df694c352c5d59</p>
+</div>
+<div class="ev">
+<p><strong>Evidence</strong> <code>ev_b92a0ca88905</code> - source: <code>zetaris:edgar_company_facts_x_profiles</code><br>retrieved: 2026-10-27 07:56:02 UTC</p>
+<p>SQL:</p><pre>SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; ORDER BY fiscal_year, entity_name</pre>
+<p>Row:</p><pre>{
+  &quot;entity_name&quot;: &quot;Walmart Inc.&quot;,
+  &quot;sic_code&quot;: &quot;5331&quot;,
+  &quot;sic_description_reference&quot;: &quot;Variety Stores&quot;,
+  &quot;period_end&quot;: &quot;2015-01-31&quot;,
+  &quot;revenue&quot;: &quot;131565000000&quot;,
+  &quot;fiscal_year&quot;: &quot;2015&quot;,
+  &quot;fiscal_period&quot;: &quot;FY&quot;
+}</pre>
+<p class='hash'>SHA-256: 15a870e5bfde33cdd2a91fbb51ab9f28fd51aca8ef02419f7bf3ce827de8222a</p>
+</div>
+<div class="ev">
+<p><strong>Evidence</strong> <code>ev_5b18847f0784</code> - source: <code>zetaris:edgar_company_facts_x_profiles</code><br>retrieved: 2026-10-27 07:56:02 UTC</p>
+<p>SQL:</p><pre>SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; ORDER BY fiscal_year, entity_name</pre>
+<p>Row:</p><pre>{
+  &quot;entity_name&quot;: &quot;Walmart Inc.&quot;,
+  &quot;sic_code&quot;: &quot;5331&quot;,
+  &quot;sic_description_reference&quot;: &quot;Variety Stores&quot;,
+  &quot;period_end&quot;: &quot;2015-01-31&quot;,
+  &quot;revenue&quot;: &quot;485651000000&quot;,
+  &quot;fiscal_year&quot;: &quot;2015&quot;,
+  &quot;fiscal_period&quot;: &quot;FY&quot;
+}</pre>
+<p class='hash'>SHA-256: d6c79d5903c6c7203a519e6094e27ec9ea90cdecf303847a95d5a7a6fac93a82</p>
+</div>
+<div class="ev">
+<p><strong>Evidence</strong> <code>ev_9b10345ac024</code> - source: <code>zetaris:edgar_company_facts_x_profiles</code><br>retrieved: 2026-10-27 07:56:02 UTC</p>
+<p>SQL:</p><pre>SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; ORDER BY fiscal_year, entity_name</pre>
+<p>Row:</p><pre>{
+  &quot;entity_name&quot;: &quot;Walmart Inc.&quot;,
+  &quot;sic_code&quot;: &quot;5331&quot;,
+  &quot;sic_description_reference&quot;: &quot;Variety Stores&quot;,
+  &quot;period_end&quot;: &quot;2014-10-31&quot;,
+  &quot;revenue&quot;: &quot;119001000000&quot;,
+  &quot;fiscal_year&quot;: &quot;2015&quot;,
+  &quot;fiscal_period&quot;: &quot;FY&quot;
+}</pre>
+<p class='hash'>SHA-256: f08b80a859f73a30081e4e960ed1c9e8825edb00d294404811553dbff1f22920</p>
+</div>
+<div class="ev">
+<p><strong>Evidence</strong> <code>ev_efd18af7061a</code> - source: <code>zetaris:edgar_company_facts_x_profiles</code><br>retrieved: 2026-10-27 07:56:02 UTC</p>
+<p>SQL:</p><pre>SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; ORDER BY fiscal_year, entity_name</pre>
+<p>Row:</p><pre>{
+  &quot;entity_name&quot;: &quot;Walmart Inc.&quot;,
+  &quot;sic_code&quot;: &quot;5331&quot;,
+  &quot;sic_description_reference&quot;: &quot;Variety Stores&quot;,
+  &quot;period_end&quot;: &quot;2014-07-31&quot;,
+  &quot;revenue&quot;: &quot;120125000000&quot;,
+  &quot;fiscal_year&quot;: &quot;2015&quot;,
+  &quot;fiscal_period&quot;: &quot;FY&quot;
+}</pre>
+<p class='hash'>SHA-256: be4ea361dc1678cf45c0800c4b25acf1d51e7be951b5ae018ebed5d7600ba3b8</p>
+</div>
+<div class="ev">
+<p><strong>Evidence</strong> <code>ev_5fc0ca3222e6</code> - source: <code>zetaris:edgar_company_facts_x_profiles</code><br>retrieved: 2026-10-27 07:56:02 UTC</p>
+<p>SQL:</p><pre>SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; ORDER BY fiscal_year, entity_name</pre>
+<p>Row:</p><pre>{
+  &quot;entity_name&quot;: &quot;Walmart Inc.&quot;,
+  &quot;sic_code&quot;: &quot;5331&quot;,
+  &quot;sic_description_reference&quot;: &quot;Variety Stores&quot;,
+  &quot;period_end&quot;: &quot;2014-04-30&quot;,
+  &quot;revenue&quot;: &quot;114960000000&quot;,
+  &quot;fiscal_year&quot;: &quot;2015&quot;,
+  &quot;fiscal_period&quot;: &quot;FY&quot;
+}</pre>
+<p class='hash'>SHA-256: 0243d3b1ee3afd8040c9fbfcac1529711c67f10a725eaa0875b81ac619b68731</p>
+</div>
+<div class="ev">
+<p><strong>Evidence</strong> <code>ev_0d4ede6491e1</code> - source: <code>zetaris:edgar_company_facts_x_profiles</code><br>retrieved: 2026-10-27 07:56:02 UTC</p>
+<p>SQL:</p><pre>SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; ORDER BY fiscal_year, entity_name</pre>
+<p>Row:</p><pre>{
+  &quot;entity_name&quot;: &quot;Walmart Inc.&quot;,
+  &quot;sic_code&quot;: &quot;5331&quot;,
+  &quot;sic_description_reference&quot;: &quot;Variety Stores&quot;,
+  &quot;period_end&quot;: &quot;2014-01-31&quot;,
+  &quot;revenue&quot;: &quot;129706000000&quot;,
+  &quot;fiscal_year&quot;: &quot;2015&quot;,
+  &quot;fiscal_period&quot;: &quot;FY&quot;
+}</pre>
+<p class='hash'>SHA-256: e2d6a202d74871590a336b03e4fdc53e0e94ee574afec9dafd332e23654f1ab7</p>
+</div>
+<div class="ev">
+<p><strong>Evidence</strong> <code>ev_a73d650b8bac</code> - source: <code>zetaris:edgar_company_facts_x_profiles</code><br>retrieved: 2026-10-27 07:56:02 UTC</p>
+<p>SQL:</p><pre>SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; ORDER BY fiscal_year, entity_name</pre>
+<p>Row:</p><pre>{
+  &quot;entity_name&quot;: &quot;Walmart Inc.&quot;,
+  &quot;sic_code&quot;: &quot;5331&quot;,
+  &quot;sic_description_reference&quot;: &quot;Variety Stores&quot;,
+  &quot;period_end&quot;: &quot;2014-01-31&quot;,
+  &quot;revenue&quot;: &quot;476294000000&quot;,
+  &quot;fiscal_year&quot;: &quot;2015&quot;,
+  &quot;fiscal_period&quot;: &quot;FY&quot;
+}</pre>
+<p class='hash'>SHA-256: 932a7781fd241d5d7177df3529eda8e358494b7d7443a23a055f5f1e4f2ceb9f</p>
+</div>
+<div class="ev">
+<p><strong>Evidence</strong> <code>ev_87740db4eb12</code> - source: <code>zetaris:edgar_company_facts_x_profiles</code><br>retrieved: 2026-10-27 07:56:02 UTC</p>
+<p>SQL:</p><pre>SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; ORDER BY fiscal_year, entity_name</pre>
+<p>Row:</p><pre>{
+  &quot;entity_name&quot;: &quot;Walmart Inc.&quot;,
+  &quot;sic_code&quot;: &quot;5331&quot;,
+  &quot;sic_description_reference&quot;: &quot;Variety Stores&quot;,
+  &quot;period_end&quot;: &quot;2013-10-31&quot;,
+  &quot;revenue&quot;: &quot;115688000000&quot;,
+  &quot;fiscal_year&quot;: &quot;2015&quot;,
+  &quot;fiscal_period&quot;: &quot;FY&quot;
+}</pre>
+<p class='hash'>SHA-256: d67e3b302cabdaa2624681b727d4d081cdea5e894625a78817548685d84faa8b</p>
+</div>
+<div class="ev">
+<p><strong>Evidence</strong> <code>ev_d395197b2e0c</code> - source: <code>zetaris:edgar_company_facts_x_profiles</code><br>retrieved: 2026-10-27 07:56:02 UTC</p>
+<p>SQL:</p><pre>SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; ORDER BY fiscal_year, entity_name</pre>
+<p>Row:</p><pre>{
+  &quot;entity_name&quot;: &quot;Walmart Inc.&quot;,
+  &quot;sic_code&quot;: &quot;5331&quot;,
+  &quot;sic_description_reference&quot;: &quot;Variety Stores&quot;,
+  &quot;period_end&quot;: &quot;2013-07-31&quot;,
+  &quot;revenue&quot;: &quot;116829000000&quot;,
+  &quot;fiscal_year&quot;: &quot;2015&quot;,
+  &quot;fiscal_period&quot;: &quot;FY&quot;
+}</pre>
+<p class='hash'>SHA-256: 1682851e560911192491903bb311f0baddc7406b1dea5da52b4e61186316c713</p>
+</div>
+<div class="ev">
+<p><strong>Evidence</strong> <code>ev_bd62f6746339</code> - source: <code>zetaris:edgar_company_facts_x_profiles</code><br>retrieved: 2026-10-27 07:56:02 UTC</p>
+<p>SQL:</p><pre>SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; ORDER BY fiscal_year, entity_name</pre>
+<p>Row:</p><pre>{
+  &quot;entity_name&quot;: &quot;Walmart Inc.&quot;,
+  &quot;sic_code&quot;: &quot;5331&quot;,
+  &quot;sic_description_reference&quot;: &quot;Variety Stores&quot;,
+  &quot;period_end&quot;: &quot;2013-04-30&quot;,
+  &quot;revenue&quot;: &quot;114071000000&quot;,
+  &quot;fiscal_year&quot;: &quot;2015&quot;,
+  &quot;fiscal_period&quot;: &quot;FY&quot;
+}</pre>
+<p class='hash'>SHA-256: 08d656e27601a3824db779cca3337768f9bec08f744f5aabf3d96283a1fbe27e</p>
+</div>
+<div class="ev">
+<p><strong>Evidence</strong> <code>ev_feb38b260c26</code> - source: <code>zetaris:edgar_company_facts_x_profiles</code><br>retrieved: 2026-10-27 07:56:02 UTC</p>
+<p>SQL:</p><pre>SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; ORDER BY fiscal_year, entity_name</pre>
+<p>Row:</p><pre>{
+  &quot;entity_name&quot;: &quot;Walmart Inc.&quot;,
+  &quot;sic_code&quot;: &quot;5331&quot;,
+  &quot;sic_description_reference&quot;: &quot;Variety Stores&quot;,
+  &quot;period_end&quot;: &quot;2013-01-31&quot;,
+  &quot;revenue&quot;: &quot;468651000000&quot;,
+  &quot;fiscal_year&quot;: &quot;2015&quot;,
+  &quot;fiscal_period&quot;: &quot;FY&quot;
+}</pre>
+<p class='hash'>SHA-256: d281733682aa17735d5d325fd2543d82b61fa667b05490af0e4a8194b2363e73</p>
+</div>
+<div class="ev">
+<p><strong>Evidence</strong> <code>ev_f5debe9508d8</code> - source: <code>zetaris:edgar_company_facts_x_profiles</code><br>retrieved: 2026-10-27 07:56:02 UTC</p>
+<p>SQL:</p><pre>SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; ORDER BY fiscal_year, entity_name</pre>
+<p>Row:</p><pre>{
+  &quot;entity_name&quot;: &quot;Walmart Inc.&quot;,
+  &quot;sic_code&quot;: &quot;5331&quot;,
+  &quot;sic_description_reference&quot;: &quot;Variety Stores&quot;,
+  &quot;period_end&quot;: &quot;2016-01-31&quot;,
+  &quot;revenue&quot;: &quot;129667000000&quot;,
+  &quot;fiscal_year&quot;: &quot;2016&quot;,
+  &quot;fiscal_period&quot;: &quot;FY&quot;
+}</pre>
+<p class='hash'>SHA-256: 1df916180b1e46d2756afb36587ded6805245433111f91937dbe173ef171b72a</p>
+</div>
+<div class="ev">
+<p><strong>Evidence</strong> <code>ev_ec1b11827cb6</code> - source: <code>zetaris:edgar_company_facts_x_profiles</code><br>retrieved: 2026-10-27 07:56:02 UTC</p>
+<p>SQL:</p><pre>SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; ORDER BY fiscal_year, entity_name</pre>
+<p>Row:</p><pre>{
+  &quot;entity_name&quot;: &quot;Walmart Inc.&quot;,
+  &quot;sic_code&quot;: &quot;5331&quot;,
+  &quot;sic_description_reference&quot;: &quot;Variety Stores&quot;,
+  &quot;period_end&quot;: &quot;2016-01-31&quot;,
+  &quot;revenue&quot;: &quot;482130000000&quot;,
+  &quot;fiscal_year&quot;: &quot;2016&quot;,
+  &quot;fiscal_period&quot;: &quot;FY&quot;
+}</pre>
+<p class='hash'>SHA-256: 761e861bf1aaadf8d749edddf6a474f222678046576f542c5af9c30150be3ff5</p>
+</div>
+<div class="ev">
+<p><strong>Evidence</strong> <code>ev_bcf7980dfb0e</code> - source: <code>zetaris:edgar_company_facts_x_profiles</code><br>retrieved: 2026-10-27 07:56:02 UTC</p>
+<p>SQL:</p><pre>SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; ORDER BY fiscal_year, entity_name</pre>
+<p>Row:</p><pre>{
+  &quot;entity_name&quot;: &quot;Walmart Inc.&quot;,
+  &quot;sic_code&quot;: &quot;5331&quot;,
+  &quot;sic_description_reference&quot;: &quot;Variety Stores&quot;,
+  &quot;period_end&quot;: &quot;2015-10-31&quot;,
+  &quot;revenue&quot;: &quot;117408000000&quot;,
+  &quot;fiscal_year&quot;: &quot;2016&quot;,
+  &quot;fiscal_period&quot;: &quot;FY&quot;
+}</pre>
+<p class='hash'>SHA-256: 453f1900f25867292bb4a52a5b698ce3df616ec4ceddd8256be92ae7c38cc1aa</p>
+</div>
+<div class="ev">
+<p><strong>Evidence</strong> <code>ev_42257ca5ae9c</code> - source: <code>zetaris:edgar_company_facts_x_profiles</code><br>retrieved: 2026-10-27 07:56:02 UTC</p>
+<p>SQL:</p><pre>SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; ORDER BY fiscal_year, entity_name</pre>
+<p>Row:</p><pre>{
+  &quot;entity_name&quot;: &quot;Walmart Inc.&quot;,
+  &quot;sic_code&quot;: &quot;5331&quot;,
+  &quot;sic_description_reference&quot;: &quot;Variety Stores&quot;,
+  &quot;period_end&quot;: &quot;2015-07-31&quot;,
+  &quot;revenue&quot;: &quot;120229000000&quot;,
+  &quot;fiscal_year&quot;: &quot;2016&quot;,
+  &quot;fiscal_period&quot;: &quot;FY&quot;
+}</pre>
+<p class='hash'>SHA-256: febe9c94185b3a1e85ca40148f1c0ff150e1a0243ecfe0741d31d7aafc54bf35</p>
+</div>
+<div class="ev">
+<p><strong>Evidence</strong> <code>ev_02386b81cac7</code> - source: <code>zetaris:edgar_company_facts_x_profiles</code><br>retrieved: 2026-10-27 07:56:02 UTC</p>
+<p>SQL:</p><pre>SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; ORDER BY fiscal_year, entity_name</pre>
+<p>Row:</p><pre>{
+  &quot;entity_name&quot;: &quot;Walmart Inc.&quot;,
+  &quot;sic_code&quot;: &quot;5331&quot;,
+  &quot;sic_description_reference&quot;: &quot;Variety Stores&quot;,
+  &quot;period_end&quot;: &quot;2015-04-30&quot;,
+  &quot;revenue&quot;: &quot;114826000000&quot;,
+  &quot;fiscal_year&quot;: &quot;2016&quot;,
+  &quot;fiscal_period&quot;: &quot;FY&quot;
+}</pre>
+<p class='hash'>SHA-256: 6141352b5986c097ebbd282a274aaee49aa9a10071d814299914a19261dc1cae</p>
+</div>
+<div class="ev">
+<p><strong>Evidence</strong> <code>ev_3a8c9ff509f9</code> - source: <code>zetaris:edgar_company_facts_x_profiles</code><br>retrieved: 2026-10-27 07:56:02 UTC</p>
+<p>SQL:</p><pre>SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; ORDER BY fiscal_year, entity_name</pre>
+<p>Row:</p><pre>{
+  &quot;entity_name&quot;: &quot;Walmart Inc.&quot;,
+  &quot;sic_code&quot;: &quot;5331&quot;,
+  &quot;sic_description_reference&quot;: &quot;Variety Stores&quot;,
+  &quot;period_end&quot;: &quot;2015-01-31&quot;,
+  &quot;revenue&quot;: &quot;131565000000&quot;,
+  &quot;fiscal_year&quot;: &quot;2016&quot;,
+  &quot;fiscal_period&quot;: &quot;FY&quot;
+}</pre>
+<p class='hash'>SHA-256: 35b04e66c7d64a013e2a34b91871d4800432b1aad3b10beb7acfd8fbbf0f693c</p>
+</div>
+<div class="ev">
+<p><strong>Evidence</strong> <code>ev_3d98ba6a144d</code> - source: <code>zetaris:edgar_company_facts_x_profiles</code><br>retrieved: 2026-10-27 07:56:02 UTC</p>
+<p>SQL:</p><pre>SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; ORDER BY fiscal_year, entity_name</pre>
+<p>Row:</p><pre>{
+  &quot;entity_name&quot;: &quot;Walmart Inc.&quot;,
+  &quot;sic_code&quot;: &quot;5331&quot;,
+  &quot;sic_description_reference&quot;: &quot;Variety Stores&quot;,
+  &quot;period_end&quot;: &quot;2015-01-31&quot;,
+  &quot;revenue&quot;: &quot;485651000000&quot;,
+  &quot;fiscal_year&quot;: &quot;2016&quot;,
+  &quot;fiscal_period&quot;: &quot;FY&quot;
+}</pre>
+<p class='hash'>SHA-256: 6c1677db06c425979b7460a6b7c1cfb6057e39c9374ffae74197ae398e99196b</p>
+</div>
+<div class="ev">
+<p><strong>Evidence</strong> <code>ev_1bc65276edb4</code> - source: <code>zetaris:edgar_company_facts_x_profiles</code><br>retrieved: 2026-10-27 07:56:02 UTC</p>
+<p>SQL:</p><pre>SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; ORDER BY fiscal_year, entity_name</pre>
+<p>Row:</p><pre>{
+  &quot;entity_name&quot;: &quot;Walmart Inc.&quot;,
+  &quot;sic_code&quot;: &quot;5331&quot;,
+  &quot;sic_description_reference&quot;: &quot;Variety Stores&quot;,
+  &quot;period_end&quot;: &quot;2014-10-31&quot;,
+  &quot;revenue&quot;: &quot;119001000000&quot;,
+  &quot;fiscal_year&quot;: &quot;2016&quot;,
+  &quot;fiscal_period&quot;: &quot;FY&quot;
+}</pre>
+<p class='hash'>SHA-256: 3a0cd0d281233fc508e1f9187bc86f379d5948ba116ef4a7cd9a3e792e5dc6c2</p>
+</div>
+<div class="ev">
+<p><strong>Evidence</strong> <code>ev_042fe869ee68</code> - source: <code>zetaris:edgar_company_facts_x_profiles</code><br>retrieved: 2026-10-27 07:56:02 UTC</p>
+<p>SQL:</p><pre>SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; ORDER BY fiscal_year, entity_name</pre>
+<p>Row:</p><pre>{
+  &quot;entity_name&quot;: &quot;Walmart Inc.&quot;,
+  &quot;sic_code&quot;: &quot;5331&quot;,
+  &quot;sic_description_reference&quot;: &quot;Variety Stores&quot;,
+  &quot;period_end&quot;: &quot;2014-07-31&quot;,
+  &quot;revenue&quot;: &quot;120125000000&quot;,
+  &quot;fiscal_year&quot;: &quot;2016&quot;,
+  &quot;fiscal_period&quot;: &quot;FY&quot;
+}</pre>
+<p class='hash'>SHA-256: 7dede592b142b3a52b847e98c1f33c569599e0558ada1e60acc9d4cf5d4e49e8</p>
+</div>
+<div class="ev">
+<p><strong>Evidence</strong> <code>ev_8bb161e53e78</code> - source: <code>zetaris:edgar_company_facts_x_profiles</code><br>retrieved: 2026-10-27 07:56:02 UTC</p>
+<p>SQL:</p><pre>SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; ORDER BY fiscal_year, entity_name</pre>
+<p>Row:</p><pre>{
+  &quot;entity_name&quot;: &quot;Walmart Inc.&quot;,
+  &quot;sic_code&quot;: &quot;5331&quot;,
+  &quot;sic_description_reference&quot;: &quot;Variety Stores&quot;,
+  &quot;period_end&quot;: &quot;2014-04-30&quot;,
+  &quot;revenue&quot;: &quot;114960000000&quot;,
+  &quot;fiscal_year&quot;: &quot;2016&quot;,
+  &quot;fiscal_period&quot;: &quot;FY&quot;
+}</pre>
+<p class='hash'>SHA-256: 6d7db2ed65941db7842d101bdf7fd8d98c5be464a63e3074e2a70b9dd5140957</p>
+</div>
+<div class="ev">
+<p><strong>Evidence</strong> <code>ev_fba50d1cae4a</code> - source: <code>zetaris:edgar_company_facts_x_profiles</code><br>retrieved: 2026-10-27 07:56:02 UTC</p>
+<p>SQL:</p><pre>SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; ORDER BY fiscal_year, entity_name</pre>
+<p>Row:</p><pre>{
+  &quot;entity_name&quot;: &quot;Walmart Inc.&quot;,
+  &quot;sic_code&quot;: &quot;5331&quot;,
+  &quot;sic_description_reference&quot;: &quot;Variety Stores&quot;,
+  &quot;period_end&quot;: &quot;2014-01-31&quot;,
+  &quot;revenue&quot;: &quot;476294000000&quot;,
+  &quot;fiscal_year&quot;: &quot;2016&quot;,
+  &quot;fiscal_period&quot;: &quot;FY&quot;
+}</pre>
+<p class='hash'>SHA-256: 351e8aeb947ed904d05c017f9c5a2352ef4a9b0e46aba8d09d1ca95d60195a18</p>
+</div>
+<div class="ev">
+<p><strong>Evidence</strong> <code>ev_e8834f91f908</code> - source: <code>zetaris:edgar_company_facts_x_profiles</code><br>retrieved: 2026-10-27 07:56:02 UTC</p>
+<p>SQL:</p><pre>SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; ORDER BY fiscal_year, entity_name</pre>
+<p>Row:</p><pre>{
+  &quot;entity_name&quot;: &quot;Walmart Inc.&quot;,
+  &quot;sic_code&quot;: &quot;5331&quot;,
+  &quot;sic_description_reference&quot;: &quot;Variety Stores&quot;,
+  &quot;period_end&quot;: &quot;2017-01-31&quot;,
+  &quot;revenue&quot;: &quot;130936000000&quot;,
+  &quot;fiscal_year&quot;: &quot;2017&quot;,
+  &quot;fiscal_period&quot;: &quot;FY&quot;
+}</pre>
+<p class='hash'>SHA-256: ddf84abe29584cc45da79e9db6e5986256d8a88c629fb513b3760497d52765f7</p>
+</div>
+<div class="ev">
+<p><strong>Evidence</strong> <code>ev_9297899365d5</code> - source: <code>zetaris:edgar_company_facts_x_profiles</code><br>retrieved: 2026-10-27 07:56:02 UTC</p>
+<p>SQL:</p><pre>SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; ORDER BY fiscal_year, entity_name</pre>
+<p>Row:</p><pre>{
+  &quot;entity_name&quot;: &quot;Walmart Inc.&quot;,
+  &quot;sic_code&quot;: &quot;5331&quot;,
+  &quot;sic_description_reference&quot;: &quot;Variety Stores&quot;,
+  &quot;period_end&quot;: &quot;2017-01-31&quot;,
+  &quot;revenue&quot;: &quot;485873000000&quot;,
+  &quot;fiscal_year&quot;: &quot;2017&quot;,
+  &quot;fiscal_period&quot;: &quot;FY&quot;
+}</pre>
+<p class='hash'>SHA-256: a6cdd1f4e75cfb1da3ffb88aa7473ba9922c566a5b13bd0fb9504debed6d7903</p>
+</div>
+<div class="ev">
+<p><strong>Evidence</strong> <code>ev_c64dfa47cc6d</code> - source: <code>zetaris:edgar_company_facts_x_profiles</code><br>retrieved: 2026-10-27 07:56:02 UTC</p>
+<p>SQL:</p><pre>SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; ORDER BY fiscal_year, entity_name</pre>
+<p>Row:</p><pre>{
+  &quot;entity_name&quot;: &quot;Walmart Inc.&quot;,
+  &quot;sic_code&quot;: &quot;5331&quot;,
+  &quot;sic_description_reference&quot;: &quot;Variety Stores&quot;,
+  &quot;period_end&quot;: &quot;2016-10-31&quot;,
+  &quot;revenue&quot;: &quot;118179000000&quot;,
+  &quot;fiscal_year&quot;: &quot;2017&quot;,
+  &quot;fiscal_period&quot;: &quot;FY&quot;
+}</pre>
+<p class='hash'>SHA-256: 002c6fd6b656df7d59e76a92e66e198ee42083ae4dffe5b977b97cc052ad558f</p>
+</div>
+<div class="ev">
+<p><strong>Evidence</strong> <code>ev_ab536362ee8b</code> - source: <code>zetaris:edgar_company_facts_x_profiles</code><br>retrieved: 2026-10-27 07:56:02 UTC</p>
+<p>SQL:</p><pre>SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; ORDER BY fiscal_year, entity_name</pre>
+<p>Row:</p><pre>{
+  &quot;entity_name&quot;: &quot;Walmart Inc.&quot;,
+  &quot;sic_code&quot;: &quot;5331&quot;,
+  &quot;sic_description_reference&quot;: &quot;Variety Stores&quot;,
+  &quot;period_end&quot;: &quot;2016-07-31&quot;,
+  &quot;revenue&quot;: &quot;120854000000&quot;,
+  &quot;fiscal_year&quot;: &quot;2017&quot;,
+  &quot;fiscal_period&quot;: &quot;FY&quot;
+}</pre>
+<p class='hash'>SHA-256: 7775de816f57e91432493f4a1bd8d78ac01312a353694413a438b8085af097a6</p>
+</div>
+<div class="ev">
+<p><strong>Evidence</strong> <code>ev_c1995a87d109</code> - source: <code>zetaris:edgar_company_facts_x_profiles</code><br>retrieved: 2026-10-27 07:56:02 UTC</p>
+<p>SQL:</p><pre>SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; ORDER BY fiscal_year, entity_name</pre>
+<p>Row:</p><pre>{
+  &quot;entity_name&quot;: &quot;Walmart Inc.&quot;,
+  &quot;sic_code&quot;: &quot;5331&quot;,
+  &quot;sic_description_reference&quot;: &quot;Variety Stores&quot;,
+  &quot;period_end&quot;: &quot;2016-04-30&quot;,
+  &quot;revenue&quot;: &quot;115904000000&quot;,
+  &quot;fiscal_year&quot;: &quot;2017&quot;,
+  &quot;fiscal_period&quot;: &quot;FY&quot;
+}</pre>
+<p class='hash'>SHA-256: 9e067d20ce87ef1fe458c9603881d2f52f6e5219f5185428418915f7061e6b46</p>
+</div>
+<div class="ev">
+<p><strong>Evidence</strong> <code>ev_a7f013c7239e</code> - source: <code>zetaris:edgar_company_facts_x_profiles</code><br>retrieved: 2026-10-27 07:56:02 UTC</p>
+<p>SQL:</p><pre>SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; ORDER BY fiscal_year, entity_name</pre>
+<p>Row:</p><pre>{
+  &quot;entity_name&quot;: &quot;Walmart Inc.&quot;,
+  &quot;sic_code&quot;: &quot;5331&quot;,
+  &quot;sic_description_reference&quot;: &quot;Variety Stores&quot;,
+  &quot;period_end&quot;: &quot;2016-01-31&quot;,
+  &quot;revenue&quot;: &quot;129667000000&quot;,
+  &quot;fiscal_year&quot;: &quot;2017&quot;,
+  &quot;fiscal_period&quot;: &quot;FY&quot;
+}</pre>
+<p class='hash'>SHA-256: 72000cf6be81373456dab72ba96c4657c3f3e0eea5c74d8bb5add1ac5b058ae4</p>
+</div>
+<div class="ev">
+<p><strong>Evidence</strong> <code>ev_6de4ab7166d8</code> - source: <code>zetaris:edgar_company_facts_x_profiles</code><br>retrieved: 2026-10-27 07:56:02 UTC</p>
+<p>SQL:</p><pre>SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; ORDER BY fiscal_year, entity_name</pre>
+<p>Row:</p><pre>{
+  &quot;entity_name&quot;: &quot;Walmart Inc.&quot;,
+  &quot;sic_code&quot;: &quot;5331&quot;,
+  &quot;sic_description_reference&quot;: &quot;Variety Stores&quot;,
+  &quot;period_end&quot;: &quot;2016-01-31&quot;,
+  &quot;revenue&quot;: &quot;482130000000&quot;,
+  &quot;fiscal_year&quot;: &quot;2017&quot;,
+  &quot;fiscal_period&quot;: &quot;FY&quot;
+}</pre>
+<p class='hash'>SHA-256: 6ba65857b16845d735c0533925a52148062268d76f48fd8673c27d1942599338</p>
+</div>
+<div class="ev">
+<p><strong>Evidence</strong> <code>ev_1e263f8908a2</code> - source: <code>zetaris:edgar_company_facts_x_profiles</code><br>retrieved: 2026-10-27 07:56:02 UTC</p>
+<p>SQL:</p><pre>SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; ORDER BY fiscal_year, entity_name</pre>
+<p>Row:</p><pre>{
+  &quot;entity_name&quot;: &quot;Walmart Inc.&quot;,
+  &quot;sic_code&quot;: &quot;5331&quot;,
+  &quot;sic_description_reference&quot;: &quot;Variety Stores&quot;,
+  &quot;period_end&quot;: &quot;2015-10-31&quot;,
+  &quot;revenue&quot;: &quot;117408000000&quot;,
+  &quot;fiscal_year&quot;: &quot;2017&quot;,
+  &quot;fiscal_period&quot;: &quot;FY&quot;
+}</pre>
+<p class='hash'>SHA-256: 122e48fd966adb031492a6abfc371ae15ef699d0d99cdd20650ccc364ae43bd7</p>
+</div>
+<div class="ev">
+<p><strong>Evidence</strong> <code>ev_5dbcfc9881fc</code> - source: <code>zetaris:edgar_company_facts_x_profiles</code><br>retrieved: 2026-10-27 07:56:02 UTC</p>
+<p>SQL:</p><pre>SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; ORDER BY fiscal_year, entity_name</pre>
+<p>Row:</p><pre>{
+  &quot;entity_name&quot;: &quot;Walmart Inc.&quot;,
+  &quot;sic_code&quot;: &quot;5331&quot;,
+  &quot;sic_description_reference&quot;: &quot;Variety Stores&quot;,
+  &quot;period_end&quot;: &quot;2015-07-31&quot;,
+  &quot;revenue&quot;: &quot;120229000000&quot;,
+  &quot;fiscal_year&quot;: &quot;2017&quot;,
+  &quot;fiscal_period&quot;: &quot;FY&quot;
+}</pre>
+<p class='hash'>SHA-256: 3b8ca60e15268504ba118df7e61a7a9194525996183bc1fb5e4425c308418d80</p>
+</div>
+<div class="ev">
+<p><strong>Evidence</strong> <code>ev_3f85af71d43e</code> - source: <code>zetaris:edgar_company_facts_x_profiles</code><br>retrieved: 2026-10-27 07:56:02 UTC</p>
+<p>SQL:</p><pre>SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; ORDER BY fiscal_year, entity_name</pre>
+<p>Row:</p><pre>{
+  &quot;entity_name&quot;: &quot;Walmart Inc.&quot;,
+  &quot;sic_code&quot;: &quot;5331&quot;,
+  &quot;sic_description_reference&quot;: &quot;Variety Stores&quot;,
+  &quot;period_end&quot;: &quot;2015-04-30&quot;,
+  &quot;revenue&quot;: &quot;114826000000&quot;,
+  &quot;fiscal_year&quot;: &quot;2017&quot;,
+  &quot;fiscal_period&quot;: &quot;FY&quot;
+}</pre>
+<p class='hash'>SHA-256: 1d945ae7d1e17b2c845c3a2e274d6c951ca81cf8e2141b3f37fe14d461af5702</p>
+</div>
+<div class="ev">
+<p><strong>Evidence</strong> <code>ev_a9487662423e</code> - source: <code>zetaris:edgar_company_facts_x_profiles</code><br>retrieved: 2026-10-27 07:56:02 UTC</p>
+<p>SQL:</p><pre>SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; ORDER BY fiscal_year, entity_name</pre>
+<p>Row:</p><pre>{
+  &quot;entity_name&quot;: &quot;Walmart Inc.&quot;,
+  &quot;sic_code&quot;: &quot;5331&quot;,
+  &quot;sic_description_reference&quot;: &quot;Variety Stores&quot;,
+  &quot;period_end&quot;: &quot;2015-01-31&quot;,
+  &quot;revenue&quot;: &quot;485651000000&quot;,
+  &quot;fiscal_year&quot;: &quot;2017&quot;,
+  &quot;fiscal_period&quot;: &quot;FY&quot;
+}</pre>
+<p class='hash'>SHA-256: b8f014ee028aacc38be020a61f96675f14de7ccca88c68ae2f45b4a31b086fb7</p>
+</div>
+<div class="ev">
+<p><strong>Evidence</strong> <code>ev_1959bb8e9cae</code> - source: <code>zetaris:edgar_company_facts_x_profiles</code><br>retrieved: 2026-10-27 07:56:02 UTC</p>
+<p>SQL:</p><pre>SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; ORDER BY fiscal_year, entity_name</pre>
+<p>Row:</p><pre>{
+  &quot;entity_name&quot;: &quot;Apple Inc.&quot;,
+  &quot;sic_code&quot;: &quot;3571&quot;,
+  &quot;sic_description_reference&quot;: &quot;Electronic Computers&quot;,
+  &quot;period_end&quot;: &quot;2018-09-29&quot;,
+  &quot;revenue&quot;: &quot;62900000000&quot;,
+  &quot;fiscal_year&quot;: &quot;2018&quot;,
+  &quot;fiscal_period&quot;: &quot;FY&quot;
+}</pre>
+<p class='hash'>SHA-256: 53e5ea94c89b76ca133bb0b26b8f26b816c423dc4c01427f766b725bf9fd69c9</p>
+</div>
+<div class="ev">
+<p><strong>Evidence</strong> <code>ev_bbefd70cbac2</code> - source: <code>zetaris:edgar_company_facts_x_profiles</code><br>retrieved: 2026-10-27 07:56:02 UTC</p>
+<p>SQL:</p><pre>SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; ORDER BY fiscal_year, entity_name</pre>
+<p>Row:</p><pre>{
+  &quot;entity_name&quot;: &quot;Apple Inc.&quot;,
+  &quot;sic_code&quot;: &quot;3571&quot;,
+  &quot;sic_description_reference&quot;: &quot;Electronic Computers&quot;,
+  &quot;period_end&quot;: &quot;2018-09-29&quot;,
+  &quot;revenue&quot;: &quot;265595000000&quot;,
+  &quot;fiscal_year&quot;: &quot;2018&quot;,
+  &quot;fiscal_period&quot;: &quot;FY&quot;
+}</pre>
+<p class='hash'>SHA-256: a399aa450c1e5a9b3cd34bb6476907357dc84bd01c90f339f25fde3426efdc9c</p>
+</div>
+<div class="ev">
+<p><strong>Evidence</strong> <code>ev_01c416c41343</code> - source: <code>zetaris:edgar_company_facts_x_profiles</code><br>retrieved: 2026-10-27 07:56:02 UTC</p>
+<p>SQL:</p><pre>SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; ORDER BY fiscal_year, entity_name</pre>
+<p>Row:</p><pre>{
+  &quot;entity_name&quot;: &quot;Apple Inc.&quot;,
+  &quot;sic_code&quot;: &quot;3571&quot;,
+  &quot;sic_description_reference&quot;: &quot;Electronic Computers&quot;,
+  &quot;period_end&quot;: &quot;2018-06-30&quot;,
+  &quot;revenue&quot;: &quot;53265000000&quot;,
+  &quot;fiscal_year&quot;: &quot;2018&quot;,
+  &quot;fiscal_period&quot;: &quot;FY&quot;
+}</pre>
+<p class='hash'>SHA-256: 9440ccecff4ca7107257eec8bd4c30d904da178a5dbde2dc3ccb486ee3b9f45f</p>
+</div>
+<div class="ev">
+<p><strong>Evidence</strong> <code>ev_fa7ff61b2c9c</code> - source: <code>zetaris:edgar_company_facts_x_profiles</code><br>retrieved: 2026-10-27 07:56:02 UTC</p>
+<p>SQL:</p><pre>SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; ORDER BY fiscal_year, entity_name</pre>
+<p>Row:</p><pre>{
+  &quot;entity_name&quot;: &quot;Apple Inc.&quot;,
+  &quot;sic_code&quot;: &quot;3571&quot;,
+  &quot;sic_description_reference&quot;: &quot;Electronic Computers&quot;,
+  &quot;period_end&quot;: &quot;2018-03-31&quot;,
+  &quot;revenue&quot;: &quot;61137000000&quot;,
+  &quot;fiscal_year&quot;: &quot;2018&quot;,
+  &quot;fiscal_period&quot;: &quot;FY&quot;
+}</pre>
+<p class='hash'>SHA-256: 37db7da78c848010c6992dde3a61108e32404555a4e0b55c4331885e42f54ae1</p>
+</div>
+<div class="ev">
+<p><strong>Evidence</strong> <code>ev_c39186e9c4d6</code> - source: <code>zetaris:edgar_company_facts_x_profiles</code><br>retrieved: 2026-10-27 07:56:02 UTC</p>
+<p>SQL:</p><pre>SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; ORDER BY fiscal_year, entity_name</pre>
+<p>Row:</p><pre>{
+  &quot;entity_name&quot;: &quot;Apple Inc.&quot;,
+  &quot;sic_code&quot;: &quot;3571&quot;,
+  &quot;sic_description_reference&quot;: &quot;Electronic Computers&quot;,
+  &quot;period_end&quot;: &quot;2017-12-30&quot;,
+  &quot;revenue&quot;: &quot;88293000000&quot;,
+  &quot;fiscal_year&quot;: &quot;2018&quot;,
+  &quot;fiscal_period&quot;: &quot;FY&quot;
+}</pre>
+<p class='hash'>SHA-256: a3b42414c13620a00078f7117b316d8451cbd5b68ff9f09197fdc4a3d78fbe21</p>
+</div>
+<div class="ev">
+<p><strong>Evidence</strong> <code>ev_68cd2a44192f</code> - source: <code>zetaris:edgar_company_facts_x_profiles</code><br>retrieved: 2026-10-27 07:56:02 UTC</p>
+<p>SQL:</p><pre>SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; ORDER BY fiscal_year, entity_name</pre>
+<p>Row:</p><pre>{
+  &quot;entity_name&quot;: &quot;Apple Inc.&quot;,
+  &quot;sic_code&quot;: &quot;3571&quot;,
+  &quot;sic_description_reference&quot;: &quot;Electronic Computers&quot;,
+  &quot;period_end&quot;: &quot;2017-09-30&quot;,
+  &quot;revenue&quot;: &quot;52579000000&quot;,
+  &quot;fiscal_year&quot;: &quot;2018&quot;,
+  &quot;fiscal_period&quot;: &quot;FY&quot;
+}</pre>
+<p class='hash'>SHA-256: a4d8136c83ac3fbf62f57fd2c720fe2b05c965fde85da84df496be67ea1a788b</p>
+</div>
+<div class="ev">
+<p><strong>Evidence</strong> <code>ev_5026bc310726</code> - source: <code>zetaris:edgar_company_facts_x_profiles</code><br>retrieved: 2026-10-27 07:56:02 UTC</p>
+<p>SQL:</p><pre>SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; ORDER BY fiscal_year, entity_name</pre>
+<p>Row:</p><pre>{
+  &quot;entity_name&quot;: &quot;Apple Inc.&quot;,
+  &quot;sic_code&quot;: &quot;3571&quot;,
+  &quot;sic_description_reference&quot;: &quot;Electronic Computers&quot;,
+  &quot;period_end&quot;: &quot;2017-09-30&quot;,
+  &quot;revenue&quot;: &quot;229234000000&quot;,
+  &quot;fiscal_year&quot;: &quot;2018&quot;,
+  &quot;fiscal_period&quot;: &quot;FY&quot;
+}</pre>
+<p class='hash'>SHA-256: c58acd087409998bf8789eb50a5b08830508b59ee691bb15f0bc7f2ae2970802</p>
+</div>
+<div class="ev">
+<p><strong>Evidence</strong> <code>ev_62224b1f82ce</code> - source: <code>zetaris:edgar_company_facts_x_profiles</code><br>retrieved: 2026-10-27 07:56:02 UTC</p>
+<p>SQL:</p><pre>SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; ORDER BY fiscal_year, entity_name</pre>
+<p>Row:</p><pre>{
+  &quot;entity_name&quot;: &quot;Apple Inc.&quot;,
+  &quot;sic_code&quot;: &quot;3571&quot;,
+  &quot;sic_description_reference&quot;: &quot;Electronic Computers&quot;,
+  &quot;period_end&quot;: &quot;2017-07-01&quot;,
+  &quot;revenue&quot;: &quot;45408000000&quot;,
+  &quot;fiscal_year&quot;: &quot;2018&quot;,
+  &quot;fiscal_period&quot;: &quot;FY&quot;
+}</pre>
+<p class='hash'>SHA-256: cb846800690c091b4f1df23cb3c7fc4fddc11009e96ed34ac35f67d0033c8ff5</p>
+</div>
+<div class="ev">
+<p><strong>Evidence</strong> <code>ev_979a05c5f3a2</code> - source: <code>zetaris:edgar_company_facts_x_profiles</code><br>retrieved: 2026-10-27 07:56:02 UTC</p>
+<p>SQL:</p><pre>SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; ORDER BY fiscal_year, entity_name</pre>
+<p>Row:</p><pre>{
+  &quot;entity_name&quot;: &quot;Apple Inc.&quot;,
+  &quot;sic_code&quot;: &quot;3571&quot;,
+  &quot;sic_description_reference&quot;: &quot;Electronic Computers&quot;,
+  &quot;period_end&quot;: &quot;2017-04-01&quot;,
+  &quot;revenue&quot;: &quot;52896000000&quot;,
+  &quot;fiscal_year&quot;: &quot;2018&quot;,
+  &quot;fiscal_period&quot;: &quot;FY&quot;
+}</pre>
+<p class='hash'>SHA-256: 2a3b4cfd3e13b1c63a314124f6fdfe3c965b3d51dc070b8133dee11bd08e5c29</p>
+</div>
+<div class="ev">
+<p><strong>Evidence</strong> <code>ev_c7e844ea42eb</code> - source: <code>zetaris:edgar_company_facts_x_profiles</code><br>retrieved: 2026-10-27 07:56:02 UTC</p>
+<p>SQL:</p><pre>SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; ORDER BY fiscal_year, entity_name</pre>
+<p>Row:</p><pre>{
+  &quot;entity_name&quot;: &quot;Apple Inc.&quot;,
+  &quot;sic_code&quot;: &quot;3571&quot;,
+  &quot;sic_description_reference&quot;: &quot;Electronic Computers&quot;,
+  &quot;period_end&quot;: &quot;2016-12-31&quot;,
+  &quot;revenue&quot;: &quot;78351000000&quot;,
+  &quot;fiscal_year&quot;: &quot;2018&quot;,
+  &quot;fiscal_period&quot;: &quot;FY&quot;
+}</pre>
+<p class='hash'>SHA-256: 7ca97c6abf3bf241d6cb5433624aefbd2faaed84476338df858c609721d3f415</p>
+</div>
+<div class="ev">
+<p><strong>Evidence</strong> <code>ev_b3ac7aa823cd</code> - source: <code>zetaris:edgar_company_facts_x_profiles</code><br>retrieved: 2026-10-27 07:56:02 UTC</p>
+<p>SQL:</p><pre>SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; ORDER BY fiscal_year, entity_name</pre>
+<p>Row:</p><pre>{
+  &quot;entity_name&quot;: &quot;Apple Inc.&quot;,
+  &quot;sic_code&quot;: &quot;3571&quot;,
+  &quot;sic_description_reference&quot;: &quot;Electronic Computers&quot;,
+  &quot;period_end&quot;: &quot;2016-09-24&quot;,
+  &quot;revenue&quot;: &quot;215639000000&quot;,
+  &quot;fiscal_year&quot;: &quot;2018&quot;,
+  &quot;fiscal_period&quot;: &quot;FY&quot;
+}</pre>
+<p class='hash'>SHA-256: 048e00e03931ae2cfc0eda1a084af97bc39c6e8f11cfb41e4f783ba41238ba31</p>
+</div>
+<div class="ev">
+<p><strong>Evidence</strong> <code>ev_f286d37d21a2</code> - source: <code>zetaris:edgar_company_facts_x_profiles</code><br>retrieved: 2026-10-27 07:56:02 UTC</p>
+<p>SQL:</p><pre>SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; ORDER BY fiscal_year, entity_name</pre>
+<p>Row:</p><pre>{
+  &quot;entity_name&quot;: &quot;Walmart Inc.&quot;,
+  &quot;sic_code&quot;: &quot;5331&quot;,
+  &quot;sic_description_reference&quot;: &quot;Variety Stores&quot;,
+  &quot;period_end&quot;: &quot;2018-01-31&quot;,
+  &quot;revenue&quot;: &quot;136267000000&quot;,
+  &quot;fiscal_year&quot;: &quot;2018&quot;,
+  &quot;fiscal_period&quot;: &quot;FY&quot;
+}</pre>
+<p class='hash'>SHA-256: b4be902cbd91e7afa23ac734270d97f67fadb232c57d6e5a9bc6538f2310af69</p>
+</div>
+<div class="ev">
+<p><strong>Evidence</strong> <code>ev_91579146ace7</code> - source: <code>zetaris:edgar_company_facts_x_profiles</code><br>retrieved: 2026-10-27 07:56:02 UTC</p>
+<p>SQL:</p><pre>SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; ORDER BY fiscal_year, entity_name</pre>
+<p>Row:</p><pre>{
+  &quot;entity_name&quot;: &quot;Walmart Inc.&quot;,
+  &quot;sic_code&quot;: &quot;5331&quot;,
+  &quot;sic_description_reference&quot;: &quot;Variety Stores&quot;,
+  &quot;period_end&quot;: &quot;2018-01-31&quot;,
+  &quot;revenue&quot;: &quot;500343000000&quot;,
+  &quot;fiscal_year&quot;: &quot;2018&quot;,
+  &quot;fiscal_period&quot;: &quot;FY&quot;
+}</pre>
+<p class='hash'>SHA-256: 3b76c7fa4aa483366e482aee37a67cce7de806eacee10050bd4faaca9fffcb42</p>
+</div>
+<div class="ev">
+<p><strong>Evidence</strong> <code>ev_4c77f9b0138d</code> - source: <code>zetaris:edgar_company_facts_x_profiles</code><br>retrieved: 2026-10-27 07:56:02 UTC</p>
+<p>SQL:</p><pre>SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; ORDER BY fiscal_year, entity_name</pre>
+<p>Row:</p><pre>{
+  &quot;entity_name&quot;: &quot;Walmart Inc.&quot;,
+  &quot;sic_code&quot;: &quot;5331&quot;,
+  &quot;sic_description_reference&quot;: &quot;Variety Stores&quot;,
+  &quot;period_end&quot;: &quot;2017-10-31&quot;,
+  &quot;revenue&quot;: &quot;123179000000&quot;,
+  &quot;fiscal_year&quot;: &quot;2018&quot;,
+  &quot;fiscal_period&quot;: &quot;FY&quot;
+}</pre>
+<p class='hash'>SHA-256: 7da65bad1e361944d960b8a041a7add707977d4d08ab23a838a38e404d8489cc</p>
+</div>
+<div class="ev">
+<p><strong>Evidence</strong> <code>ev_255cb08e7649</code> - source: <code>zetaris:edgar_company_facts_x_profiles</code><br>retrieved: 2026-10-27 07:56:02 UTC</p>
+<p>SQL:</p><pre>SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; ORDER BY fiscal_year, entity_name</pre>
+<p>Row:</p><pre>{
+  &quot;entity_name&quot;: &quot;Walmart Inc.&quot;,
+  &quot;sic_code&quot;: &quot;5331&quot;,
+  &quot;sic_description_reference&quot;: &quot;Variety Stores&quot;,
+  &quot;period_end&quot;: &quot;2017-07-31&quot;,
+  &quot;revenue&quot;: &quot;123355000000&quot;,
+  &quot;fiscal_year&quot;: &quot;2018&quot;,
+  &quot;fiscal_period&quot;: &quot;FY&quot;
+}</pre>
+<p class='hash'>SHA-256: 03acb2451cdd998077844b6bb2459bbf60e6317c67f3426001734a00c87ade70</p>
+</div>
+<div class="ev">
+<p><strong>Evidence</strong> <code>ev_42cf90b20264</code> - source: <code>zetaris:edgar_company_facts_x_profiles</code><br>retrieved: 2026-10-27 07:56:02 UTC</p>
+<p>SQL:</p><pre>SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; ORDER BY fiscal_year, entity_name</pre>
+<p>Row:</p><pre>{
+  &quot;entity_name&quot;: &quot;Walmart Inc.&quot;,
+  &quot;sic_code&quot;: &quot;5331&quot;,
+  &quot;sic_description_reference&quot;: &quot;Variety Stores&quot;,
+  &quot;period_end&quot;: &quot;2017-04-30&quot;,
+  &quot;revenue&quot;: &quot;117542000000&quot;,
+  &quot;fiscal_year&quot;: &quot;2018&quot;,
+  &quot;fiscal_period&quot;: &quot;FY&quot;
+}</pre>
+<p class='hash'>SHA-256: bbe26c7bdb5409e4caa8327db7abcbc619145f1c8bc9730078a4059a73df61f8</p>
+</div>
+<div class="ev">
+<p><strong>Evidence</strong> <code>ev_47d27c489e0a</code> - source: <code>zetaris:edgar_company_facts_x_profiles</code><br>retrieved: 2026-10-27 07:56:02 UTC</p>
+<p>SQL:</p><pre>SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; ORDER BY fiscal_year, entity_name</pre>
+<p>Row:</p><pre>{
+  &quot;entity_name&quot;: &quot;Walmart Inc.&quot;,
+  &quot;sic_code&quot;: &quot;5331&quot;,
+  &quot;sic_description_reference&quot;: &quot;Variety Stores&quot;,
+  &quot;period_end&quot;: &quot;2017-01-31&quot;,
+  &quot;revenue&quot;: &quot;130936000000&quot;,
+  &quot;fiscal_year&quot;: &quot;2018&quot;,
+  &quot;fiscal_period&quot;: &quot;FY&quot;
+}</pre>
+<p class='hash'>SHA-256: 6e6a63cf1d9e5bc1300d2d52002562350c00d2bd20fb735c659a0163b5a849e9</p>
+</div>
+<div class="ev">
+<p><strong>Evidence</strong> <code>ev_4f06b383603f</code> - source: <code>zetaris:edgar_company_facts_x_profiles</code><br>retrieved: 2026-10-27 07:56:02 UTC</p>
+<p>SQL:</p><pre>SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; ORDER BY fiscal_year, entity_name</pre>
+<p>Row:</p><pre>{
+  &quot;entity_name&quot;: &quot;Walmart Inc.&quot;,
+  &quot;sic_code&quot;: &quot;5331&quot;,
+  &quot;sic_description_reference&quot;: &quot;Variety Stores&quot;,
+  &quot;period_end&quot;: &quot;2017-01-31&quot;,
+  &quot;revenue&quot;: &quot;485873000000&quot;,
+  &quot;fiscal_year&quot;: &quot;2018&quot;,
+  &quot;fiscal_period&quot;: &quot;FY&quot;
+}</pre>
+<p class='hash'>SHA-256: 6536e2ec6108004d607249ba7dd220adea4c4dfb877b1d2439cb7f6d17cd88c3</p>
+</div>
+<div class="ev">
+<p><strong>Evidence</strong> <code>ev_2b54518dd4b1</code> - source: <code>zetaris:edgar_company_facts_x_profiles</code><br>retrieved: 2026-10-27 07:56:02 UTC</p>
+<p>SQL:</p><pre>SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; ORDER BY fiscal_year, entity_name</pre>
+<p>Row:</p><pre>{
+  &quot;entity_name&quot;: &quot;Walmart Inc.&quot;,
+  &quot;sic_code&quot;: &quot;5331&quot;,
+  &quot;sic_description_reference&quot;: &quot;Variety Stores&quot;,
+  &quot;period_end&quot;: &quot;2016-10-31&quot;,
+  &quot;revenue&quot;: &quot;118179000000&quot;,
+  &quot;fiscal_year&quot;: &quot;2018&quot;,
+  &quot;fiscal_period&quot;: &quot;FY&quot;
+}</pre>
+<p class='hash'>SHA-256: 97b9d2723919344407a4eb6b0bad57a7ff469ce6b8c67ee4f927088c12683fe2</p>
+</div>
+<div class="ev">
+<p><strong>Evidence</strong> <code>ev_400bd9c845ac</code> - source: <code>zetaris:edgar_company_facts_x_profiles</code><br>retrieved: 2026-10-27 07:56:02 UTC</p>
+<p>SQL:</p><pre>SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; ORDER BY fiscal_year, entity_name</pre>
+<p>Row:</p><pre>{
+  &quot;entity_name&quot;: &quot;Walmart Inc.&quot;,
+  &quot;sic_code&quot;: &quot;5331&quot;,
+  &quot;sic_description_reference&quot;: &quot;Variety Stores&quot;,
+  &quot;period_end&quot;: &quot;2016-07-31&quot;,
+  &quot;revenue&quot;: &quot;120854000000&quot;,
+  &quot;fiscal_year&quot;: &quot;2018&quot;,
+  &quot;fiscal_period&quot;: &quot;FY&quot;
+}</pre>
+<p class='hash'>SHA-256: 9961e2a2e7a5e0d7ee07394bb19596b816da4eed4a5c463163e55bf16ae0f2eb</p>
+</div>
+<div class="ev">
+<p><strong>Evidence</strong> <code>ev_18bf504172dc</code> - source: <code>zetaris:edgar_company_facts_x_profiles</code><br>retrieved: 2026-10-27 07:56:02 UTC</p>
+<p>SQL:</p><pre>SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; ORDER BY fiscal_year, entity_name</pre>
+<p>Row:</p><pre>{
+  &quot;entity_name&quot;: &quot;Walmart Inc.&quot;,
+  &quot;sic_code&quot;: &quot;5331&quot;,
+  &quot;sic_description_reference&quot;: &quot;Variety Stores&quot;,
+  &quot;period_end&quot;: &quot;2016-04-30&quot;,
+  &quot;revenue&quot;: &quot;115904000000&quot;,
+  &quot;fiscal_year&quot;: &quot;2018&quot;,
+  &quot;fiscal_period&quot;: &quot;FY&quot;
+}</pre>
+<p class='hash'>SHA-256: ebe48ec51e330bd7b3b4ed5b520d8bc239c22922bdc8960c46e71618ce8cf1bf</p>
+</div>
+<div class="ev">
+<p><strong>Evidence</strong> <code>ev_890f4afdba54</code> - source: <code>zetaris:edgar_company_facts_x_profiles</code><br>retrieved: 2026-10-27 07:56:02 UTC</p>
+<p>SQL:</p><pre>SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; ORDER BY fiscal_year, entity_name</pre>
+<p>Row:</p><pre>{
+  &quot;entity_name&quot;: &quot;Walmart Inc.&quot;,
+  &quot;sic_code&quot;: &quot;5331&quot;,
+  &quot;sic_description_reference&quot;: &quot;Variety Stores&quot;,
+  &quot;period_end&quot;: &quot;2016-01-31&quot;,
+  &quot;revenue&quot;: &quot;482130000000&quot;,
+  &quot;fiscal_year&quot;: &quot;2018&quot;,
+  &quot;fiscal_period&quot;: &quot;FY&quot;
+}</pre>
+<p class='hash'>SHA-256: 9914f43aed0f0574f9f1a70314a15516bc77dcd8ac4be09263f50d4aeabea26e</p>
+</div>
+<div class="ev">
+<p><strong>Evidence</strong> <code>ev_f905fb220e13</code> - source: <code>zetaris:edgar_company_facts_x_profiles</code><br>retrieved: 2026-10-27 07:56:02 UTC</p>
+<p>SQL:</p><pre>SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; ORDER BY fiscal_year, entity_name</pre>
+<p>Row:</p><pre>{
+  &quot;entity_name&quot;: &quot;Walmart Inc.&quot;,
+  &quot;sic_code&quot;: &quot;5331&quot;,
+  &quot;sic_description_reference&quot;: &quot;Variety Stores&quot;,
+  &quot;period_end&quot;: &quot;2019-01-31&quot;,
+  &quot;revenue&quot;: &quot;138793000000&quot;,
+  &quot;fiscal_year&quot;: &quot;2019&quot;,
+  &quot;fiscal_period&quot;: &quot;FY&quot;
+}</pre>
+<p class='hash'>SHA-256: a828b6cce1c748d6c92d0b6d80f602c0168d56517d2e97f96d63ec6da40f1570</p>
+</div>
+<div class="ev">
+<p><strong>Evidence</strong> <code>ev_ccfd091cd0d3</code> - source: <code>zetaris:edgar_company_facts_x_profiles</code><br>retrieved: 2026-10-27 07:56:02 UTC</p>
+<p>SQL:</p><pre>SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; ORDER BY fiscal_year, entity_name</pre>
+<p>Row:</p><pre>{
+  &quot;entity_name&quot;: &quot;Walmart Inc.&quot;,
+  &quot;sic_code&quot;: &quot;5331&quot;,
+  &quot;sic_description_reference&quot;: &quot;Variety Stores&quot;,
+  &quot;period_end&quot;: &quot;2019-01-31&quot;,
+  &quot;revenue&quot;: &quot;514405000000&quot;,
+  &quot;fiscal_year&quot;: &quot;2019&quot;,
+  &quot;fiscal_period&quot;: &quot;FY&quot;
+}</pre>
+<p class='hash'>SHA-256: 24a1a52d1d77fd82d5fcd86840381ccf897bb0a332bdaae93106772429173e00</p>
+</div>
+<div class="ev">
+<p><strong>Evidence</strong> <code>ev_28f8a2365800</code> - source: <code>zetaris:edgar_company_facts_x_profiles</code><br>retrieved: 2026-10-27 07:56:02 UTC</p>
+<p>SQL:</p><pre>SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; ORDER BY fiscal_year, entity_name</pre>
+<p>Row:</p><pre>{
+  &quot;entity_name&quot;: &quot;Walmart Inc.&quot;,
+  &quot;sic_code&quot;: &quot;5331&quot;,
+  &quot;sic_description_reference&quot;: &quot;Variety Stores&quot;,
+  &quot;period_end&quot;: &quot;2018-10-31&quot;,
+  &quot;revenue&quot;: &quot;124894000000&quot;,
+  &quot;fiscal_year&quot;: &quot;2019&quot;,
+  &quot;fiscal_period&quot;: &quot;FY&quot;
+}</pre>
+<p class='hash'>SHA-256: 5e82a0239028295d32c3c7919603b3a31ae5d1120b36e7ca696610e69be74b86</p>
+</div>
+<div class="ev">
+<p><strong>Evidence</strong> <code>ev_63892dae6607</code> - source: <code>zetaris:edgar_company_facts_x_profiles</code><br>retrieved: 2026-10-27 07:56:02 UTC</p>
+<p>SQL:</p><pre>SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; ORDER BY fiscal_year, entity_name</pre>
+<p>Row:</p><pre>{
+  &quot;entity_name&quot;: &quot;Walmart Inc.&quot;,
+  &quot;sic_code&quot;: &quot;5331&quot;,
+  &quot;sic_description_reference&quot;: &quot;Variety Stores&quot;,
+  &quot;period_end&quot;: &quot;2018-07-31&quot;,
+  &quot;revenue&quot;: &quot;128028000000&quot;,
+  &quot;fiscal_year&quot;: &quot;2019&quot;,
+  &quot;fiscal_period&quot;: &quot;FY&quot;
+}</pre>
+<p class='hash'>SHA-256: 5f650dcc39fdd94d375ae8f1d0c0f5e76194df6c63465c57fc841d8c50c28f1e</p>
+</div>
+<div class="ev">
+<p><strong>Evidence</strong> <code>ev_814b7bb9f458</code> - source: <code>zetaris:edgar_company_facts_x_profiles</code><br>retrieved: 2026-10-27 07:56:02 UTC</p>
+<p>SQL:</p><pre>SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; ORDER BY fiscal_year, entity_name</pre>
+<p>Row:</p><pre>{
+  &quot;entity_name&quot;: &quot;Walmart Inc.&quot;,
+  &quot;sic_code&quot;: &quot;5331&quot;,
+  &quot;sic_description_reference&quot;: &quot;Variety Stores&quot;,
+  &quot;period_end&quot;: &quot;2018-04-30&quot;,
+  &quot;revenue&quot;: &quot;122690000000&quot;,
+  &quot;fiscal_year&quot;: &quot;2019&quot;,
+  &quot;fiscal_period&quot;: &quot;FY&quot;
+}</pre>
+<p class='hash'>SHA-256: 2e81c1fe36302e1d87b617555b8b3a323319ede905116a70f5932bf7abb1632d</p>
+</div>
+<div class="ev">
+<p><strong>Evidence</strong> <code>ev_2c65f3f980ed</code> - source: <code>zetaris:edgar_company_facts_x_profiles</code><br>retrieved: 2026-10-27 07:56:02 UTC</p>
+<p>SQL:</p><pre>SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; ORDER BY fiscal_year, entity_name</pre>
+<p>Row:</p><pre>{
+  &quot;entity_name&quot;: &quot;Walmart Inc.&quot;,
+  &quot;sic_code&quot;: &quot;5331&quot;,
+  &quot;sic_description_reference&quot;: &quot;Variety Stores&quot;,
+  &quot;period_end&quot;: &quot;2018-01-31&quot;,
+  &quot;revenue&quot;: &quot;136267000000&quot;,
+  &quot;fiscal_year&quot;: &quot;2019&quot;,
+  &quot;fiscal_period&quot;: &quot;FY&quot;
+}</pre>
+<p class='hash'>SHA-256: a4799233c94c514f586a3f38594546854089fe7743063f63fe605e5448adeafe</p>
+</div>
+<div class="ev">
+<p><strong>Evidence</strong> <code>ev_6a013e5660f2</code> - source: <code>zetaris:edgar_company_facts_x_profiles</code><br>retrieved: 2026-10-27 07:56:02 UTC</p>
+<p>SQL:</p><pre>SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; ORDER BY fiscal_year, entity_name</pre>
+<p>Row:</p><pre>{
+  &quot;entity_name&quot;: &quot;Walmart Inc.&quot;,
+  &quot;sic_code&quot;: &quot;5331&quot;,
+  &quot;sic_description_reference&quot;: &quot;Variety Stores&quot;,
+  &quot;period_end&quot;: &quot;2018-01-31&quot;,
+  &quot;revenue&quot;: &quot;500343000000&quot;,
+  &quot;fiscal_year&quot;: &quot;2019&quot;,
+  &quot;fiscal_period&quot;: &quot;FY&quot;
+}</pre>
+<p class='hash'>SHA-256: 24bcc33e6a49b0bda81d0c6219f8ae473726f390d5671f1d5e8633eaeac091d3</p>
+</div>
+<div class="ev">
+<p><strong>Evidence</strong> <code>ev_dedb8346e02e</code> - source: <code>zetaris:edgar_company_facts_x_profiles</code><br>retrieved: 2026-10-27 07:56:02 UTC</p>
+<p>SQL:</p><pre>SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; ORDER BY fiscal_year, entity_name</pre>
+<p>Row:</p><pre>{
+  &quot;entity_name&quot;: &quot;Walmart Inc.&quot;,
+  &quot;sic_code&quot;: &quot;5331&quot;,
+  &quot;sic_description_reference&quot;: &quot;Variety Stores&quot;,
+  &quot;period_end&quot;: &quot;2017-10-31&quot;,
+  &quot;revenue&quot;: &quot;123179000000&quot;,
+  &quot;fiscal_year&quot;: &quot;2019&quot;,
+  &quot;fiscal_period&quot;: &quot;FY&quot;
+}</pre>
+<p class='hash'>SHA-256: 7fde6fbc84f33f03bfcdaebdf8369125a64ffa072e13950c7190d9d167a0bfab</p>
+</div>
+<div class="ev">
+<p><strong>Evidence</strong> <code>ev_e9a9eb556785</code> - source: <code>zetaris:edgar_company_facts_x_profiles</code><br>retrieved: 2026-10-27 07:56:02 UTC</p>
+<p>SQL:</p><pre>SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; ORDER BY fiscal_year, entity_name</pre>
+<p>Row:</p><pre>{
+  &quot;entity_name&quot;: &quot;Walmart Inc.&quot;,
+  &quot;sic_code&quot;: &quot;5331&quot;,
+  &quot;sic_description_reference&quot;: &quot;Variety Stores&quot;,
+  &quot;period_end&quot;: &quot;2017-07-31&quot;,
+  &quot;revenue&quot;: &quot;123355000000&quot;,
+  &quot;fiscal_year&quot;: &quot;2019&quot;,
+  &quot;fiscal_period&quot;: &quot;FY&quot;
+}</pre>
+<p class='hash'>SHA-256: d9bd36ec4dacd20fda3ba01646d343d132748b8c4e68f56aafbce2fda88c130f</p>
+</div>
+<div class="ev">
+<p><strong>Evidence</strong> <code>ev_db10d171a751</code> - source: <code>zetaris:edgar_company_facts_x_profiles</code><br>retrieved: 2026-10-27 07:56:02 UTC</p>
+<p>SQL:</p><pre>SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; ORDER BY fiscal_year, entity_name</pre>
+<p>Row:</p><pre>{
+  &quot;entity_name&quot;: &quot;Walmart Inc.&quot;,
+  &quot;sic_code&quot;: &quot;5331&quot;,
+  &quot;sic_description_reference&quot;: &quot;Variety Stores&quot;,
+  &quot;period_end&quot;: &quot;2017-04-30&quot;,
+  &quot;revenue&quot;: &quot;117542000000&quot;,
+  &quot;fiscal_year&quot;: &quot;2019&quot;,
+  &quot;fiscal_period&quot;: &quot;FY&quot;
+}</pre>
+<p class='hash'>SHA-256: 3aca609d2afa80bcfae5505469510b1c91dfa4210b8fb01ab5bcbb24bb7153d5</p>
+</div>
+<div class="ev">
+<p><strong>Evidence</strong> <code>ev_8cfb6988dcfd</code> - source: <code>zetaris:edgar_company_facts_x_profiles</code><br>retrieved: 2026-10-27 07:56:02 UTC</p>
+<p>SQL:</p><pre>SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; ORDER BY fiscal_year, entity_name</pre>
+<p>Row:</p><pre>{
+  &quot;entity_name&quot;: &quot;Walmart Inc.&quot;,
+  &quot;sic_code&quot;: &quot;5331&quot;,
+  &quot;sic_description_reference&quot;: &quot;Variety Stores&quot;,
+  &quot;period_end&quot;: &quot;2017-01-31&quot;,
+  &quot;revenue&quot;: &quot;485873000000&quot;,
+  &quot;fiscal_year&quot;: &quot;2019&quot;,
+  &quot;fiscal_period&quot;: &quot;FY&quot;
+}</pre>
+<p class='hash'>SHA-256: 6fd4ab575016d0cbd963e5aa673d3f1ea5be1b675cf4157ab1d784f2ffa7cae3</p>
+</div>
+<div class="ev">
+<p><strong>Evidence</strong> <code>ev_83ee521540b1</code> - source: <code>zetaris:edgar_company_facts_x_profiles</code><br>retrieved: 2026-10-27 07:56:02 UTC</p>
+<p>SQL:</p><pre>SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; ORDER BY fiscal_year, entity_name</pre>
+<p>Row:</p><pre>{
+  &quot;entity_name&quot;: &quot;Walmart Inc.&quot;,
+  &quot;sic_code&quot;: &quot;5331&quot;,
+  &quot;sic_description_reference&quot;: &quot;Variety Stores&quot;,
+  &quot;period_end&quot;: &quot;2020-01-31&quot;,
+  &quot;revenue&quot;: &quot;141671000000&quot;,
+  &quot;fiscal_year&quot;: &quot;2020&quot;,
+  &quot;fiscal_period&quot;: &quot;FY&quot;
+}</pre>
+<p class='hash'>SHA-256: 0289dd5e53503d30e0ad9c0a152ce907216322a74684a69175c817eb33e5cc93</p>
+</div>
+<div class="ev">
+<p><strong>Evidence</strong> <code>ev_9592c5bcb701</code> - source: <code>zetaris:edgar_company_facts_x_profiles</code><br>retrieved: 2026-10-27 07:56:02 UTC</p>
+<p>SQL:</p><pre>SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; ORDER BY fiscal_year, entity_name</pre>
+<p>Row:</p><pre>{
+  &quot;entity_name&quot;: &quot;Walmart Inc.&quot;,
+  &quot;sic_code&quot;: &quot;5331&quot;,
+  &quot;sic_description_reference&quot;: &quot;Variety Stores&quot;,
+  &quot;period_end&quot;: &quot;2020-01-31&quot;,
+  &quot;revenue&quot;: &quot;523964000000&quot;,
+  &quot;fiscal_year&quot;: &quot;2020&quot;,
+  &quot;fiscal_period&quot;: &quot;FY&quot;
+}</pre>
+<p class='hash'>SHA-256: 515245161675bc02f102aa8d7555d89d9b675f05f42bb46ac9a2d289c0cf84fe</p>
+</div>
+<div class="ev">
+<p><strong>Evidence</strong> <code>ev_78642fbb200b</code> - source: <code>zetaris:edgar_company_facts_x_profiles</code><br>retrieved: 2026-10-27 07:56:02 UTC</p>
+<p>SQL:</p><pre>SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; ORDER BY fiscal_year, entity_name</pre>
+<p>Row:</p><pre>{
+  &quot;entity_name&quot;: &quot;Walmart Inc.&quot;,
+  &quot;sic_code&quot;: &quot;5331&quot;,
+  &quot;sic_description_reference&quot;: &quot;Variety Stores&quot;,
+  &quot;period_end&quot;: &quot;2019-10-31&quot;,
+  &quot;revenue&quot;: &quot;127991000000&quot;,
+  &quot;fiscal_year&quot;: &quot;2020&quot;,
+  &quot;fiscal_period&quot;: &quot;FY&quot;
+}</pre>
+<p class='hash'>SHA-256: 24bfae490323108a13f8f4c9533f9cbfdd3ed7a60ef70a2a715d4e94d0ec0b88</p>
+</div>
+<div class="ev">
+<p><strong>Evidence</strong> <code>ev_b9d3fc32991c</code> - source: <code>zetaris:edgar_company_facts_x_profiles</code><br>retrieved: 2026-10-27 07:56:02 UTC</p>
+<p>SQL:</p><pre>SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; ORDER BY fiscal_year, entity_name</pre>
+<p>Row:</p><pre>{
+  &quot;entity_name&quot;: &quot;Walmart Inc.&quot;,
+  &quot;sic_code&quot;: &quot;5331&quot;,
+  &quot;sic_description_reference&quot;: &quot;Variety Stores&quot;,
+  &quot;period_end&quot;: &quot;2019-07-31&quot;,
+  &quot;revenue&quot;: &quot;130377000000&quot;,
+  &quot;fiscal_year&quot;: &quot;2020&quot;,
+  &quot;fiscal_period&quot;: &quot;FY&quot;
+}</pre>
+<p class='hash'>SHA-256: b6abfec1846aa4fae283c66f2ff6d0d416fef7d9faad3a00ae8de829a253e083</p>
+</div>
+<div class="ev">
+<p><strong>Evidence</strong> <code>ev_52c8449079a2</code> - source: <code>zetaris:edgar_company_facts_x_profiles</code><br>retrieved: 2026-10-27 07:56:02 UTC</p>
+<p>SQL:</p><pre>SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; ORDER BY fiscal_year, entity_name</pre>
+<p>Row:</p><pre>{
+  &quot;entity_name&quot;: &quot;Walmart Inc.&quot;,
+  &quot;sic_code&quot;: &quot;5331&quot;,
+  &quot;sic_description_reference&quot;: &quot;Variety Stores&quot;,
+  &quot;period_end&quot;: &quot;2019-04-30&quot;,
+  &quot;revenue&quot;: &quot;123925000000&quot;,
+  &quot;fiscal_year&quot;: &quot;2020&quot;,
+  &quot;fiscal_period&quot;: &quot;FY&quot;
+}</pre>
+<p class='hash'>SHA-256: ba981c08d161acd87c032eed85c1ac9cb255bda6fee27f697cfc6b01ab47eef9</p>
+</div>
+<div class="ev">
+<p><strong>Evidence</strong> <code>ev_249fff6f1126</code> - source: <code>zetaris:edgar_company_facts_x_profiles</code><br>retrieved: 2026-10-27 07:56:02 UTC</p>
+<p>SQL:</p><pre>SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; ORDER BY fiscal_year, entity_name</pre>
+<p>Row:</p><pre>{
+  &quot;entity_name&quot;: &quot;Walmart Inc.&quot;,
+  &quot;sic_code&quot;: &quot;5331&quot;,
+  &quot;sic_description_reference&quot;: &quot;Variety Stores&quot;,
+  &quot;period_end&quot;: &quot;2019-01-31&quot;,
+  &quot;revenue&quot;: &quot;138793000000&quot;,
+  &quot;fiscal_year&quot;: &quot;2020&quot;,
+  &quot;fiscal_period&quot;: &quot;FY&quot;
+}</pre>
+<p class='hash'>SHA-256: 632e8ecfa16b94a7f20b24cc334c777616e6b336e557bc9839e7b5182920922b</p>
+</div>
+<div class="ev">
+<p><strong>Evidence</strong> <code>ev_78cc5e433d6f</code> - source: <code>zetaris:edgar_company_facts_x_profiles</code><br>retrieved: 2026-10-27 07:56:02 UTC</p>
+<p>SQL:</p><pre>SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; ORDER BY fiscal_year, entity_name</pre>
+<p>Row:</p><pre>{
+  &quot;entity_name&quot;: &quot;Walmart Inc.&quot;,
+  &quot;sic_code&quot;: &quot;5331&quot;,
+  &quot;sic_description_reference&quot;: &quot;Variety Stores&quot;,
+  &quot;period_end&quot;: &quot;2019-01-31&quot;,
+  &quot;revenue&quot;: &quot;514405000000&quot;,
+  &quot;fiscal_year&quot;: &quot;2020&quot;,
+  &quot;fiscal_period&quot;: &quot;FY&quot;
+}</pre>
+<p class='hash'>SHA-256: bef4986315820192158e850d6d3f56c8500877b68579706e23ad17077e74f281</p>
+</div>
+<div class="ev">
+<p><strong>Evidence</strong> <code>ev_b6ff331ac0d0</code> - source: <code>zetaris:edgar_company_facts_x_profiles</code><br>retrieved: 2026-10-27 07:56:02 UTC</p>
+<p>SQL:</p><pre>SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; ORDER BY fiscal_year, entity_name</pre>
+<p>Row:</p><pre>{
+  &quot;entity_name&quot;: &quot;Walmart Inc.&quot;,
+  &quot;sic_code&quot;: &quot;5331&quot;,
+  &quot;sic_description_reference&quot;: &quot;Variety Stores&quot;,
+  &quot;period_end&quot;: &quot;2018-10-31&quot;,
+  &quot;revenue&quot;: &quot;124894000000&quot;,
+  &quot;fiscal_year&quot;: &quot;2020&quot;,
+  &quot;fiscal_period&quot;: &quot;FY&quot;
+}</pre>
+<p class='hash'>SHA-256: 9fca953b80ea1ec7f2ab4f5cb10ab413bf2f4e433a4c290986d0389f4a2c6c0d</p>
+</div>
+<div class="ev">
+<p><strong>Evidence</strong> <code>ev_97bea6a4c281</code> - source: <code>zetaris:edgar_company_facts_x_profiles</code><br>retrieved: 2026-10-27 07:56:02 UTC</p>
+<p>SQL:</p><pre>SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; ORDER BY fiscal_year, entity_name</pre>
+<p>Row:</p><pre>{
+  &quot;entity_name&quot;: &quot;Walmart Inc.&quot;,
+  &quot;sic_code&quot;: &quot;5331&quot;,
+  &quot;sic_description_reference&quot;: &quot;Variety Stores&quot;,
+  &quot;period_end&quot;: &quot;2018-07-31&quot;,
+  &quot;revenue&quot;: &quot;128028000000&quot;,
+  &quot;fiscal_year&quot;: &quot;2020&quot;,
+  &quot;fiscal_period&quot;: &quot;FY&quot;
+}</pre>
+<p class='hash'>SHA-256: c89be122d3b98934bc8f0bb21b2e9b6e7e21703c3d640d4a49d8c7e5a55a633f</p>
+</div>
+<div class="ev">
+<p><strong>Evidence</strong> <code>ev_00c1fb31b79e</code> - source: <code>zetaris:edgar_company_facts_x_profiles</code><br>retrieved: 2026-10-27 07:56:02 UTC</p>
+<p>SQL:</p><pre>SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; ORDER BY fiscal_year, entity_name</pre>
+<p>Row:</p><pre>{
+  &quot;entity_name&quot;: &quot;Walmart Inc.&quot;,
+  &quot;sic_code&quot;: &quot;5331&quot;,
+  &quot;sic_description_reference&quot;: &quot;Variety Stores&quot;,
+  &quot;period_end&quot;: &quot;2018-04-30&quot;,
+  &quot;revenue&quot;: &quot;122690000000&quot;,
+  &quot;fiscal_year&quot;: &quot;2020&quot;,
+  &quot;fiscal_period&quot;: &quot;FY&quot;
+}</pre>
+<p class='hash'>SHA-256: 36f388c88d53a5cd356d5faa7a1f10acff47a4d72080153e20157c3867c03502</p>
+</div>
+<div class="ev">
+<p><strong>Evidence</strong> <code>ev_8df9a4c6346b</code> - source: <code>zetaris:edgar_company_facts_x_profiles</code><br>retrieved: 2026-10-27 07:56:02 UTC</p>
+<p>SQL:</p><pre>SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; ORDER BY fiscal_year, entity_name</pre>
+<p>Row:</p><pre>{
+  &quot;entity_name&quot;: &quot;Walmart Inc.&quot;,
+  &quot;sic_code&quot;: &quot;5331&quot;,
+  &quot;sic_description_reference&quot;: &quot;Variety Stores&quot;,
+  &quot;period_end&quot;: &quot;2018-01-31&quot;,
+  &quot;revenue&quot;: &quot;500343000000&quot;,
+  &quot;fiscal_year&quot;: &quot;2020&quot;,
+  &quot;fiscal_period&quot;: &quot;FY&quot;
+}</pre>
+<p class='hash'>SHA-256: 98bc710a760f83b2290e83eb25384b5cd0c2b083bd1e782a630890f007c8d26b</p>
+</div>
+<div class="ev">
+<p><strong>Evidence</strong> <code>ev_5e0ce1a37c22</code> - source: <code>zetaris:edgar_company_facts_x_profiles</code><br>retrieved: 2026-10-27 07:56:02 UTC</p>
+<p>SQL:</p><pre>SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; ORDER BY fiscal_year, entity_name</pre>
+<p>Row:</p><pre>{
+  &quot;entity_name&quot;: &quot;Walmart Inc.&quot;,
+  &quot;sic_code&quot;: &quot;5331&quot;,
+  &quot;sic_description_reference&quot;: &quot;Variety Stores&quot;,
+  &quot;period_end&quot;: &quot;2021-01-31&quot;,
+  &quot;revenue&quot;: &quot;559151000000&quot;,
+  &quot;fiscal_year&quot;: &quot;2021&quot;,
+  &quot;fiscal_period&quot;: &quot;FY&quot;
+}</pre>
+<p class='hash'>SHA-256: 5f806a2b2ec9bdffcfc373db5a994bce5d049cf4d5912121f4ab974b6ab646e9</p>
+</div>
+<div class="ev">
+<p><strong>Evidence</strong> <code>ev_15c7adbc068a</code> - source: <code>zetaris:edgar_company_facts_x_profiles</code><br>retrieved: 2026-10-27 07:56:02 UTC</p>
+<p>SQL:</p><pre>SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; ORDER BY fiscal_year, entity_name</pre>
+<p>Row:</p><pre>{
+  &quot;entity_name&quot;: &quot;Walmart Inc.&quot;,
+  &quot;sic_code&quot;: &quot;5331&quot;,
+  &quot;sic_description_reference&quot;: &quot;Variety Stores&quot;,
+  &quot;period_end&quot;: &quot;2020-01-31&quot;,
+  &quot;revenue&quot;: &quot;523964000000&quot;,
+  &quot;fiscal_year&quot;: &quot;2021&quot;,
+  &quot;fiscal_period&quot;: &quot;FY&quot;
+}</pre>
+<p class='hash'>SHA-256: be57f6bab9299fdf45146e6bbd25857e4503bfb66974967c4887aa67032b795a</p>
+</div>
+<div class="ev">
+<p><strong>Evidence</strong> <code>ev_49fb8b54a9ab</code> - source: <code>zetaris:edgar_company_facts_x_profiles</code><br>retrieved: 2026-10-27 07:56:02 UTC</p>
+<p>SQL:</p><pre>SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; ORDER BY fiscal_year, entity_name</pre>
+<p>Row:</p><pre>{
+  &quot;entity_name&quot;: &quot;Walmart Inc.&quot;,
+  &quot;sic_code&quot;: &quot;5331&quot;,
+  &quot;sic_description_reference&quot;: &quot;Variety Stores&quot;,
+  &quot;period_end&quot;: &quot;2019-01-31&quot;,
+  &quot;revenue&quot;: &quot;514405000000&quot;,
+  &quot;fiscal_year&quot;: &quot;2021&quot;,
+  &quot;fiscal_period&quot;: &quot;FY&quot;
+}</pre>
+<p class='hash'>SHA-256: bd76beba1c508ef92825dc8e6e5c06061e04d16273816d42e838744bfd187aa9</p>
+</div>
+<div class="ev">
+<p><strong>Evidence</strong> <code>ev_8293e97340d4</code> - source: <code>zetaris:edgar_company_facts_x_profiles</code><br>retrieved: 2026-10-27 07:56:02 UTC</p>
+<p>SQL:</p><pre>SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; ORDER BY fiscal_year, entity_name</pre>
+<p>Row:</p><pre>{
+  &quot;entity_name&quot;: &quot;Walmart Inc.&quot;,
+  &quot;sic_code&quot;: &quot;5331&quot;,
+  &quot;sic_description_reference&quot;: &quot;Variety Stores&quot;,
+  &quot;period_end&quot;: &quot;2022-01-31&quot;,
+  &quot;revenue&quot;: &quot;572754000000&quot;,
+  &quot;fiscal_year&quot;: &quot;2022&quot;,
+  &quot;fiscal_period&quot;: &quot;FY&quot;
+}</pre>
+<p class='hash'>SHA-256: ca0a27abf119f07376ca7175fc2fbdd08ee7d9e30e5a7aaa90e4dfc828d20263</p>
+</div>
+<div class="ev">
+<p><strong>Evidence</strong> <code>ev_6afbc8b0cfde</code> - source: <code>zetaris:edgar_company_facts_x_profiles</code><br>retrieved: 2026-10-27 07:56:02 UTC</p>
+<p>SQL:</p><pre>SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; ORDER BY fiscal_year, entity_name</pre>
+<p>Row:</p><pre>{
+  &quot;entity_name&quot;: &quot;Walmart Inc.&quot;,
+  &quot;sic_code&quot;: &quot;5331&quot;,
+  &quot;sic_description_reference&quot;: &quot;Variety Stores&quot;,
+  &quot;period_end&quot;: &quot;2021-01-31&quot;,
+  &quot;revenue&quot;: &quot;559151000000&quot;,
+  &quot;fiscal_year&quot;: &quot;2022&quot;,
+  &quot;fiscal_period&quot;: &quot;FY&quot;
+}</pre>
+<p class='hash'>SHA-256: da02a8c87ba1e802cd04069f5f0fdf38caca66d5dfe9d81b990716c639908843</p>
+</div>
+<div class="ev">
+<p><strong>Evidence</strong> <code>ev_175e3c022d2f</code> - source: <code>zetaris:edgar_company_facts_x_profiles</code><br>retrieved: 2026-10-27 07:56:02 UTC</p>
+<p>SQL:</p><pre>SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; ORDER BY fiscal_year, entity_name</pre>
+<p>Row:</p><pre>{
+  &quot;entity_name&quot;: &quot;Walmart Inc.&quot;,
+  &quot;sic_code&quot;: &quot;5331&quot;,
+  &quot;sic_description_reference&quot;: &quot;Variety Stores&quot;,
+  &quot;period_end&quot;: &quot;2020-01-31&quot;,
+  &quot;revenue&quot;: &quot;523964000000&quot;,
+  &quot;fiscal_year&quot;: &quot;2022&quot;,
+  &quot;fiscal_period&quot;: &quot;FY&quot;
+}</pre>
+<p class='hash'>SHA-256: 6ae5d1edb15648e92d85c5b47c066bb9cb75717f2817429d510d6281696983e3</p>
+</div>
+<div class="ev">
+<p><strong>Evidence</strong> <code>ev_5929971ed0d6</code> - source: <code>zetaris:edgar_company_facts_x_profiles</code><br>retrieved: 2026-10-27 07:56:02 UTC</p>
+<p>SQL:</p><pre>SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; ORDER BY fiscal_year, entity_name</pre>
+<p>Row:</p><pre>{
+  &quot;entity_name&quot;: &quot;Walmart Inc.&quot;,
+  &quot;sic_code&quot;: &quot;5331&quot;,
+  &quot;sic_description_reference&quot;: &quot;Variety Stores&quot;,
+  &quot;period_end&quot;: &quot;2023-01-31&quot;,
+  &quot;revenue&quot;: &quot;611289000000&quot;,
+  &quot;fiscal_year&quot;: &quot;2023&quot;,
+  &quot;fiscal_period&quot;: &quot;FY&quot;
+}</pre>
+<p class='hash'>SHA-256: 4ed194ab9b8e6cdc69a35a0dd921ac63d2883423fde256bef18584cc7ed9da6d</p>
+</div>
+<div class="ev">
+<p><strong>Evidence</strong> <code>ev_84a2c44b43a4</code> - source: <code>zetaris:edgar_company_facts_x_profiles</code><br>retrieved: 2026-10-27 07:56:02 UTC</p>
+<p>SQL:</p><pre>SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; ORDER BY fiscal_year, entity_name</pre>
+<p>Row:</p><pre>{
+  &quot;entity_name&quot;: &quot;Walmart Inc.&quot;,
+  &quot;sic_code&quot;: &quot;5331&quot;,
+  &quot;sic_description_reference&quot;: &quot;Variety Stores&quot;,
+  &quot;period_end&quot;: &quot;2022-01-31&quot;,
+  &quot;revenue&quot;: &quot;572754000000&quot;,
+  &quot;fiscal_year&quot;: &quot;2023&quot;,
+  &quot;fiscal_period&quot;: &quot;FY&quot;
+}</pre>
+<p class='hash'>SHA-256: 42c9547b97fde7e6de5b54a83b3a928bae331f549ee4a820562372d0e6b76df4</p>
+</div>
+<div class="ev">
+<p><strong>Evidence</strong> <code>ev_c6dee2255208</code> - source: <code>zetaris:edgar_company_facts_x_profiles</code><br>retrieved: 2026-10-27 07:56:02 UTC</p>
+<p>SQL:</p><pre>SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; ORDER BY fiscal_year, entity_name</pre>
+<p>Row:</p><pre>{
+  &quot;entity_name&quot;: &quot;Walmart Inc.&quot;,
+  &quot;sic_code&quot;: &quot;5331&quot;,
+  &quot;sic_description_reference&quot;: &quot;Variety Stores&quot;,
+  &quot;period_end&quot;: &quot;2021-01-31&quot;,
+  &quot;revenue&quot;: &quot;559151000000&quot;,
+  &quot;fiscal_year&quot;: &quot;2023&quot;,
+  &quot;fiscal_period&quot;: &quot;FY&quot;
+}</pre>
+<p class='hash'>SHA-256: 00c24d2f24119ebbe66a7f36bcd9a0717f611c18f0a5fd804f2894b666cb48bc</p>
+</div>
+<div class="ev">
+<p><strong>Evidence</strong> <code>ev_faf9a98524fc</code> - source: <code>zetaris:edgar_company_facts_x_profiles</code><br>retrieved: 2026-10-27 07:56:02 UTC</p>
+<p>SQL:</p><pre>SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; ORDER BY fiscal_year, entity_name</pre>
+<p>Row:</p><pre>{
+  &quot;entity_name&quot;: &quot;Walmart Inc.&quot;,
+  &quot;sic_code&quot;: &quot;5331&quot;,
+  &quot;sic_description_reference&quot;: &quot;Variety Stores&quot;,
+  &quot;period_end&quot;: &quot;2024-01-31&quot;,
+  &quot;revenue&quot;: &quot;648125000000&quot;,
+  &quot;fiscal_year&quot;: &quot;2024&quot;,
+  &quot;fiscal_period&quot;: &quot;FY&quot;
+}</pre>
+<p class='hash'>SHA-256: 9f1dec310c782db902be447727b44e99b3ae76a49e6c9a1cb29b1f677f3e1106</p>
+</div>
+<div class="ev">
+<p><strong>Evidence</strong> <code>ev_fb86607fa58d</code> - source: <code>zetaris:edgar_company_facts_x_profiles</code><br>retrieved: 2026-10-27 07:56:02 UTC</p>
+<p>SQL:</p><pre>SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; ORDER BY fiscal_year, entity_name</pre>
+<p>Row:</p><pre>{
+  &quot;entity_name&quot;: &quot;Walmart Inc.&quot;,
+  &quot;sic_code&quot;: &quot;5331&quot;,
+  &quot;sic_description_reference&quot;: &quot;Variety Stores&quot;,
+  &quot;period_end&quot;: &quot;2023-01-31&quot;,
+  &quot;revenue&quot;: &quot;611289000000&quot;,
+  &quot;fiscal_year&quot;: &quot;2024&quot;,
+  &quot;fiscal_period&quot;: &quot;FY&quot;
+}</pre>
+<p class='hash'>SHA-256: 0a866cdcd1bc1abb958f412c36478358c1ab880c42187ddc5ccec45665604209</p>
+</div>
+<div class="ev">
+<p><strong>Evidence</strong> <code>ev_6c34e0d8eda3</code> - source: <code>zetaris:edgar_company_facts_x_profiles</code><br>retrieved: 2026-10-27 07:56:02 UTC</p>
+<p>SQL:</p><pre>SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; ORDER BY fiscal_year, entity_name</pre>
+<p>Row:</p><pre>{
+  &quot;entity_name&quot;: &quot;Walmart Inc.&quot;,
+  &quot;sic_code&quot;: &quot;5331&quot;,
+  &quot;sic_description_reference&quot;: &quot;Variety Stores&quot;,
+  &quot;period_end&quot;: &quot;2022-01-31&quot;,
+  &quot;revenue&quot;: &quot;572754000000&quot;,
+  &quot;fiscal_year&quot;: &quot;2024&quot;,
+  &quot;fiscal_period&quot;: &quot;FY&quot;
+}</pre>
+<p class='hash'>SHA-256: af571fff66ccbfa19ffe131d3c2de117cfff6183cd0ba3612fbc399f090bb9b4</p>
+</div>
+<div class="ev">
+<p><strong>Evidence</strong> <code>ev_3d74024f3766</code> - source: <code>zetaris:edgar_company_facts_x_profiles</code><br>retrieved: 2026-10-27 07:56:02 UTC</p>
+<p>SQL:</p><pre>SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; ORDER BY fiscal_year, entity_name</pre>
+<p>Row:</p><pre>{
+  &quot;entity_name&quot;: &quot;Walmart Inc.&quot;,
+  &quot;sic_code&quot;: &quot;5331&quot;,
+  &quot;sic_description_reference&quot;: &quot;Variety Stores&quot;,
+  &quot;period_end&quot;: &quot;2025-01-31&quot;,
+  &quot;revenue&quot;: &quot;680985000000&quot;,
+  &quot;fiscal_year&quot;: &quot;2025&quot;,
+  &quot;fiscal_period&quot;: &quot;FY&quot;
+}</pre>
+<p class='hash'>SHA-256: 5c89ff50b5c4836c19950cb64bd050be18f69636f90c1d57af4aa70ce1faee47</p>
+</div>
+<div class="ev">
+<p><strong>Evidence</strong> <code>ev_042790156086</code> - source: <code>zetaris:edgar_company_facts_x_profiles</code><br>retrieved: 2026-10-27 07:56:02 UTC</p>
+<p>SQL:</p><pre>SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; ORDER BY fiscal_year, entity_name</pre>
+<p>Row:</p><pre>{
+  &quot;entity_name&quot;: &quot;Walmart Inc.&quot;,
+  &quot;sic_code&quot;: &quot;5331&quot;,
+  &quot;sic_description_reference&quot;: &quot;Variety Stores&quot;,
+  &quot;period_end&quot;: &quot;2024-01-31&quot;,
+  &quot;revenue&quot;: &quot;648125000000&quot;,
+  &quot;fiscal_year&quot;: &quot;2025&quot;,
+  &quot;fiscal_period&quot;: &quot;FY&quot;
+}</pre>
+<p class='hash'>SHA-256: f161344d917a816b5419430f4cbbeda5650356441cc2f61d3c9b153f8b58ef6a</p>
+</div>
+<div class="ev">
+<p><strong>Evidence</strong> <code>ev_bf4e06135111</code> - source: <code>zetaris:edgar_company_facts_x_profiles</code><br>retrieved: 2026-10-27 07:56:02 UTC</p>
+<p>SQL:</p><pre>SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; ORDER BY fiscal_year, entity_name</pre>
+<p>Row:</p><pre>{
+  &quot;entity_name&quot;: &quot;Walmart Inc.&quot;,
+  &quot;sic_code&quot;: &quot;5331&quot;,
+  &quot;sic_description_reference&quot;: &quot;Variety Stores&quot;,
+  &quot;period_end&quot;: &quot;2023-01-31&quot;,
+  &quot;revenue&quot;: &quot;611289000000&quot;,
+  &quot;fiscal_year&quot;: &quot;2025&quot;,
+  &quot;fiscal_period&quot;: &quot;FY&quot;
+}</pre>
+<p class='hash'>SHA-256: af314170f37a34dfa290f98dfd573ec02d572a3a57508e6c9869dbfd02029810</p>
+</div>
+<div class="ev">
+<p><strong>Evidence</strong> <code>ev_ba1ee84c188e</code> - source: <code>zetaris:edgar_company_facts_x_profiles</code><br>retrieved: 2026-10-27 07:56:02 UTC</p>
+<p>SQL:</p><pre>SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; ORDER BY fiscal_year, entity_name</pre>
+<p>Row:</p><pre>{
+  &quot;entity_name&quot;: &quot;Walmart Inc.&quot;,
+  &quot;sic_code&quot;: &quot;5331&quot;,
+  &quot;sic_description_reference&quot;: &quot;Variety Stores&quot;,
+  &quot;period_end&quot;: &quot;2026-01-31&quot;,
+  &quot;revenue&quot;: &quot;713163000000&quot;,
+  &quot;fiscal_year&quot;: &quot;2026&quot;,
+  &quot;fiscal_period&quot;: &quot;FY&quot;
+}</pre>
+<p class='hash'>SHA-256: 36ca2ca3a6ff0504c6b694a20cb5fb639e0380c1cd53554b979fcaa1c019e6e2</p>
+</div>
+<div class="ev">
+<p><strong>Evidence</strong> <code>ev_9dbdb97ae217</code> - source: <code>zetaris:edgar_company_facts_x_profiles</code><br>retrieved: 2026-10-27 07:56:02 UTC</p>
+<p>SQL:</p><pre>SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; ORDER BY fiscal_year, entity_name</pre>
+<p>Row:</p><pre>{
+  &quot;entity_name&quot;: &quot;Walmart Inc.&quot;,
+  &quot;sic_code&quot;: &quot;5331&quot;,
+  &quot;sic_description_reference&quot;: &quot;Variety Stores&quot;,
+  &quot;period_end&quot;: &quot;2025-01-31&quot;,
+  &quot;revenue&quot;: &quot;680985000000&quot;,
+  &quot;fiscal_year&quot;: &quot;2026&quot;,
+  &quot;fiscal_period&quot;: &quot;FY&quot;
+}</pre>
+<p class='hash'>SHA-256: a5c9e67385bcbda077f6bc4c4878308dfcd8b6eb4d98f814f492f256e5a8a87e</p>
+</div>
+<div class="ev">
+<p><strong>Evidence</strong> <code>ev_efd2c9c1ed8a</code> - source: <code>zetaris:edgar_company_facts_x_profiles</code><br>retrieved: 2026-10-27 07:56:02 UTC</p>
+<p>SQL:</p><pre>SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.apple_revenue_table f JOIN edgar.apple_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; UNION ALL SELECT p.entity_name, p.sic_code, p.sic_description_reference, f.period_end, f.value_usd AS revenue, f.fiscal_year, f.fiscal_period FROM edgar.walmart_revenue_table f JOIN edgar.walmart_profile_table p ON f.cik = p.cik WHERE f.fiscal_period = &#x27;FY&#x27; ORDER BY fiscal_year, entity_name</pre>
+<p>Row:</p><pre>{
+  &quot;entity_name&quot;: &quot;Walmart Inc.&quot;,
+  &quot;sic_code&quot;: &quot;5331&quot;,
+  &quot;sic_description_reference&quot;: &quot;Variety Stores&quot;,
+  &quot;period_end&quot;: &quot;2024-01-31&quot;,
+  &quot;revenue&quot;: &quot;648125000000&quot;,
+  &quot;fiscal_year&quot;: &quot;2026&quot;,
+  &quot;fiscal_period&quot;: &quot;FY&quot;
+}</pre>
+<p class='hash'>SHA-256: fc39cc199a0ddb1ede31e38485817d7607a139c6e804ed93331a123eff6edde5</p>
+</div>
+</div>
+<div class="find">
+<h3>Finding <code>find_e9a7eadebfa2</code></h3>
+<p>Context from zetaris:edgar_profiles_x_company_dns_sic_v4: [{&quot;cik&quot;: &quot;0000320193&quot;, &quot;entity_name&quot;: &quot;Apple Inc.&quot;, &quot;sic_code&quot;: &quot;3571&quot;, &quot;sic_description_edgar&quot;: &quot;Electronic Computers&quot;, &quot;sic_description_reference&quot;: &quot;Electronic Computers&quot;, &quot;division&quot;: &quot;D&quot;, &quot;division_desc&quot;: &quot;Manufacturing&quot;, &quot;major_group&quot;: &quot;35&quot;, &quot;major_group_desc&quot;: &quot;Industrial And Commercial Machinery And Computer Equipment&quot;, &quot;industry_group&quot;: &quot;357&quot;, &quot;industry_group_desc&quot;: &quot;Computer And Office Equipment&quot;}]</p>
+<div class="ev">
+<p><strong>Evidence</strong> <code>ev_55856c56a476</code> - source: <code>zetaris:edgar_profiles_x_company_dns_sic_v4</code><br>retrieved: 2026-10-27 07:56:04 UTC</p>
+<p>SQL:</p><pre>SELECT cik, entity_name, sic_code, sic_description_edgar, sic_description_reference, division, division_desc, major_group, major_group_desc, industry_group, industry_group_desc FROM edgar.apple_profile_table</pre>
+<p>Row:</p><pre>{
+  &quot;cik&quot;: &quot;0000320193&quot;,
+  &quot;entity_name&quot;: &quot;Apple Inc.&quot;,
+  &quot;sic_code&quot;: &quot;3571&quot;,
+  &quot;sic_description_edgar&quot;: &quot;Electronic Computers&quot;,
+  &quot;sic_description_reference&quot;: &quot;Electronic Computers&quot;,
+  &quot;division&quot;: &quot;D&quot;,
+  &quot;division_desc&quot;: &quot;Manufacturing&quot;,
+  &quot;major_group&quot;: &quot;35&quot;,
+  &quot;major_group_desc&quot;: &quot;Industrial And Commercial Machinery And Computer Equipment&quot;,
+  &quot;industry_group&quot;: &quot;357&quot;,
+  &quot;industry_group_desc&quot;: &quot;Computer And Office Equipment&quot;
+}</pre>
+<p class='hash'>SHA-256: 43c77c35c8f0febc9c2b5a780d622b01a431a8f0fcf3359edcb6d1161e58e55b</p>
+</div>
+</div>
+</body></html>
